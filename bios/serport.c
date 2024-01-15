@@ -70,15 +70,15 @@ static ULONG rsconfTT(WORD baud, WORD ctrl, WORD ucr, WORD rsr, WORD tsr, WORD s
 #endif  /* CONF_WITH_TT_MFP */
 
 #if CONF_WITH_DUART
-static LONG bconstatDUARTA(void);
-static LONG bconinDUARTA(void);
+//static LONG bconstatDUARTA(void);
+//static LONG bconinDUARTA(void);
 static LONG bcostatDUARTA(void);
 static LONG bconoutDUARTA(WORD,WORD);
 static ULONG rsconfDUARTA(WORD baud, WORD ctrl, WORD ucr, WORD rsr, WORD tsr, WORD scr);
 
 #if CONF_WITH_DUART_CHANNEL_B
-static LONG bconstatDUARTB(void);
-static LONG bconinDUARTB(void);
+static LONG bconstatDUARTA(void);
+static LONG bconinDUARTA(void);
 static LONG bcostatDUARTB(void);
 static ULONG rsconfDUARTB(WORD baud, WORD ctrl, WORD ucr, WORD rsr, WORD tsr, WORD scr);
 #endif /* CONF_WITH_DUART_CHANNEL_B */
@@ -1217,7 +1217,7 @@ void duart_rs232_interrupt_handler_channel_a(void)
 void duart_rs232_interrupt_handler_channel_b(void)
 {
     while(read_duart(DUART_SRB) & DUART_SR_RXRDY) {
-        push_serial_iorec(&iorecDUARTB.in, read_duart(DUART_RHRB));
+    	ikbd_int(read_duart(DUART_RHRB));
     }
 }
 #endif
@@ -1343,12 +1343,12 @@ static ULONG rsconfDUARTA(WORD baud, WORD ctrl, WORD ucr, WORD rsr, WORD tsr, WO
  * DUART port B i/o routines
  */
 
-static LONG bconstatDUARTB(void)
+ LONG bconstatDUARTB(void)
 {
     return bconstat_iorec(&iorecDUARTB);
 }
 
-static LONG bconinDUARTB(void)
+ LONG bconinDUARTB(void)
 {
     return bconin_iorec(&iorecDUARTB);
 }

@@ -34,7 +34,7 @@
         .extern resvalid
         .extern resvector
         .extern _stktop
-
+	.extern _int_vbl
         // Memory
         .extern meminit       // initialize the memory and its controller
 
@@ -335,7 +335,29 @@ osxhend:
  *    it doesn't matter if the VBR is non-zero because, if it is, the MOVEC
  *    instruction must be legal so the trap won't get taken ...
  */
+DUART = 0x800000
 
+
+MRA = DUART+1 
+SRA = DUART+3 
+CSRA = DUART+3 
+CRA = DUART+5 
+RBA = DUART+7 
+TBA = DUART+7 
+ACR = DUART+9 
+ISR = DUART+11 
+IMR = DUART+11 
+CUR = DUART+13
+CLR = DUART+15
+MRB = DUART+17
+SRB = DUART+19 
+CSRB = DUART+19
+CRB = DUART+21 
+RBB = DUART+23 
+TBB = DUART+23 
+IVR = DUART+25 
+OPRC = DUART+27
+OPR   = DUART+29
 _realmain:
         // disable the interrupts
         // this is useless on cold boot,
@@ -345,7 +367,30 @@ _realmain:
 #if defined(MACHINE_ROBERTS7531)
         // This SBC requires a write to 0x00B0xxxx to map RAM 
         // to 0x0. ROM (at 0x00700000) is mapped there on boot.
-        move.b  #0,0x00B00000
+        move.l  #0,0xB00000
+        
+        //lea _int_vbl,A0
+        //move.l a0,0x68
+        
+	MOVE.B #0x30,CRA 
+ 	MOVE.B #0x20,CRA 
+ 	MOVE.B #0x10,CRA 
+	move.b #0,IMR
+	MOVE.B #0x93,MRA
+	MOVE.B #0x07,MRA
+ 	MOVE.B #0x60,ACR 
+ 	MOVE.b CRA,D0
+ 	MOVE.B #0x66,CSRA 
+ 	move.b #0,CUR
+ 	move.b #2,CLR
+ 	move.b OPRC,D0
+ 	
+
+ 	MOVE.B #0x05,CRA 
+        // but it matters for software reset
+1:	btst #3,SRA
+	beq.s 1b
+        move.b #'U',(TBA)
 #endif
 
 #if CONF_WITH_TT_MMU
@@ -397,7 +442,9 @@ amiga_startup_ret:
 
 valid_st_mmu_config:
 #endif
-
+2:	btst #3,SRA
+	beq.s 2b
+    move.b #'B',(TBA)
         // Initialize an early stack to a valid write address.
         // We use early exceptions for 2 reasons:
         // - detect CPU type and features with illegal instructions
@@ -425,7 +472,9 @@ valid_st_mmu_config:
         MOVEC_D0_VBR           // initialise VBR to zero
 vbr_ok:
 #endif
-
+3:	btst #3,SRA
+	beq.s 3b
+		move.b #'A',(TBA)
 #if CONF_WITH_RESET && !defined(MACHINE_AMIGA)
         // now, reset the external hardware
 
@@ -455,7 +504,9 @@ main_after_reset_instruction:
         jmp     coldfire_startup
 coldfire_startup_ret:
 #endif
-
+4:	btst #3,SRA
+	beq.s 4b
+    move.b #'C',(TBA)
 #if CONF_WITH_CARTRIDGE
 /*
  * Check for diagnostic cartridge
@@ -479,7 +530,9 @@ coldfire_startup_ret:
         jmp     cart_base+4             // execute diagnostic cartridge
 nodiag:
 #endif /* CONF_WITH_CARTRIDGE */
-
+5:	btst #3,SRA
+	beq.s 5b
+    move.b #'D',(TBA)
 /*
  * disable the instruction/data caches
  */
@@ -512,7 +565,10 @@ not_68030:
                                    //  on a 68ec040)
 mmu_done:
 #endif
-
+6:	btst #3,SRA
+	beq.s 6b
+    move.b #'E',(TBA)
+    
 /*
  * Check, if we should jump to a reset vector after warmboot
  */
@@ -540,10 +596,17 @@ noreset:
 /*
  * memory configuration
  */
-
+ 7:	btst #3,SRA
+	beq.s 7b
+    move.b #'F',(TBA)
         .globl  memdone         // return to, if memory config done
         jmp     meminit         // do/test memory config and clear it (needs sp)
 memdone:
+8:	btst #3,SRA
+	beq.s 8b
+    move.b #'G',(TBA)
+    
+    
 
 /*
  * From now, the stack is allowed, and C code can be used.

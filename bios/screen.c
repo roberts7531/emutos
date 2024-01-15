@@ -489,6 +489,8 @@ static BOOL get_default_palmode(void)
 /* Initialize the video mode (address will be done later) */
 void screen_init_mode(void)
 {
+    VEC_VBL = int_vbl;
+
 #if CONF_WITH_ATARI_VIDEO
 #if CONF_WITH_VIDEL
     UWORD boot_resolution = FALCON_DEFAULT_BOOT;
@@ -720,7 +722,7 @@ WORD get_monitor_type(void)
 #if CONF_WITH_ATARI_VIDEO
     return shifter_get_monitor_type();
 #else
-    return MON_MONO;    /* fake monochrome monitor */
+    return MON_COLOR;    /* fake monochrome monitor */
 #endif
 }
 

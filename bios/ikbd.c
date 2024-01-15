@@ -22,7 +22,7 @@
  * - KEYTBL.TBL config with _AKP cookie (tos 5.00 and later)
  */
 
-/* #define ENABLE_KDEBUG */
+//#define ENABLE_KDEBUG 
 
 #include "emutos.h"
 #include "country.h"
@@ -40,6 +40,7 @@
 #include "serport.h"
 #include "amiga.h"
 #include "lisa.h"
+#include "machine_r7531.h"
 
 
 /* forward declarations */
@@ -232,38 +233,47 @@ void push_ascii_ikbdiorec(UBYTE ascii)
 }
 
 #endif /* CONF_SERIAL_CONSOLE */
-
+volatile UBYTE wasFromCon =0;
 LONG bconstat2(void)
 {
-#if CONF_SERIAL_CONSOLE_POLLING_MODE
-    /* Poll the serial port */
-    return bconstat(1);
-#else
+//#if CONF_SERIAL_CONSOLE_POLLING_MODE
+    /* Poll the serial port */ //TODO check if it works like this
+    LONG conStat=bconstat(1);
+    if(conStat){
+    	wasFromCon=1;
+    	return conStat;
+    }
+    wasFromCon=0;
+
     /* Check the IKBD IOREC */
     if (ikbdiorec.head == ikbdiorec.tail) {
         return 0;               /* iorec empty */
     } else {
         return -1;              /* not empty => input available */
     }
-#endif
+//#endif
 }
 
 LONG bconin2(void)
 {
     ULONG value;
-#if CONF_SERIAL_CONSOLE_POLLING_MODE
-    /* Poll the serial port */
-    UBYTE ascii = (UBYTE)bconin(1);
-    value = ikbdiorec_from_ascii(ascii);
-#else
-    /* Check the IKBD IOREC */
-    WORD old_sr;
-
-    while (!bconstat2()) {
+//#if CONF_SERIAL_CONSOLE_POLLING_MODE
+   /* Poll the serial port */
+   while (!bconstat2()) {
 #if USE_STOP_INSN_TO_FREE_HOST_CPU
         stop_until_interrupt();
 #endif
     }
+   if(wasFromCon){
+    	UBYTE ascii = (UBYTE)bconin(1);
+    	value = ikbdiorec_from_ascii(ascii);
+    }else{
+//#else
+
+    /* Check the IKBD IOREC */
+    WORD old_sr;
+
+    
     /* disable interrupts */
     old_sr = set_sr(0x2700);
 
@@ -275,8 +285,8 @@ LONG bconin2(void)
 
     /* restore interrupts */
     set_sr(old_sr);
-#endif /* CONF_SERIAL_CONSOLE_POLLING_MODE */
-
+//#endif /* CONF_SERIAL_CONSOLE_POLLING_MODE */
+}
     if (!(conterm & 8))         /* shift status not wanted? */
         value &= 0x00ffffffL;   /* true, so clean it out */
 
@@ -722,9 +732,47 @@ static WORD convert_scancode(UBYTE *scancodeptr)
 /*
  * kbd_int : called by the interrupt routine for key events.
  */
+volatile UBYTE mouse_state =0;
+SBYTE mouse_packet_r7531[3];    
+//called from DUART CHannel B interrupt when scancode received
+void ikbd_int(UBYTE scancode){
+    KDEBUG(("Key-scancode: 0x%02x, mouse state: 0x%02x\n", scancode, mouse_state));
+    // 111110xx   f8 
+    if((scancode&0xfc)==MOUSE_REL_POS_REPORT){
+    	mouse_state=0;
+    }
+    switch(mouse_state){
+    	case 0:
+    		mouse_packet_r7531[0] = (SBYTE)scancode; 
+    		mouse_state=1;
+    		return;
+    		break;
+    	case 1: 		
+    		mouse_packet_r7531[1] = (SBYTE)scancode;
+    		mouse_state=2;
+    		return;
+    		break;
+    	case 2:
+    		mouse_packet_r7531[2] = (SBYTE)scancode;
+    		KDEBUG(("Got a full mouse packet, sending!: %02x %02x %02x\n", mouse_packet_r7531[0], mouse_packet_r7531[1], mouse_packet_r7531[2]));
+    		call_mousevec(mouse_packet_r7531);
+    		mouse_state=3;
+    		return;
+    		break;
+    
+    
+    }
+    kbd_int(scancode);
+
+
+}
+
 
 void kbd_int(UBYTE scancode)
 {
+    
+    
+    
     WORD ascii = 0;
     UBYTE scancode_only = scancode & ~KEY_RELEASED;  /* get rid of release bits */
     BOOL modifier, arrowkey = FALSE;
@@ -967,6 +1015,9 @@ void ikbd_writeb(UBYTE b)
 #elif defined(MACHINE_AMIGA)
     amiga_ikbd_writeb(b);
 #endif
+#ifdef MACHINE_ROBERTS7531
+    r7531_ikbd_writeb(b);
+#endif
 }
 
 /* send a word to the IKBD as two bytes - for general use */
@@ -981,7 +1032,10 @@ void ikbd_writew(WORD w)
  */
 static UBYTE ikbd_readb(WORD timeout)
 {
-#if CONF_WITH_IKBD_ACIA
+#ifdef MACHINE_ROBERTS7531
+	return r7531_ikbd_readb(timeout);
+
+#elif CONF_WITH_IKBD_ACIA
     WORD i;
 
     /* We have to use a timeout to avoid waiting forever
@@ -992,11 +1046,12 @@ static UBYTE ikbd_readb(WORD timeout)
         if (ikbd_acia.ctrl & ACIA_RDRF)
             return ikbd_acia.data;
 
-        delay_loop(loopcount_1_msec);
+       delay_loop(loopcount_1_msec);
     }
 
     return 0; /* bogus value when timeout */
 #else
+	
     return 0; /* bogus value */
 #endif
 }
@@ -1083,6 +1138,10 @@ void kbd_init(void)
 
 #ifdef MACHINE_LISA
     lisa_kbd_init();
+#endif
+
+#ifdef MACHINE_ROBERTS7531
+    r7531_ikbd_init();
 #endif
 
     /* initialize the IKBD */

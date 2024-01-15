@@ -98,6 +98,7 @@ struct keytbl {
 void kbd_init(void);
 
 /* called by ikbdvec to handle key events */
+void ikbd_int(UBYTE scancode);
 void kbd_int(UBYTE scancode);
 
 /* called by timer C int to handle key repeat */

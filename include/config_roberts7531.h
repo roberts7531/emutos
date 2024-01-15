@@ -37,10 +37,10 @@
 #  define CONF_DUART_TIMER_C 1
 # endif
 # ifndef CONF_DUART_AUTOVECTOR
-#  define CONF_DUART_AUTOVECTOR 7
+#  define CONF_DUART_AUTOVECTOR 3
 # endif
 # ifndef DUART_DEBUG_PRINT
-#  define DUART_DEBUG_PRINT 1
+#  define CONSOLE_DEBUG_PRINT 1
 # endif
 # ifndef RS232_DEBUG_PRINT
 #  define RS232_DEBUG_PRINT 0

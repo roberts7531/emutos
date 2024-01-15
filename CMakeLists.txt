@@ -73,7 +73,7 @@ set(bios_src
         bios/parport.c bios/screen.c bios/serport.c bios/sound.c bios/videl.c bios/vt52.c bios/xhdi.c
         bios/pmmu030.c bios/68040_pmmu.S bios/amiga.c bios/amiga2.S bios/spi_vamp.c
         bios/lisa.c bios/lisa2.S bios/delay.c bios/delayasm.S bios/sd.c bios/memory2.c bios/bootparams.c
-        bios/scsi.c bios/nova.c bios/dsp.c bios/dsp2.S bios/scsidriv.c
+        bios/scsi.c bios/nova.c bios/dsp.c bios/dsp2.S bios/scsidriv.c bios/machine_r7531.c
 )
 
 if (COLDFIRE)
@@ -352,7 +352,7 @@ configure_target(etos1024k    TARGET_1024             1024 "-O2" "" WITH_AES ON 
 configure_target(tiny68k      MACHINE_TINY68K          256 "-O2" US WITH_AES OFF WITH_CLI ON)
 configure_target(rosco_v2     MACHINE_ROSCO_V2         256 "-O2" US WITH_AES OFF WITH_CLI ON)
 configure_target(bitsy_v1     MACHINE_BITSY_V1         512 "-O2" US WITH_AES OFF WITH_CLI ON)
-configure_target(roberts7531  MACHINE_ROBERTS7531      256 "-O2" US WITH_AES OFF WITH_CLI ON)
+configure_target(roberts7531  MACHINE_ROBERTS7531      256 "-Os" US WITH_AES ON WITH_CLI ON)
 
 
 

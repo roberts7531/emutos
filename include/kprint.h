@@ -26,7 +26,7 @@ int kcprintf(const char *RESTRICT fmt, ...) PRINTF_STYLE;
 
 /* KINFO(()) outputs to the debugger, if kprintf() is available */
 #if HAS_KPRINTF
-#define KINFO(args) kprintf args
+#define KINFO(args) cprintf args
 #else
 #define KINFO(args) NULL_FUNCTION()
 #endif

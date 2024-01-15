@@ -87,8 +87,8 @@ extern WORD trap_save_area[];
 #endif
 
 /* Atari hardware interrupt mapping */
-#define VEC_HBL     VEC_LEVEL2                /* HBL interrupt vector */
-#define VEC_VBL     VEC_LEVEL4                /* VBL interrupt vector */
+#define VEC_HBL     VEC_LEVEL4                /* HBL interrupt vector */
+#define VEC_VBL     VEC_LEVEL2                /* VBL interrupt vector */
 #define VEC_ACIA    VEC_MFP6                  /* Keyboard/MIDI interrupt vector */
 
 /* OS exception mapping */

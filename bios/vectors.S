@@ -325,7 +325,11 @@ is_ipl:
  */
 
 _int_vbl:
+	
         addq.l  #1, _frclock.w          // increase num of happened ints
+        
+
+        
 #ifdef __mcoldfire__
         move.l  d0, -(sp)               // ColdFire specific
         moveq   #0, d0
@@ -469,7 +473,7 @@ vbl_no_queue:
         moveq  #-1,d0
         move.w  d0,_dumpflg.w
 vbl_no_dump:
-
+	
 #ifdef __mcoldfire__
         movem.l (sp), d1-d7/a0-a6       // restore registers
         lea     56(sp), sp
@@ -477,6 +481,7 @@ vbl_no_dump:
         movem.l (sp)+, d0-d7/a0-a6      // restore registers
 #endif
 vbl_end:
+	
 #ifdef __mcoldfire__
         moveq   #0,d0
         move.w  _vblsem.w,d0
@@ -490,6 +495,7 @@ vbl_end:
 #if CONF_WITH_ATARI_VIDEO
         rte
 #else
+
         rts
 #endif
 
@@ -813,7 +819,12 @@ _duart_interrupt:
  #if CONF_DUART_TIMER_C
         btst.b  #3, d0                // Is Counter Ready (bit 3) set?
         beq     duart_check_rx_2      //    No, skip timer handling code
-
+	cmpi.b	#5,vblcnt
+	bmi	skipvbl
+	bsr _int_vbl
+	move.b  #0,vblcnt
+skipvbl:	
+	addi.b  #1,vblcnt
 // Call vector_5ms
 // As it will return with RTE, we must setup a proper stack frame
         tst.w   _longframe
@@ -851,6 +862,7 @@ duart_check_channel_b:
         jbsr    _duart_rs232_interrupt_handler_channel_b
 #endif
 duart_intr_done:
+	
 #ifdef __mcoldfire__
         movem.l (sp),d0-d1/a0-a1
         lea     16(sp),sp
@@ -1503,8 +1515,9 @@ _keyclick:
 // ==== Variables ============================================================
 
         .bss
+        
+vblcnt: .ds.b	 1 
         .even
-
         .ds.w    256            // this stack is only used by dopanic()
 panic_stack:
 
