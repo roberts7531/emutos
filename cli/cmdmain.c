@@ -24,7 +24,7 @@
 #include "cmd.h"
 #include "version.h"
 #include "string.h"
-
+#include "v9958.h"
 /*
  *  global variables
  */
@@ -60,6 +60,11 @@ PRIVATE void getenv(char **ppath, const char *psrch);
 
 int cmdmain(void);      /* called only from cmdasm.S */
 
+
+
+
+
+
 int cmdmain(void)
 {
 WORD argc, rc;
@@ -87,7 +92,7 @@ WORD argc, rc;
      */
     if (current_res == ST_LOW)
         change_res(ST_MEDIUM);
-
+    initTextMode2();
     /* clear_screen(); */
     enable_cursor();
     message(_("Welcome to EmuCON2 version ")); messagenl(version);
@@ -137,7 +142,7 @@ WORD argc, rc;
 
         change_res(requested_res);
     }
-
+    initGraphicsMode6();
     return 0;
 }
 

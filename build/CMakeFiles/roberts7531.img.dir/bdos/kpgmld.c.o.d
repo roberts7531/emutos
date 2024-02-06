@@ -1,0 +1,20 @@
+CMakeFiles/roberts7531.img.dir/bdos/kpgmld.c.o: \
+ /home/roberts7531/Documents/emutos/bdos/kpgmld.c \
+ /home/roberts7531/Documents/emutos/include/emutos.h \
+ /home/roberts7531/Documents/emutos/include/config.h \
+ /home/roberts7531/Documents/emutos/include/config_tiny68k.h \
+ /home/roberts7531/Documents/emutos/include/config_rosco_v2.h \
+ /home/roberts7531/Documents/emutos/include/config_bitsy_v1.h \
+ /home/roberts7531/Documents/emutos/include/config_roberts7531.h \
+ /home/roberts7531/Documents/emutos/include/sysconf.h \
+ /home/roberts7531/Documents/emutos/include/portab.h \
+ /usr/lib/gcc/m68k-atari-mint/4.6.4/include/stddef.h \
+ /home/roberts7531/Documents/emutos/include/kprint.h \
+ /home/roberts7531/Documents/emutos/bdos/fs.h \
+ /home/roberts7531/Documents/emutos/include/biosdefs.h \
+ /home/roberts7531/Documents/emutos/include/bdosdefs.h \
+ /home/roberts7531/Documents/emutos/include/setjmp.h \
+ /home/roberts7531/Documents/emutos/bdos/proc.h \
+ /home/roberts7531/Documents/emutos/bdos/pghdr.h \
+ /home/roberts7531/Documents/emutos/include/gemerror.h \
+ /home/roberts7531/Documents/emutos/include/string.h

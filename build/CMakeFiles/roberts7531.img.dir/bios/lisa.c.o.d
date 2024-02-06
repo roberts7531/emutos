@@ -1,0 +1,29 @@
+CMakeFiles/roberts7531.img.dir/bios/lisa.c.o: \
+ /home/roberts7531/Documents/emutos/bios/lisa.c \
+ /home/roberts7531/Documents/emutos/include/emutos.h \
+ /home/roberts7531/Documents/emutos/include/config.h \
+ /home/roberts7531/Documents/emutos/include/config_tiny68k.h \
+ /home/roberts7531/Documents/emutos/include/config_rosco_v2.h \
+ /home/roberts7531/Documents/emutos/include/config_bitsy_v1.h \
+ /home/roberts7531/Documents/emutos/include/config_roberts7531.h \
+ /home/roberts7531/Documents/emutos/include/sysconf.h \
+ /home/roberts7531/Documents/emutos/include/portab.h \
+ /usr/lib/gcc/m68k-atari-mint/4.6.4/include/stddef.h \
+ /home/roberts7531/Documents/emutos/include/kprint.h \
+ /home/roberts7531/Documents/emutos/bios/lisa.h \
+ /home/roberts7531/Documents/emutos/bios/bios.h \
+ /home/roberts7531/Documents/emutos/include/biosdefs.h \
+ /home/roberts7531/Documents/emutos/bios/vectors.h \
+ /home/roberts7531/Documents/emutos/include/asm.h \
+ /home/roberts7531/Documents/emutos/bios/ikbd.h \
+ /home/roberts7531/Documents/emutos/bios/delay.h \
+ /home/roberts7531/Documents/emutos/include/tosvars.h \
+ /home/roberts7531/Documents/emutos/include/biosdefs.h \
+ /home/roberts7531/Documents/emutos/bios/screen.h \
+ /home/roberts7531/Documents/emutos/bios/../vdi/vdi_defs.h \
+ /home/roberts7531/Documents/emutos/include/fonthdr.h \
+ /home/roberts7531/Documents/emutos/include/aesext.h \
+ /home/roberts7531/Documents/emutos/include/obdefs.h \
+ /home/roberts7531/Documents/emutos/include/vdiext.h \
+ /home/roberts7531/Documents/emutos/bios/disk.h \
+ /home/roberts7531/Documents/emutos/include/gemerror.h

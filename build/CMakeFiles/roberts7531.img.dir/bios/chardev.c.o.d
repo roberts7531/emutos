@@ -1,0 +1,26 @@
+CMakeFiles/roberts7531.img.dir/bios/chardev.c.o: \
+ /home/roberts7531/Documents/emutos/bios/chardev.c \
+ /home/roberts7531/Documents/emutos/include/emutos.h \
+ /home/roberts7531/Documents/emutos/include/config.h \
+ /home/roberts7531/Documents/emutos/include/config_tiny68k.h \
+ /home/roberts7531/Documents/emutos/include/config_rosco_v2.h \
+ /home/roberts7531/Documents/emutos/include/config_bitsy_v1.h \
+ /home/roberts7531/Documents/emutos/include/config_roberts7531.h \
+ /home/roberts7531/Documents/emutos/include/sysconf.h \
+ /home/roberts7531/Documents/emutos/include/portab.h \
+ /usr/lib/gcc/m68k-atari-mint/4.6.4/include/stddef.h \
+ /home/roberts7531/Documents/emutos/include/kprint.h \
+ /home/roberts7531/Documents/emutos/include/gemerror.h \
+ /home/roberts7531/Documents/emutos/include/tosvars.h \
+ /home/roberts7531/Documents/emutos/include/biosdefs.h \
+ /home/roberts7531/Documents/emutos/bios/chardev.h \
+ /home/roberts7531/Documents/emutos/bios/conout.h \
+ /home/roberts7531/Documents/emutos/bios/vt52.h \
+ /home/roberts7531/Documents/emutos/bios/bios.h \
+ /home/roberts7531/Documents/emutos/include/biosdefs.h \
+ /home/roberts7531/Documents/emutos/include/asm.h \
+ /home/roberts7531/Documents/emutos/bios/serport.h \
+ /home/roberts7531/Documents/emutos/bios/iorec.h \
+ /home/roberts7531/Documents/emutos/bios/ikbd.h \
+ /home/roberts7531/Documents/emutos/bios/midi.h \
+ /home/roberts7531/Documents/emutos/bios/parport.h

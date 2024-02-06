@@ -1,0 +1,440 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bios/bios.c
+msgid "Memory test"
+msgstr ""
+
+#: bios/bios.c
+msgid "complete"
+msgstr ""
+
+#: bios/bios.c
+msgid "aborted"
+msgstr ""
+
+#: bios/bios.c
+msgid ""
+"System halted!\n"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "GEMDOS drives"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "MB"
+msgstr ""
+
+#: bios/initinfo.c desk/deskinf.c
+msgid "KB"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "EmuTOS Version"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "CPU type"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "Machine"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "Boot time"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "Hold <Control> to skip AUTO/ACC"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "Hold <Alternate> to skip HDD boot"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "Press key 'X' to boot from X:"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "Press <Esc> to run an early console"
+msgstr ""
+
+#: bios/initinfo.c
+msgid "Hold <Shift> to pause this screen"
+msgstr ""
+
+#: bios/kprint.c
+msgid ""
+"\n"
+"*** Press any key to continue ***"
+msgstr ""
+
+#: bdos/osmem.c
+msgid ""
+"\033EOut of internal memory.\n"
+"Use FOLDR100.PRG to get more.\n"
+"System halted!\n"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Copy <filespec> ... to standard output"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Change current directory to <dir>"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "or display current directory"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Change attributes for <filename>"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "<mode> specifies the new attribute(s):"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "r=read-only  h=hidden  s=system  -=none"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Clear screen"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Copy files matching <filespec> to <dest>"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "If <filespec> matches multiple files,"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "<dest> must be a directory"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Copy <string> ... to standard output"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Strings may be surrounded by \"\""
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Exit EmuCON2"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Get help about <cmd> or list available commands"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Use HELP ALL for help on all commands"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Use HELP EDIT for help on line editing"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "List files (default terse, horizontal)"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Specify -l for detailed list"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Create directory <dir>"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Set or display console settings:"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "res for screen resolution (0,1)[ST] (0,1,2,4,7)[TT];"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "delay/rate for the keyboard"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Copy <filespec> to standard output,"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "pausing every screenful"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Copy files matching <filespec> to <dir>,"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "then delete input files"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Set search path for external programs"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "or display current search path"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Display current drive and directory"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Rename <oldname> to <newname>"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Delete files matching <filespec>"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Specify -q to be prompted each time"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Delete directory <dir>"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Show info for <drive> or current drive"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Display GEMDOS version"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Set line wrap or show current status"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "up/down arrow = previous/next line in history"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "left/right arrow = previous/next character"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "control-left/right arrow = previous/next word"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "invalid mode argument"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Builtin commands:"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Listing of "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Status for CON:"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "  Resolution:     "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "  Keyboard delay: "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "  Keyboard rate:  "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "(empty)"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Delete ALL matching files"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Delete file "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Allocation info for drive "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "  Size (bytes):   "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "  Bytes used:     "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "  Bytes free:     "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "  Total clusters: "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "  Free clusters:  "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "  Sectors/cluster:"
+msgstr ""
+
+#: cli/cmdint.c
+msgid "  Bytes/sector:   "
+msgstr ""
+
+#: cli/cmdint.c
+msgid " is not a directory"
+msgstr ""
+
+#: cli/cmdint.c
+msgid " and "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "Copying "
+msgstr ""
+
+#: cli/cmdint.c
+msgid " to "
+msgstr ""
+
+#: cli/cmdint.c
+msgid " ... deleting "
+msgstr ""
+
+#: cli/cmdint.c
+msgid " ... done"
+msgstr ""
+
+#: cli/cmdint.c
+msgid " or "
+msgstr ""
+
+#: cli/cmdint.c
+msgid "CR to continue ..."
+msgstr ""
+
+#: cli/cmdint.c
+msgid "--More--"
+msgstr ""
+
+#: cli/cmdmain.c
+msgid "Welcome to EmuCON2 version "
+msgstr ""
+
+#: cli/cmdmain.c
+msgid "Type HELP for builtin commands"
+msgstr ""
+
+#: cli/cmdmain.c
+msgid "warning: no history buffers"
+msgstr ""
+
+#: cli/cmdparse.c
+msgid "more than one redirection"
+msgstr ""
+
+#: cli/cmdparse.c
+msgid "no filename for redirection"
+msgstr ""
+
+#: cli/cmdparse.c
+msgid "error in quoted field"
+msgstr ""
+
+#: cli/cmdparse.c
+msgid "error parsing line"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "file not found"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "path not found"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "no more file handles"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "can't create file"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "not enough memory"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "invalid drive"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "interrupted"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "invalid path"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "can't write to disk (full?)"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "cmdline too long"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "directory not empty"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "can't delete file (read-only?)"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "invalid parameter"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "wrong number of arguments"
+msgstr ""
+
+#: cli/cmdutil.c
+msgid "error code %ld"
+msgstr ""
+

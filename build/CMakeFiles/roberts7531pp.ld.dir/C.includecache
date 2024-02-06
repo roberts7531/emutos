@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roberts7531/Documents/emutos/emutos.ld
+include/config.h
+/home/roberts7531/Documents/emutos/include/config.h
+tosvars.ld
+/home/roberts7531/Documents/emutos/tosvars.ld
+tools/elfalias.ld
+/home/roberts7531/Documents/emutos/tools/elfalias.ld
+
+/home/roberts7531/Documents/emutos/include/config.h
+../localconf.h
+/home/roberts7531/Documents/emutos/localconf.h
+config_tiny68k.h
+/home/roberts7531/Documents/emutos/include/config_tiny68k.h
+config_rosco_v2.h
+/home/roberts7531/Documents/emutos/include/config_rosco_v2.h
+config_bitsy_v1.h
+/home/roberts7531/Documents/emutos/include/config_bitsy_v1.h
+config_roberts7531.h
+/home/roberts7531/Documents/emutos/include/config_roberts7531.h
+
+/home/roberts7531/Documents/emutos/include/config_bitsy_v1.h
+
+/home/roberts7531/Documents/emutos/include/config_roberts7531.h
+
+/home/roberts7531/Documents/emutos/include/config_rosco_v2.h
+
+/home/roberts7531/Documents/emutos/include/config_tiny68k.h
+
+/home/roberts7531/Documents/emutos/tools/elfalias.ld
+
+/home/roberts7531/Documents/emutos/tosvars.ld
+

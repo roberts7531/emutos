@@ -1,0 +1,36 @@
+CMakeFiles/roberts7531.img.dir/bios/blkdev.c.o: \
+ /home/roberts7531/Documents/emutos/bios/blkdev.c \
+ /home/roberts7531/Documents/emutos/include/emutos.h \
+ /home/roberts7531/Documents/emutos/include/config.h \
+ /home/roberts7531/Documents/emutos/include/config_tiny68k.h \
+ /home/roberts7531/Documents/emutos/include/config_rosco_v2.h \
+ /home/roberts7531/Documents/emutos/include/config_bitsy_v1.h \
+ /home/roberts7531/Documents/emutos/include/config_roberts7531.h \
+ /home/roberts7531/Documents/emutos/include/sysconf.h \
+ /home/roberts7531/Documents/emutos/include/portab.h \
+ /usr/lib/gcc/m68k-atari-mint/4.6.4/include/stddef.h \
+ /home/roberts7531/Documents/emutos/include/kprint.h \
+ /home/roberts7531/Documents/emutos/include/string.h \
+ /home/roberts7531/Documents/emutos/include/gemerror.h \
+ /home/roberts7531/Documents/emutos/include/asm.h \
+ /home/roberts7531/Documents/emutos/include/tosvars.h \
+ /home/roberts7531/Documents/emutos/include/biosdefs.h \
+ /home/roberts7531/Documents/emutos/include/ahdi.h \
+ /home/roberts7531/Documents/emutos/bios/floppy.h \
+ /home/roberts7531/Documents/emutos/bios/machine.h \
+ /home/roberts7531/Documents/emutos/bios/memory.h \
+ /home/roberts7531/Documents/emutos/bios/disk.h \
+ /home/roberts7531/Documents/emutos/bios/ikbd.h \
+ /home/roberts7531/Documents/emutos/include/biosdefs.h \
+ /home/roberts7531/Documents/emutos/bios/blkdev.h \
+ /home/roberts7531/Documents/emutos/bios/processor.h \
+ /home/roberts7531/Documents/emutos/bios/acsi.h \
+ /home/roberts7531/Documents/emutos/bios/scsi.h \
+ /home/roberts7531/Documents/emutos/bios/ide.h \
+ /home/roberts7531/Documents/emutos/bios/sd.h \
+ /home/roberts7531/Documents/emutos/bios/scsidriv.h \
+ /home/roberts7531/Documents/emutos/include/biosext.h \
+ /home/roberts7531/Documents/emutos/bios/biosmem.h \
+ /home/roberts7531/Documents/emutos/include/bdosdefs.h \
+ /home/roberts7531/Documents/emutos/bios/xhdi.h \
+ /home/roberts7531/Documents/emutos/include/intmath.h

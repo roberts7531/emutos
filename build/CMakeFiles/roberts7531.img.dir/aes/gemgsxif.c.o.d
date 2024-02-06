@@ -1,0 +1,37 @@
+CMakeFiles/roberts7531.img.dir/aes/gemgsxif.c.o: \
+ /home/roberts7531/Documents/emutos/aes/gemgsxif.c \
+ /home/roberts7531/Documents/emutos/include/emutos.h \
+ /home/roberts7531/Documents/emutos/include/config.h \
+ /home/roberts7531/Documents/emutos/include/config_tiny68k.h \
+ /home/roberts7531/Documents/emutos/include/config_rosco_v2.h \
+ /home/roberts7531/Documents/emutos/include/config_bitsy_v1.h \
+ /home/roberts7531/Documents/emutos/include/config_roberts7531.h \
+ /home/roberts7531/Documents/emutos/include/sysconf.h \
+ /home/roberts7531/Documents/emutos/include/portab.h \
+ /usr/lib/gcc/m68k-atari-mint/4.6.4/include/stddef.h \
+ /home/roberts7531/Documents/emutos/include/kprint.h \
+ /home/roberts7531/Documents/emutos/include/string.h \
+ /home/roberts7531/Documents/emutos/include/obdefs.h \
+ /home/roberts7531/Documents/emutos/include/aesext.h \
+ /home/roberts7531/Documents/emutos/include/obdefs.h \
+ /home/roberts7531/Documents/emutos/aes/funcdef.h \
+ /home/roberts7531/Documents/emutos/include/gemdos.h \
+ /home/roberts7531/Documents/emutos/include/bdosbind.h \
+ /home/roberts7531/Documents/emutos/include/bdosdefs.h \
+ /home/roberts7531/Documents/emutos/aes/geminput.h \
+ /home/roberts7531/Documents/emutos/aes/struct.h \
+ /home/roberts7531/Documents/emutos/include/aesdefs.h \
+ /home/roberts7531/Documents/emutos/aes/gemlib.h \
+ /home/roberts7531/Documents/emutos/include/bdosdefs.h \
+ /home/roberts7531/Documents/emutos/aes/gemdosif.h \
+ /home/roberts7531/Documents/emutos/aes/gsx2.h \
+ /home/roberts7531/Documents/emutos/aes/geminit.h \
+ /home/roberts7531/Documents/emutos/aes/gemctrl.h \
+ /home/roberts7531/Documents/emutos/aes/gemgsxif.h \
+ /home/roberts7531/Documents/emutos/include/gsxdefs.h \
+ /home/roberts7531/Documents/emutos/include/xbiosbind.h \
+ /home/roberts7531/Documents/emutos/include/has.h \
+ /home/roberts7531/Documents/emutos/include/biosdefs.h \
+ /home/roberts7531/Documents/emutos/include/biosext.h \
+ /home/roberts7531/Documents/emutos/include/asm.h \
+ /home/roberts7531/Documents/emutos/include/cookie.h

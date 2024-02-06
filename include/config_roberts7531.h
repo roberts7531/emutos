@@ -84,5 +84,4 @@
 # ifndef DEFAULT_BAUDRATE
 #  define DEFAULT_BAUDRATE B19200
 # endif
-
 #endif

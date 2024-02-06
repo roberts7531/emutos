@@ -375,7 +375,7 @@ desk_src = deskstart.S deskmain.c gembind.c deskact.c deskapp.c deskdir.c \
 # source code in cli/ for EmuTOS console EmuCON
 #
 
-cli_src = cmdasm.S cmdmain.c cmdedit.c cmdexec.c cmdint.c cmdparse.c cmdutil.c
+cli_src = cmdasm.S cmdmain.c cmdedit.c cmdexec.c cmdint.c cmdparse.c cmdutil.c v9958.c v99x8.c
 
 #
 # source code to put at the end of the ROM
@@ -808,7 +808,7 @@ TOCLEAN += emu256*.prg
 
 .PHONY: prg256
 NODEP += prg256
-prg256: override DEF += -DTARGET_256
+prg256: override DEF += -DTARGET_256 -DMACHINE_ROBERTS7531
 prg256: UNIQUE = $(COUNTRY)
 prg256: EMUTOS_PRG = $(EMU256_PRG)
 prg256:

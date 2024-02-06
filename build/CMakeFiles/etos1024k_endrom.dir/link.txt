@@ -1,0 +1,2 @@
+m68k-atari-mint-ar qc libetos1024k_endrom.a CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o
+/usr/bin/m68k-atari-mint-ranlib libetos1024k_endrom.a

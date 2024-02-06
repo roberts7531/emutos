@@ -149,7 +149,7 @@ set(desk_src desk/deskstart.S desk/deskmain.c desk/gembind.c desk/deskact.c desk
 # source code in cli/ for EmuTOS console EmuCON
 #
 
-set(cli_src cli/cmdasm.S cli/cmdmain.c cli/cmdedit.c cli/cmdexec.c cli/cmdint.c cli/cmdparse.c cli/cmdutil.c)
+set(cli_src cli/cmdasm.S cli/cmdmain.c cli/cmdedit.c cli/cmdexec.c cli/cmdint.c cli/cmdparse.c cli/cmdutil.c cli/v9958.c cli/v99x8.c)
 
 
 # Create the font library.

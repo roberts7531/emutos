@@ -23,6 +23,7 @@
 #include "sound.h"              /* for bell() */
 #include "string.h"
 #include "conout.h"
+#include "../cli/v9958.h"
 
 
 
@@ -323,7 +324,7 @@ void invert_cell(int x, int y)
 void move_cursor(int x, int y)
 {
     /* update cell position */
-
+	setCur(x,y);
     /* clamp x,y to valid ranges */
     if (x < 0)
         x = 0;
@@ -388,6 +389,7 @@ void move_cursor(int x, int y)
 
 void ascii_out(int ch)
 {
+    putChar(ch);
     UBYTE * src, * dst;
     BOOL visible;                       /* was the cursor visible? */
 

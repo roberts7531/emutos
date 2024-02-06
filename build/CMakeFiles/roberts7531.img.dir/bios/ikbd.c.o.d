@@ -1,0 +1,35 @@
+CMakeFiles/roberts7531.img.dir/bios/ikbd.c.o: \
+ /home/roberts7531/Documents/emutos/bios/ikbd.c \
+ /home/roberts7531/Documents/emutos/include/emutos.h \
+ /home/roberts7531/Documents/emutos/include/config.h \
+ /home/roberts7531/Documents/emutos/include/config_tiny68k.h \
+ /home/roberts7531/Documents/emutos/include/config_rosco_v2.h \
+ /home/roberts7531/Documents/emutos/include/config_bitsy_v1.h \
+ /home/roberts7531/Documents/emutos/include/config_roberts7531.h \
+ /home/roberts7531/Documents/emutos/include/sysconf.h \
+ /home/roberts7531/Documents/emutos/include/portab.h \
+ /usr/lib/gcc/m68k-atari-mint/4.6.4/include/stddef.h \
+ /home/roberts7531/Documents/emutos/include/kprint.h \
+ /home/roberts7531/Documents/emutos/bios/country.h \
+ /home/roberts7531/Documents/emutos/bios/ikbd.h \
+ /home/roberts7531/Documents/emutos/include/biosdefs.h \
+ /home/roberts7531/Documents/emutos/bios/font.h \
+ /home/roberts7531/Documents/emutos/include/fonthdr.h \
+ /home/roberts7531/Documents/emutos/build/roberts7531/i18nconf.h \
+ /home/roberts7531/Documents/emutos/include/ctrycodes.h \
+ /home/roberts7531/Documents/emutos/bios/acia.h \
+ /home/roberts7531/Documents/emutos/include/tosvars.h \
+ /home/roberts7531/Documents/emutos/include/biosdefs.h \
+ /home/roberts7531/Documents/emutos/include/biosext.h \
+ /home/roberts7531/Documents/emutos/include/lineavars.h \
+ /home/roberts7531/Documents/emutos/include/fonthdr.h \
+ /home/roberts7531/Documents/emutos/bios/iorec.h \
+ /home/roberts7531/Documents/emutos/include/asm.h \
+ /home/roberts7531/Documents/emutos/bios/sound.h \
+ /home/roberts7531/Documents/emutos/bios/delay.h \
+ /home/roberts7531/Documents/emutos/bios/bios.h \
+ /home/roberts7531/Documents/emutos/bios/coldfire.h \
+ /home/roberts7531/Documents/emutos/bios/serport.h \
+ /home/roberts7531/Documents/emutos/bios/amiga.h \
+ /home/roberts7531/Documents/emutos/bios/lisa.h \
+ /home/roberts7531/Documents/emutos/bios/machine_r7531.h
