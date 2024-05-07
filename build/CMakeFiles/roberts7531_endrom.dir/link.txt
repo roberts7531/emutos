@@ -1,2 +1,2 @@
-m68k-atari-mint-ar qc libroberts7531_endrom.a CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o
+/usr/bin/m68k-atari-mint-ar qc libroberts7531_endrom.a CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o
 /usr/bin/m68k-atari-mint-ranlib libroberts7531_endrom.a

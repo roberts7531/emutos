@@ -8,13 +8,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "CMakeCache.txt"
   "CMakeFiles/3.22.1/CMakeASMCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../cmake/overrides.cmake"
   "../cmake/preproc.cmake"
-  "../cmake/toolchain.cmake"
   "../version.c.in"
   "/usr/share/cmake-3.22/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
@@ -28,6 +26,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-ASM.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
+  "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
+  "/usr/share/cmake-3.22/Modules/Platform/Linux.cmake"
+  "/usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake"
   )
 
 # The corresponding makefile is:
@@ -38,7 +40,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CopyOfCMakeCache.txt"
   "version.c"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )

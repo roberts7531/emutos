@@ -335,29 +335,30 @@ osxhend:
  *    it doesn't matter if the VBR is non-zero because, if it is, the MOVEC
  *    instruction must be legal so the trap won't get taken ...
  */
-DUART = 0x800000
+DUART = 0xc0000000
 
 
-MRA = DUART+1 
-SRA = DUART+3 
-CSRA = DUART+3 
-CRA = DUART+5 
-RBA = DUART+7 
-TBA = DUART+7 
-ACR = DUART+9 
-ISR = DUART+11 
-IMR = DUART+11 
-CUR = DUART+13
-CLR = DUART+15
-MRB = DUART+17
-SRB = DUART+19 
-CSRB = DUART+19
-CRB = DUART+21 
-RBB = DUART+23 
-TBB = DUART+23 
-IVR = DUART+25 
-OPRC = DUART+27
-OPR   = DUART+29
+MRA = DUART 
+SRA = DUART+1 
+CSRA = DUART+1
+CRA = DUART+2
+RBA = DUART+3
+TBA = DUART+3
+ACR = DUART+4
+ISR = DUART+5
+IMR = DUART+5
+CUR = DUART+6
+CLR = DUART+7
+MRB = DUART+8
+SRB = DUART+9
+CSRB = DUART+9
+CRB = DUART+10
+RBB = DUART+11
+TBB = DUART+11
+IVR = DUART+12
+IPR = DUART+13
+OPRC = DUART+14
+OPR   = DUART+15
 _realmain:
         // disable the interrupts
         // this is useless on cold boot,
@@ -388,9 +389,7 @@ _realmain:
 
  	MOVE.B #0x05,CRA 
         // but it matters for software reset
-1:	btst #3,SRA
-	beq.s 1b
-        move.b #'U',(TBA)
+
 #endif
 
 #if CONF_WITH_TT_MMU
@@ -442,9 +441,7 @@ amiga_startup_ret:
 
 valid_st_mmu_config:
 #endif
-2:	btst #3,SRA
-	beq.s 2b
-    move.b #'B',(TBA)
+
         // Initialize an early stack to a valid write address.
         // We use early exceptions for 2 reasons:
         // - detect CPU type and features with illegal instructions
@@ -472,9 +469,7 @@ valid_st_mmu_config:
         MOVEC_D0_VBR           // initialise VBR to zero
 vbr_ok:
 #endif
-3:	btst #3,SRA
-	beq.s 3b
-		move.b #'A',(TBA)
+
 #if CONF_WITH_RESET && !defined(MACHINE_AMIGA)
         // now, reset the external hardware
 
@@ -504,9 +499,7 @@ main_after_reset_instruction:
         jmp     coldfire_startup
 coldfire_startup_ret:
 #endif
-4:	btst #3,SRA
-	beq.s 4b
-    move.b #'C',(TBA)
+
 #if CONF_WITH_CARTRIDGE
 /*
  * Check for diagnostic cartridge
@@ -530,9 +523,7 @@ coldfire_startup_ret:
         jmp     cart_base+4             // execute diagnostic cartridge
 nodiag:
 #endif /* CONF_WITH_CARTRIDGE */
-5:	btst #3,SRA
-	beq.s 5b
-    move.b #'D',(TBA)
+
 /*
  * disable the instruction/data caches
  */
@@ -565,9 +556,7 @@ not_68030:
                                    //  on a 68ec040)
 mmu_done:
 #endif
-6:	btst #3,SRA
-	beq.s 6b
-    move.b #'E',(TBA)
+
     
 /*
  * Check, if we should jump to a reset vector after warmboot
@@ -602,9 +591,7 @@ noreset:
         .globl  memdone         // return to, if memory config done
         jmp     meminit         // do/test memory config and clear it (needs sp)
 memdone:
-8:	btst #3,SRA
-	beq.s 8b
-    move.b #'G',(TBA)
+
     
     
 

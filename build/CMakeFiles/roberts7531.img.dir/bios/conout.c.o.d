@@ -16,4 +16,5 @@ CMakeFiles/roberts7531.img.dir/bios/conout.c.o: \
  /home/roberts7531/Documents/emutos/include/tosvars.h \
  /home/roberts7531/Documents/emutos/bios/sound.h \
  /home/roberts7531/Documents/emutos/include/string.h \
- /home/roberts7531/Documents/emutos/bios/conout.h
+ /home/roberts7531/Documents/emutos/bios/conout.h \
+ /home/roberts7531/Documents/emutos/bios/../cli/v9958.h

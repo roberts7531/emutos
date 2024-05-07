@@ -1356,7 +1356,7 @@ CMakeFiles/rosco_v2.img.dir/all: CMakeFiles/draft_rosco_v2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosco_v2.img.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rosco_v2.img.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 0
 .PHONY : CMakeFiles/rosco_v2.img.dir/rule
@@ -1435,7 +1435,7 @@ CMakeFiles/rosco_v2.bin.dir/all: CMakeFiles/rosco_v2.img.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosco_v2.bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rosco_v2.bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 0
 .PHONY : CMakeFiles/rosco_v2.bin.dir/rule
@@ -1508,12 +1508,12 @@ CMakeFiles/rosco_v2_i18nconf.dir/clean:
 CMakeFiles/draft_rosco_v2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/draft_rosco_v2.dir/build.make CMakeFiles/draft_rosco_v2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/draft_rosco_v2.dir/build.make CMakeFiles/draft_rosco_v2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num= "Built target draft_rosco_v2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=10 "Built target draft_rosco_v2"
 .PHONY : CMakeFiles/draft_rosco_v2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draft_rosco_v2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/draft_rosco_v2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 0
 .PHONY : CMakeFiles/draft_rosco_v2.dir/rule
@@ -1742,7 +1742,7 @@ CMakeFiles/roberts7531.img.dir/all: CMakeFiles/draft_roberts7531.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roberts7531.img.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roberts7531.img.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 0
 .PHONY : CMakeFiles/roberts7531.img.dir/rule
@@ -1821,7 +1821,7 @@ CMakeFiles/roberts7531.bin.dir/all: CMakeFiles/roberts7531.img.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roberts7531.bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/roberts7531.bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 0
 .PHONY : CMakeFiles/roberts7531.bin.dir/rule
@@ -1894,12 +1894,12 @@ CMakeFiles/roberts7531_i18nconf.dir/clean:
 CMakeFiles/draft_roberts7531.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/draft_roberts7531.dir/build.make CMakeFiles/draft_roberts7531.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/draft_roberts7531.dir/build.make CMakeFiles/draft_roberts7531.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=10 "Built target draft_roberts7531"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num= "Built target draft_roberts7531"
 .PHONY : CMakeFiles/draft_roberts7531.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draft_roberts7531.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/draft_roberts7531.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/roberts7531/Documents/emutos/build/CMakeFiles 0
 .PHONY : CMakeFiles/draft_roberts7531.dir/rule

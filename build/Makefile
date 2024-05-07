@@ -5867,90 +5867,6 @@ cli/cmdutil.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/roberts7531.img.dir/build.make CMakeFiles/roberts7531.img.dir/cli/cmdutil.c.s
 .PHONY : cli/cmdutil.c.s
 
-cli/v9958.o: cli/v9958.c.o
-.PHONY : cli/v9958.o
-
-# target to build an object file
-cli/v9958.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos256us.img.dir/build.make CMakeFiles/etos256us.img.dir/cli/v9958.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos512us.img.dir/build.make CMakeFiles/etos512us.img.dir/cli/v9958.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos1024k.img.dir/build.make CMakeFiles/etos1024k.img.dir/cli/v9958.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiny68k.img.dir/build.make CMakeFiles/tiny68k.img.dir/cli/v9958.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rosco_v2.img.dir/build.make CMakeFiles/rosco_v2.img.dir/cli/v9958.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitsy_v1.img.dir/build.make CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roberts7531.img.dir/build.make CMakeFiles/roberts7531.img.dir/cli/v9958.c.o
-.PHONY : cli/v9958.c.o
-
-cli/v9958.i: cli/v9958.c.i
-.PHONY : cli/v9958.i
-
-# target to preprocess a source file
-cli/v9958.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos256us.img.dir/build.make CMakeFiles/etos256us.img.dir/cli/v9958.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos512us.img.dir/build.make CMakeFiles/etos512us.img.dir/cli/v9958.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos1024k.img.dir/build.make CMakeFiles/etos1024k.img.dir/cli/v9958.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiny68k.img.dir/build.make CMakeFiles/tiny68k.img.dir/cli/v9958.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rosco_v2.img.dir/build.make CMakeFiles/rosco_v2.img.dir/cli/v9958.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitsy_v1.img.dir/build.make CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roberts7531.img.dir/build.make CMakeFiles/roberts7531.img.dir/cli/v9958.c.i
-.PHONY : cli/v9958.c.i
-
-cli/v9958.s: cli/v9958.c.s
-.PHONY : cli/v9958.s
-
-# target to generate assembly for a file
-cli/v9958.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos256us.img.dir/build.make CMakeFiles/etos256us.img.dir/cli/v9958.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos512us.img.dir/build.make CMakeFiles/etos512us.img.dir/cli/v9958.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos1024k.img.dir/build.make CMakeFiles/etos1024k.img.dir/cli/v9958.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiny68k.img.dir/build.make CMakeFiles/tiny68k.img.dir/cli/v9958.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rosco_v2.img.dir/build.make CMakeFiles/rosco_v2.img.dir/cli/v9958.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitsy_v1.img.dir/build.make CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roberts7531.img.dir/build.make CMakeFiles/roberts7531.img.dir/cli/v9958.c.s
-.PHONY : cli/v9958.c.s
-
-cli/v99x8.o: cli/v99x8.c.o
-.PHONY : cli/v99x8.o
-
-# target to build an object file
-cli/v99x8.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos256us.img.dir/build.make CMakeFiles/etos256us.img.dir/cli/v99x8.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos512us.img.dir/build.make CMakeFiles/etos512us.img.dir/cli/v99x8.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos1024k.img.dir/build.make CMakeFiles/etos1024k.img.dir/cli/v99x8.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiny68k.img.dir/build.make CMakeFiles/tiny68k.img.dir/cli/v99x8.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rosco_v2.img.dir/build.make CMakeFiles/rosco_v2.img.dir/cli/v99x8.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitsy_v1.img.dir/build.make CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roberts7531.img.dir/build.make CMakeFiles/roberts7531.img.dir/cli/v99x8.c.o
-.PHONY : cli/v99x8.c.o
-
-cli/v99x8.i: cli/v99x8.c.i
-.PHONY : cli/v99x8.i
-
-# target to preprocess a source file
-cli/v99x8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos256us.img.dir/build.make CMakeFiles/etos256us.img.dir/cli/v99x8.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos512us.img.dir/build.make CMakeFiles/etos512us.img.dir/cli/v99x8.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos1024k.img.dir/build.make CMakeFiles/etos1024k.img.dir/cli/v99x8.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiny68k.img.dir/build.make CMakeFiles/tiny68k.img.dir/cli/v99x8.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rosco_v2.img.dir/build.make CMakeFiles/rosco_v2.img.dir/cli/v99x8.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitsy_v1.img.dir/build.make CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roberts7531.img.dir/build.make CMakeFiles/roberts7531.img.dir/cli/v99x8.c.i
-.PHONY : cli/v99x8.c.i
-
-cli/v99x8.s: cli/v99x8.c.s
-.PHONY : cli/v99x8.s
-
-# target to generate assembly for a file
-cli/v99x8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos256us.img.dir/build.make CMakeFiles/etos256us.img.dir/cli/v99x8.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos512us.img.dir/build.make CMakeFiles/etos512us.img.dir/cli/v99x8.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/etos1024k.img.dir/build.make CMakeFiles/etos1024k.img.dir/cli/v99x8.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tiny68k.img.dir/build.make CMakeFiles/tiny68k.img.dir/cli/v99x8.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rosco_v2.img.dir/build.make CMakeFiles/rosco_v2.img.dir/cli/v99x8.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitsy_v1.img.dir/build.make CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roberts7531.img.dir/build.make CMakeFiles/roberts7531.img.dir/cli/v99x8.c.s
-.PHONY : cli/v99x8.c.s
-
 desk/deskact.o: desk/deskact.c.o
 .PHONY : desk/deskact.o
 
@@ -8900,12 +8816,6 @@ help:
 	@echo "... cli/cmdutil.o"
 	@echo "... cli/cmdutil.i"
 	@echo "... cli/cmdutil.s"
-	@echo "... cli/v9958.o"
-	@echo "... cli/v9958.i"
-	@echo "... cli/v9958.s"
-	@echo "... cli/v99x8.o"
-	@echo "... cli/v99x8.i"
-	@echo "... cli/v99x8.s"
 	@echo "... desk/deskact.o"
 	@echo "... desk/deskact.i"
 	@echo "... desk/deskact.s"

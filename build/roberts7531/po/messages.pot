@@ -50,10 +50,6 @@ msgid "Machine"
 msgstr ""
 
 #: bios/initinfo.c
-msgid "Boot time"
-msgstr ""
-
-#: bios/initinfo.c
 msgid "Hold <Control> to skip AUTO/ACC"
 msgstr ""
 

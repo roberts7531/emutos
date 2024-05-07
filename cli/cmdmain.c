@@ -92,7 +92,7 @@ WORD argc, rc;
      */
     if (current_res == ST_LOW)
         change_res(ST_MEDIUM);
-    initTextMode2();
+
     /* clear_screen(); */
     enable_cursor();
     message(_("Welcome to EmuCON2 version ")); messagenl(version);
@@ -142,7 +142,7 @@ WORD argc, rc;
 
         change_res(requested_res);
     }
-    initGraphicsMode6();
+
     return 0;
 }
 

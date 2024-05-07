@@ -166,8 +166,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/roberts7531/Documents/emutos/cli/cmdmain.c" "CMakeFiles/etos256us.img.dir/cli/cmdmain.c.o" "gcc" "CMakeFiles/etos256us.img.dir/cli/cmdmain.c.o.d"
   "/home/roberts7531/Documents/emutos/cli/cmdparse.c" "CMakeFiles/etos256us.img.dir/cli/cmdparse.c.o" "gcc" "CMakeFiles/etos256us.img.dir/cli/cmdparse.c.o.d"
   "/home/roberts7531/Documents/emutos/cli/cmdutil.c" "CMakeFiles/etos256us.img.dir/cli/cmdutil.c.o" "gcc" "CMakeFiles/etos256us.img.dir/cli/cmdutil.c.o.d"
-  "/home/roberts7531/Documents/emutos/cli/v9958.c" "CMakeFiles/etos256us.img.dir/cli/v9958.c.o" "gcc" "CMakeFiles/etos256us.img.dir/cli/v9958.c.o.d"
-  "/home/roberts7531/Documents/emutos/cli/v99x8.c" "CMakeFiles/etos256us.img.dir/cli/v99x8.c.o" "gcc" "CMakeFiles/etos256us.img.dir/cli/v99x8.c.o.d"
   "/home/roberts7531/Documents/emutos/desk/deskact.c" "CMakeFiles/etos256us.img.dir/desk/deskact.c.o" "gcc" "CMakeFiles/etos256us.img.dir/desk/deskact.c.o.d"
   "/home/roberts7531/Documents/emutos/desk/deskapp.c" "CMakeFiles/etos256us.img.dir/desk/deskapp.c.o" "gcc" "CMakeFiles/etos256us.img.dir/desk/deskapp.c.o.d"
   "/home/roberts7531/Documents/emutos/desk/deskdir.c" "CMakeFiles/etos256us.img.dir/desk/deskdir.c.o" "gcc" "CMakeFiles/etos256us.img.dir/desk/deskdir.c.o.d"

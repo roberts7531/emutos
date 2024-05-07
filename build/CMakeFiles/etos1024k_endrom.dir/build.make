@@ -73,15 +73,15 @@ CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o: CMakeFiles/etos1024k_endrom.dir
 CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o: ../bios/endrom.c
 CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o: CMakeFiles/etos1024k_endrom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o -MF CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o.d -o CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o -c /home/roberts7531/Documents/emutos/bios/endrom.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o -MF CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o.d -o CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.o -c /home/roberts7531/Documents/emutos/bios/endrom.c
 
 CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/endrom.c > CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/endrom.c > CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.i
 
 CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/endrom.c -o CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/endrom.c -o CMakeFiles/etos1024k_endrom.dir/bios/endrom.c.s
 
 # Object files for target etos1024k_endrom
 etos1024k_endrom_OBJECTS = \

@@ -15,7 +15,7 @@
  * Note: this driver does not support CHS addressing.
  */
 
-// #define ENABLE_KDEBUG 
+//#define ENABLE_KDEBUG 
 
 #include "emutos.h"
 #include "asm.h"
@@ -188,23 +188,20 @@ struct IDE
 struct IDE
 {
     
-#if IDE_8BIT_XFER
-    UBYTE filler01;
-#endif
-    XFERWIDTH data;
-    UBYTE filler02;
+    UBYTE data;
+
     UBYTE features; /* Read: error */
-    UBYTE filler04;
+
     UBYTE sector_count;
-    UBYTE filler06;
+
     UBYTE sector_number;
-    UBYTE filler08;
+
     UBYTE cylinder_low;
-    UBYTE filler0A;
+
     UBYTE cylinder_high;
-    UBYTE filler0C;
+
     UBYTE head;
-    UBYTE filler0E;
+
     UBYTE command; /* Read: status */
     /*
      * Tinky68K does not provide access to the alternate status and
@@ -216,7 +213,7 @@ struct IDE
 #ifdef MACHINE_TINY68K
   #define ide_interface           ((volatile struct IDE *)0x00ffe000)
 #else
-  #define ide_interface           ((volatile struct IDE *)0x00a00000)
+  #define ide_interface           ((volatile struct IDE *)0xc0200000)
 #endif
 
 #else

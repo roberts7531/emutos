@@ -67,7 +67,7 @@ include CMakeFiles/roberts7531.bin.dir/compiler_depend.make
 include CMakeFiles/roberts7531.bin.dir/progress.make
 
 CMakeFiles/roberts7531.bin: roberts7531.img
-	./mkrom pad 256k roberts7531.img roberts7531.bin
+	./mkrom pad 300k roberts7531.img roberts7531.bin
 
 roberts7531.bin: CMakeFiles/roberts7531.bin
 roberts7531.bin: CMakeFiles/roberts7531.bin.dir/build.make

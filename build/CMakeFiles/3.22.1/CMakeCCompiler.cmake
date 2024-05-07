@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/usr/bin/m68k-atari-mint-gcc-4.6.4")
+set(CMAKE_C_COMPILER "/usr/bin/m68k-atari-mint-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "4.6.4")
@@ -21,7 +21,7 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "m68k-atari-mint-ar")
+set(CMAKE_AR "/usr/bin/m68k-atari-mint-ar")
 set(CMAKE_C_COMPILER_AR "CMAKE_C_COMPILER_AR-NOTFOUND")
 set(CMAKE_RANLIB "/usr/bin/m68k-atari-mint-ranlib")
 set(CMAKE_C_COMPILER_RANLIB "CMAKE_C_COMPILER_RANLIB-NOTFOUND")

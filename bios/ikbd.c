@@ -566,6 +566,65 @@ static UBYTE kb_switched;
  *  shifted function keys
  *  some keys when modified by ctrl
  */
+ 
+ static const UBYTE keytbl_us_norm1[] = {
+       0, 0x1b,  '1',  '2',  '3',  '4',  '5',  '6',
+     '7',  '8',  '9',  '0',  '-',  '=',    8, 0x09,
+     'q',  'w',  'e',  'r',  't',  'y',  'u',  'i',
+     'o',  'p',  '[',  ']', 0x0d,    0,  'a',  's',
+     'd',  'f',  'g',  'h',  'j',  'k',  'l',  ';',
+    '\'',  '`',    0, '\\',  'z',  'x',  'c',  'v',
+     'b',  'n',  'm',  ',',  '.',  '/',    0,    0,
+       0,  ' ',    0,    0,    0,    0,    0,    0,
+       0,    0,    0,    0,    0,    0,    0,    0,
+       0,    0,  '-',    0,    0,    0,  '+',    0,
+       0,    0,    0, 0x7f,    0,    0,    0,    0,
+       0,    0,    0,    0,    0,    0,    0,    0,
+       0,    0,    0,  '(',  ')',  '/',  '*',  '7',
+     '8',  '9',  '4',  '5',  '6',  '1',  '2',  '3',
+     '0',  '.', 0x0d,    0,    0,    0,    0,    0,
+       0,    0,    0,    0,    0,    0,    0,    0,
+};
+
+static const UBYTE keytbl_us_shft1[] = {
+       0, 0x1b,  '!',  '@',  '#',  '$',  '%',  '^',
+     '&',  '*',  '(',  ')',  '_',  '+',    8, 0x09,
+     'Q',  'W',  'E',  'R',  'T',  'Y',  'U',  'I',
+     'O',  'P',  '{',  '}', 0x0d,    0,  'A',  'S',
+     'D',  'F',  'G',  'H',  'J',  'K',  'L',  ':',
+    '\"',  '~',    0,  '|',  'Z',  'X',  'C',  'V',
+     'B',  'N',  'M',  '<',  '>',  '?',    0,    0,
+       0,  ' ',    0,    0,    0,    0,    0,    0,
+       0,    0,    0,    0,    0,    0,    0,  '7',
+     '8',    0,  '-',  '4',    0,  '6',  '+',    0,
+     '2',    0,  '0', 0x7f,    0,    0,    0,    0,
+       0,    0,    0,    0,    0,    0,    0,    0,
+       0,    0,    0,  '(',  ')',  '/',  '*',  '7',
+     '8',  '9',  '4',  '5',  '6',  '1',  '2',  '3',
+     '0',  '.', 0x0d,    0,    0,    0,    0,    0,
+       0,    0,    0,    0,    0,    0,    0,    0,
+};
+
+static const UBYTE keytbl_us_caps1[] = {
+       0, 0x1b,  '1',  '2',  '3',  '4',  '5',  '6',
+     '7',  '8',  '9',  '0',  '-',  '=',    8, 0x09,
+     'Q',  'W',  'E',  'R',  'T',  'Y',  'U',  'I',
+     'O',  'P',  '[',  ']', 0x0d,    0,  'A',  'S',
+     'D',  'F',  'G',  'H',  'J',  'K',  'L',  ';',
+    '\'',  '`',    0, '\\',  'Z',  'X',  'C',  'V',
+     'B',  'N',  'M',  ',',  '.',  '/',    0,    0,
+       0,  ' ',    0,    0,    0,    0,    0,    0,
+       0,    0,    0,    0,    0,    0,    0,    0,
+       0,    0,  '-',    0,    0,    0,  '+',    0,
+       0,    0,    0, 0x7f,    0,    0,    0,    0,
+       0,    0,    0,    0,    0,    0,    0,    0,
+       0,    0,    0,  '(',  ')',  '/',  '*',  '7',
+     '8',  '9',  '4',  '5',  '6',  '1',  '2',  '3',
+     '0',  '.', 0x0d,    0,    0,    0,    0,    0,
+       0,    0,    0,    0,    0,    0,    0,    0,
+};
+
+ 
 static WORD convert_scancode(UBYTE *scancodeptr)
 {
     UBYTE scancode = *scancodeptr;
@@ -736,7 +795,7 @@ volatile UBYTE mouse_state =0;
 SBYTE mouse_packet_r7531[3];    
 //called from DUART CHannel B interrupt when scancode received
 void ikbd_int(UBYTE scancode){
-    KDEBUG(("Key-scancode: 0x%02x, mouse state: 0x%02x\n", scancode, mouse_state));
+    //KDEBUG(("Key-scancode: 0x%02x, mouse state: 0x%02x\n", scancode, mouse_state));
     // 111110xx   f8 
     if((scancode&0xfc)==MOUSE_REL_POS_REPORT){
     	mouse_state=0;
@@ -754,7 +813,7 @@ void ikbd_int(UBYTE scancode){
     		break;
     	case 2:
     		mouse_packet_r7531[2] = (SBYTE)scancode;
-    		KDEBUG(("Got a full mouse packet, sending!: %02x %02x %02x\n", mouse_packet_r7531[0], mouse_packet_r7531[1], mouse_packet_r7531[2]));
+    		//KDEBUG(("Got a full mouse packet, sending!: %02x %02x %02x\n", mouse_packet_r7531[0], mouse_packet_r7531[1], mouse_packet_r7531[2]));
     		call_mousevec(mouse_packet_r7531);
     		mouse_state=3;
     		return;
@@ -934,6 +993,7 @@ void kbd_int(UBYTE scancode)
     }
 
     ascii = convert_scancode(&scancode);
+    KDEBUG(("Key-scancode: 0x%02x, ascii: 0x%c\n", scancode, ascii));
     if (ascii < 0)      /* dead key (including alt-keypad) processing */
         return;
 
@@ -1117,35 +1177,7 @@ static void ikbd_reset(void)
 
 void kbd_init(void)
 {
-#if CONF_WITH_IKBD_ACIA
-    /* initialize ikbd ACIA */
-    ikbd_acia.ctrl = ACIA_RESET;        /* master reset */
 
-    ikbd_acia.ctrl = ACIA_RIE | /* enable interrupts */
-        ACIA_RLTID |            /* RTS low, TxINT disabled */
-        ACIA_DIV64 |            /* clock/64 */
-        ACIA_D8N1S;             /* 8 bit, 1 stop, no parity */
-#endif /* CONF_WITH_IKBD_ACIA */
-
-#if CONF_WITH_FLEXCAN
-    /* On ColdFire machines, an Eiffel adapter may be present on the CAN bus. */
-    coldfire_init_flexcan();
-#endif
-
-#ifdef MACHINE_AMIGA
-    amiga_kbd_init();
-#endif
-
-#ifdef MACHINE_LISA
-    lisa_kbd_init();
-#endif
-
-#ifdef MACHINE_ROBERTS7531
-    r7531_ikbd_init();
-#endif
-
-    /* initialize the IKBD */
-    ikbd_reset();
 
     /* initialize the key repeat stuff */
     kb_ticks = 0;

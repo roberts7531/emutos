@@ -50,12 +50,24 @@ int stonx_kprintf_available;
 
 /*==== cprintf - do formatted string output direct to the console ======*/
 
+volatile UBYTE * tba2 = (volatile UBYTE*)0xc0000003;
+volatile UBYTE * sra2 = (volatile UBYTE*)0xc0000001;
+void debugOut2(char c);
+void debugOut2(char c){
+ while(!(*sra2&4));
+ *tba2 = c;
+}
+
+
 static void cprintf_outc(int c)
 {
+	
     /* add a CR to Unix LF for VT52 convenience */
-    if ( c == '\n')
+    if ( c == '\n'){
+    	debugOut2('\r');
         bconout2(2,'\r');
-
+        }
+    debugOut2(c);
     bconout2(2,c);
 }
 

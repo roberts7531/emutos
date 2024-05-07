@@ -132,8 +132,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/roberts7531/Documents/emutos/cli/cmdmain.c" "CMakeFiles/tiny68k.img.dir/cli/cmdmain.c.o" "gcc" "CMakeFiles/tiny68k.img.dir/cli/cmdmain.c.o.d"
   "/home/roberts7531/Documents/emutos/cli/cmdparse.c" "CMakeFiles/tiny68k.img.dir/cli/cmdparse.c.o" "gcc" "CMakeFiles/tiny68k.img.dir/cli/cmdparse.c.o.d"
   "/home/roberts7531/Documents/emutos/cli/cmdutil.c" "CMakeFiles/tiny68k.img.dir/cli/cmdutil.c.o" "gcc" "CMakeFiles/tiny68k.img.dir/cli/cmdutil.c.o.d"
-  "/home/roberts7531/Documents/emutos/cli/v9958.c" "CMakeFiles/tiny68k.img.dir/cli/v9958.c.o" "gcc" "CMakeFiles/tiny68k.img.dir/cli/v9958.c.o.d"
-  "/home/roberts7531/Documents/emutos/cli/v99x8.c" "CMakeFiles/tiny68k.img.dir/cli/v99x8.c.o" "gcc" "CMakeFiles/tiny68k.img.dir/cli/v99x8.c.o.d"
   "/home/roberts7531/Documents/emutos/build/tiny68k/util/langs.c" "CMakeFiles/tiny68k.img.dir/tiny68k/util/langs.c.o" "gcc" "CMakeFiles/tiny68k.img.dir/tiny68k/util/langs.c.o.d"
   "/home/roberts7531/Documents/emutos/util/cookie.c" "CMakeFiles/tiny68k.img.dir/util/cookie.c.o" "gcc" "CMakeFiles/tiny68k.img.dir/util/cookie.c.o.d"
   "/home/roberts7531/Documents/emutos/util/doprintf.c" "CMakeFiles/tiny68k.img.dir/util/doprintf.c.o" "gcc" "CMakeFiles/tiny68k.img.dir/util/doprintf.c.o.d"

@@ -1,6 +1,6 @@
-set(CMAKE_ASM_COMPILER "/usr/bin/m68k-atari-mint-gcc-4.6.4")
+set(CMAKE_ASM_COMPILER "/usr/bin/m68k-atari-mint-gcc")
 set(CMAKE_ASM_COMPILER_ARG1 "")
-set(CMAKE_AR "m68k-atari-mint-ar")
+set(CMAKE_AR "/usr/bin/m68k-atari-mint-ar")
 set(CMAKE_ASM_COMPILER_AR "CMAKE_ASM_COMPILER_AR-NOTFOUND")
 set(CMAKE_RANLIB "/usr/bin/m68k-atari-mint-ranlib")
 set(CMAKE_ASM_COMPILER_RANLIB "CMAKE_ASM_COMPILER_RANLIB-NOTFOUND")

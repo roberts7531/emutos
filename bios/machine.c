@@ -721,6 +721,7 @@ void fill_cookie_jar(void)
 
 #ifndef __mcoldfire__
   /* this is detected by detect_fpu(), called from processor_init() */
+      KDEBUG(("fputype = %lu\n", fputype));
     cookie_add(COOKIE_FPU, fputype);
 #endif
 
@@ -858,7 +859,7 @@ static const char * guess_machine_name(void)
     case MCH_BITSY_V1:
         return "BITSY V1";
     case MCH_ROBERTS7531:
-        return "@ROBERTS7531";
+        return "JOX030";
     default:
         return "unknown";
     }

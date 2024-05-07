@@ -37,7 +37,7 @@ OUTPUT_FORMAT(binary)
 #elif defined(MACHINE_ROSCO_V2)
 # define ROM_ORIGIN 0xb0000 
 #elif defined(MACHINE_ROBERTS7531)
-# define ROM_ORIGIN 0x700000
+# define ROM_ORIGIN 0x80000000
 #else
 # define ROM_ORIGIN 0x00e00000
 #endif
@@ -55,7 +55,7 @@ OUTPUT_FORMAT(binary)
  */
 MEMORY
 {
-    stram : ORIGIN = 0x00000000, LENGTH = 14M
+    stram : ORIGIN = 0x00000000, LENGTH = 4M
 #if !EMUTOS_LIVES_IN_RAM
     rom : ORIGIN = ROM_ORIGIN, LENGTH = ROM_LENGTH
 #endif

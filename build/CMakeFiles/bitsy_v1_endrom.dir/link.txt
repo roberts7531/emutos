@@ -1,2 +1,2 @@
-m68k-atari-mint-ar qc libbitsy_v1_endrom.a CMakeFiles/bitsy_v1_endrom.dir/bios/endrom.c.o
+/usr/bin/m68k-atari-mint-ar qc libbitsy_v1_endrom.a CMakeFiles/bitsy_v1_endrom.dir/bios/endrom.c.o
 /usr/bin/m68k-atari-mint-ranlib libbitsy_v1_endrom.a

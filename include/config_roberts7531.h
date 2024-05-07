@@ -3,8 +3,17 @@
 #  define CONF_ATARI_HARDWARE 0
 # endif
 # ifndef CONF_WITH_ADVANCED_CPU
-#  define CONF_WITH_ADVANCED_CPU 0
+#  define CONF_WITH_ADVANCED_CPU 1
 # endif
+# ifndef CONF_WITH_68030_PMMU
+#  define CONF_WITH_68030_PMMU 1
+# endif
+
+# ifndef CONF_WITH_CACHE_CONTROL
+#  define CONF_WITH_CACHE_CONTROL 0
+# endif
+
+
 # ifndef CONF_WITH_APOLLO_68080
 #  define CONF_WITH_APOLLO_68080 0
 # endif
@@ -19,7 +28,7 @@
 # endif
 
 # ifndef CONF_STRAM_SIZE
-#  define CONF_STRAM_SIZE 1*1024*1024
+#  define CONF_STRAM_SIZE 8*1024*1024
 # endif
 # ifndef CONF_WITH_ALT_RAM
 #  define CONF_WITH_ALT_RAM 0
@@ -28,7 +37,7 @@
 #  define CONF_WITH_DUART 1
 # endif
 # ifndef DUART_BASE
-#  define DUART_BASE 0x00800000UL
+#  define DUART_BASE 0xc0000000UL
 # endif
 # ifndef CONF_WITH_DUART_CHANNEL_B
 #  define CONF_WITH_DUART_CHANNEL_B 1
@@ -37,7 +46,7 @@
 #  define CONF_DUART_TIMER_C 1
 # endif
 # ifndef CONF_DUART_AUTOVECTOR
-#  define CONF_DUART_AUTOVECTOR 3
+#  define CONF_DUART_AUTOVECTOR 6
 # endif
 # ifndef DUART_DEBUG_PRINT
 #  define CONSOLE_DEBUG_PRINT 1

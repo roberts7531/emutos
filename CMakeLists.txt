@@ -149,7 +149,7 @@ set(desk_src desk/deskstart.S desk/deskmain.c desk/gembind.c desk/deskact.c desk
 # source code in cli/ for EmuTOS console EmuCON
 #
 
-set(cli_src cli/cmdasm.S cli/cmdmain.c cli/cmdedit.c cli/cmdexec.c cli/cmdint.c cli/cmdparse.c cli/cmdutil.c cli/v9958.c cli/v99x8.c)
+set(cli_src cli/cmdasm.S cli/cmdmain.c cli/cmdedit.c cli/cmdexec.c cli/cmdint.c cli/cmdparse.c cli/cmdutil.c )
 
 
 # Create the font library.
@@ -352,7 +352,7 @@ configure_target(etos1024k    TARGET_1024             1024 "-O2" "" WITH_AES ON 
 configure_target(tiny68k      MACHINE_TINY68K          256 "-O2" US WITH_AES OFF WITH_CLI ON)
 configure_target(rosco_v2     MACHINE_ROSCO_V2         256 "-O2" US WITH_AES OFF WITH_CLI ON)
 configure_target(bitsy_v1     MACHINE_BITSY_V1         512 "-O2" US WITH_AES OFF WITH_CLI ON)
-configure_target(roberts7531  MACHINE_ROBERTS7531      256 "-Os" US WITH_AES ON WITH_CLI ON)
+configure_target(roberts7531  MACHINE_ROBERTS7531      300 "-O2" US WITH_AES ON WITH_CLI ON)
 
 
 

@@ -1175,11 +1175,9 @@ static ULONG rsconf_duart(UBYTE port, EXT_IOREC *iorec, WORD baud, WORD ctrl, WO
     /* Write the Aux Control Register
      *
      */
-#ifdef MACHINE_TINY68K
+
     write_duart(DUART_ACR, 0x70); /* ACR[7] = 0, timer mode, x16 prescaler */ /* ACR[7] = 0 so we get 38.4K */
-#else
-    write_duart(DUART_ACR, 0xf0); /* ACR[7] = 1, timer mode, x16 prescaler */
-#endif
+
     /* For hardware flow control purposes, we need to *set* the RTS output port bit (bit 0 for 
      * port A, bit 1 for port B). Setting an output port bin cause the actual pin
      * to be zero, which is how we want to start (i.e., active-low RTS is asserted). 
@@ -1216,6 +1214,7 @@ void duart_rs232_interrupt_handler_channel_a(void)
 #ifdef CONF_WITH_DUART_CHANNEL_B
 void duart_rs232_interrupt_handler_channel_b(void)
 {
+	
     while(read_duart(DUART_SRB) & DUART_SR_RXRDY) {
     	ikbd_int(read_duart(DUART_RHRB));
     }

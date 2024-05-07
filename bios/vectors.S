@@ -808,14 +808,16 @@ _sccb_es_interrupt:
 //     - Channel B Receive Ready (bit 5 of the ISR) if enabled.
 
 _duart_interrupt:
+	
 #ifdef __mcoldfire__
         lea     -16(sp),sp
         movem.l d0-d1/a0-a1,(sp)
 #else
+
         movem.l d0-d1/a0-a1,-(sp)
 #endif
         lea     DUART_BASE, a0
-        move.b  11(a0), d0            // grab the Interrupt Status Register
+        move.b  5(a0), d0            // grab the Interrupt Status Register
  #if CONF_DUART_TIMER_C
         btst.b  #3, d0                // Is Counter Ready (bit 3) set?
         beq     duart_check_rx_2      //    No, skip timer handling code
@@ -825,6 +827,8 @@ _duart_interrupt:
 	move.b  #0,vblcnt
 skipvbl:	
 	addi.b  #1,vblcnt
+	
+	
 // Call vector_5ms
 // As it will return with RTE, we must setup a proper stack frame
         tst.w   _longframe
@@ -844,7 +848,7 @@ duart_check_rx:
         tst.b   0x1f(a0)              // Send stop counter to ack timer interrupt. Does not actually stop since in timer mode.
  #endif
 duart_check_rx_2:
-        move.b  11(a0), d0            // Get the ISR again
+        move.b  5(a0), d0            // Get the ISR again
         btst.b  #1, d0                // Is the Chan A Receive Ready (bit 1) set?
 #ifndef CONF_WITH_DUART_CHANNEL_B
         beq     duart_intr_done       //    No, skip serial handling code
@@ -855,11 +859,12 @@ duart_check_rx_2:
 #ifdef CONF_WITH_DUART_CHANNEL_B
 duart_check_channel_b:
         lea     DUART_BASE, a0
-        move.b  11(a0), d0            // Get the ISR again
+        move.b  5(a0), d0            // Get the ISR again
         btst.b  #5, d0                // Is the Chan B Receive Ready (bit 5) set?
         beq     duart_intr_done
 
         jbsr    _duart_rs232_interrupt_handler_channel_b
+
 #endif
 duart_intr_done:
 	

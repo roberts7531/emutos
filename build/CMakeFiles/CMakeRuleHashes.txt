@@ -34,7 +34,7 @@ abe7051022369f88ded70d0be3a9b390 CMakeFiles/grd
 b467a48f3a6fba4ba37c4f31f69ed454 CMakeFiles/localise
 35c6a1afee6980cbe849245ee666b88c CMakeFiles/mkrom
 2b4c3afd8a121a7951d7ce444f16bc1e CMakeFiles/mrd
-53e6ee8ec54e4245bb9dc958442a9ced CMakeFiles/roberts7531.bin
+b06dd8482b3d4176060c0409a4dc1ee2 CMakeFiles/roberts7531.bin
 f0ca6d2da3fad77040ed6f13ecdab7f1 CMakeFiles/roberts7531_header
 f0ca6d2da3fad77040ed6f13ecdab7f1 CMakeFiles/roberts7531_i18nconf
 f0ca6d2da3fad77040ed6f13ecdab7f1 CMakeFiles/roberts7531pp.ld
@@ -46,7 +46,7 @@ f0ca6d2da3fad77040ed6f13ecdab7f1 CMakeFiles/rosco_v2pp.ld
 f0ca6d2da3fad77040ed6f13ecdab7f1 CMakeFiles/tiny68k_header
 f0ca6d2da3fad77040ed6f13ecdab7f1 CMakeFiles/tiny68k_i18nconf
 f0ca6d2da3fad77040ed6f13ecdab7f1 CMakeFiles/tiny68kpp.ld
-5fdb53bc6a60dbc491c7815c56315356 bitsy_v1/bitsy_v1pp.ld
+66da8e11bca9f135480e2f7d9a69f020 bitsy_v1/bitsy_v1pp.ld
 68e5dc31aab545cd939938ae4934c27a bitsy_v1/draft
 2120ef7dea9e4f3c6896746d1bc83381 bitsy_v1/header.h
 125fbea1155bccbb34937a5524130a5a bitsy_v1/i18nconf.h
@@ -57,7 +57,7 @@ f764c973d6333d2fd3180180d2d32217 etos1024k/aes/gem_rsc.c
 1595eb63617069e4ba30781c553d0393 etos1024k/desk/desk_rsc.c
 10922d86b13fde938151349bb556a099 etos1024k/desk/icons.c
 26fabd065ec6d5baf7e98431e8e097c5 etos1024k/draft
-2714e71497e38a10b8401a6ddf5036f8 etos1024k/etos1024kpp.ld
+b512bbb2913dfbea2889ae755e1d1727 etos1024k/etos1024kpp.ld
 70f8a63373579524f57ec8e0e2d0a52c etos1024k/header.h
 5d75e953cdd92ed15ff3bd225673f2c0 etos1024k/i18nconf.h
 13a3552af7cc91ee2dc9500eed8b7fde etos1024k/po/messages.pot
@@ -67,7 +67,7 @@ cafa6b9dfe45a7e1aaba9c385bb385a0 etos192us/aes/gem_rsc.c
 d48f1f98e71acc6ed42eb7dbd03ed29b etos192us/desk/desk_rsc.c
 e45aa62d80c3f85001eb9d17aec6af6f etos192us/desk/icons.c
 77bf6a5bb21ab0a7d827962218b5f425 etos192us/draft
-996dcf337db58765f404df69eca4557c etos192us/etos192uspp.ld
+100fd14a24a871834955f11a12aab245 etos192us/etos192uspp.ld
 7cda1b08cb77fb83f6d2784a8cc95906 etos192us/header.h
 2bb5050b22b7f455ce15a05802c3179d etos192us/i18nconf.h
 868c953c7e4a162066c93fce1c1b50ed etos192us/po/messages.pot
@@ -77,7 +77,7 @@ b69e368bfa6f4914a9eac9e3b65d81bf etos256us/aes/gem_rsc.c
 f809ae31026af66e6312ce42d22183b2 etos256us/desk/desk_rsc.c
 d94aa844509748fb9d2a3392517619f2 etos256us/desk/icons.c
 53fea8237c2b7dce1afe2e1f7cc40d6e etos256us/draft
-a5ce686c771101e687937c20a39cdc83 etos256us/etos256uspp.ld
+9127d6fa9f75268c7e10effc7644d258 etos256us/etos256uspp.ld
 418b40956b2d97d27eab898bdeaac412 etos256us/header.h
 165be38c11f40543866df9a2839b7de7 etos256us/i18nconf.h
 0f107a53859657b730235b4c02234e79 etos256us/po/messages.pot
@@ -87,7 +87,7 @@ b9e1f4bc2a8eceb41ddbd10a3b6ea791 etos256us/util/langs.c
 11858b74ca08eafb3eba2fc5e00f6de3 etos512us/desk/desk_rsc.c
 13d982983e0860c26c31a1ab2e78a4fb etos512us/desk/icons.c
 53a71bb9d7961305929c302bbe6dda1c etos512us/draft
-cad0f3bd5674f45a7ef54d7379ec6d99 etos512us/etos512uspp.ld
+30793ff6b47b00d1a5e8ab9c1fb60c51 etos512us/etos512uspp.ld
 ce5f3d8fa83fe0033335bd04ca8a0d1e etos512us/header.h
 daf6ee2c39ae2a0bc1a4ceaed28a7ea2 etos512us/i18nconf.h
 bc888a59bf7051fdd9126718d4f44958 etos512us/po/messages.pot
@@ -100,17 +100,17 @@ bc888a59bf7051fdd9126718d4f44958 etos512us/po/messages.pot
 d0207efe75384914070bcdc982048a42 roberts7531/header.h
 bf7ed39aca7bc26e45efff4877e73fef roberts7531/i18nconf.h
 8c045ad10070240b13973cb56c5df5db roberts7531/po/messages.pot
-2413b4313f5d2f18cf2bffd10fa37ecc roberts7531/roberts7531pp.ld
+cc3b6e8c8211969c7d7980c2cf7d4f54 roberts7531/roberts7531pp.ld
 95888e53110872dcb00f09c06139e165 roberts7531/util/langs.c
 b4cbd71f8159e4f1908772329e8c0af3 rosco_v2/draft
 f7d8b70b26c030f7a0d64ee457c9b2bc rosco_v2/header.h
 478d1bac3b7927141bf7bbe6d324ce3e rosco_v2/i18nconf.h
 f7b97255f01b6ebfdf26f0c7a2319238 rosco_v2/po/messages.pot
-3f34e939410b706de057a3baed9a4ecf rosco_v2/rosco_v2pp.ld
+1f9134806901431f1a8e9589b671a66d rosco_v2/rosco_v2pp.ld
 01ae2f838337bee83bc743d68c4fd449 rosco_v2/util/langs.c
 ed298fdb381e969299645908ef9cd165 tiny68k/draft
 bcfc6ff5ac1bbd37a081efc17caf228b tiny68k/header.h
 55e5755a48b5669665518dd230705f64 tiny68k/i18nconf.h
 69926c89e82b6abdb7848882baa3906b tiny68k/po/messages.pot
-9c8208bb50ab2c8afa2f2740fb1c99f0 tiny68k/tiny68kpp.ld
+b2c95c91a5983c4ae766310553f12417 tiny68k/tiny68kpp.ld
 7eca2de84d993decc950df291c193ce7 tiny68k/util/langs.c

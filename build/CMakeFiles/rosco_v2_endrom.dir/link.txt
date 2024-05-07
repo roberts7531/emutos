@@ -1,2 +1,2 @@
-m68k-atari-mint-ar qc librosco_v2_endrom.a CMakeFiles/rosco_v2_endrom.dir/bios/endrom.c.o
+/usr/bin/m68k-atari-mint-ar qc librosco_v2_endrom.a CMakeFiles/rosco_v2_endrom.dir/bios/endrom.c.o
 /usr/bin/m68k-atari-mint-ranlib librosco_v2_endrom.a

@@ -133,8 +133,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/roberts7531/Documents/emutos/cli/cmdmain.c" "CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o" "gcc" "CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o.d"
   "/home/roberts7531/Documents/emutos/cli/cmdparse.c" "CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o" "gcc" "CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o.d"
   "/home/roberts7531/Documents/emutos/cli/cmdutil.c" "CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o" "gcc" "CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o.d"
-  "/home/roberts7531/Documents/emutos/cli/v9958.c" "CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o" "gcc" "CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o.d"
-  "/home/roberts7531/Documents/emutos/cli/v99x8.c" "CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o" "gcc" "CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o.d"
   "/home/roberts7531/Documents/emutos/util/cookie.c" "CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o" "gcc" "CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o.d"
   "/home/roberts7531/Documents/emutos/util/doprintf.c" "CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o" "gcc" "CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o.d"
   "/home/roberts7531/Documents/emutos/util/intmath.c" "CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o" "gcc" "CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o.d"

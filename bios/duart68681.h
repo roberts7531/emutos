@@ -10,32 +10,32 @@
  * FUZIX is licensed under GPL v2, like EmuTOS.
  */
 
-#define DUART_MRA        0x01
-#define DUART_SRA        0x03
-#define DUART_CSRA       0x03
-#define DUART_CRA        0x05
-#define DUART_RHRA       0x07
-#define DUART_THRA       0x07
-#define DUART_IPCR       0x09
-#define DUART_ACR        0x09
-#define DUART_ISR        0x0B
-#define DUART_IMR        0x0B
-#define DUART_CTU        0x0D
-#define DUART_CTUR       0x0D
-#define DUART_CTL        0x0F
-#define DUART_CTLR       0x0F
-#define DUART_MRB        0x11
-#define DUART_SRB        0x13
-#define DUART_CSRB       0x13
-#define DUART_CRB        0x15
-#define DUART_RHRB       0x17
-#define DUART_THRB       0x17
-#define DUART_IVR        0x19
-#define DUART_OPCR       0x1B
-#define DUART_STARTCTR   0x1D
-#define DUART_SETOPR     0x1D
-#define DUART_STOPCTR    0x1F
-#define DUART_CLROPR     0x1F
+#define DUART_MRA        0x00
+#define DUART_SRA        0x01
+#define DUART_CSRA       0x01
+#define DUART_CRA        0x02
+#define DUART_RHRA       0x03
+#define DUART_THRA       0x03
+#define DUART_IPCR       0x04
+#define DUART_ACR        0x04
+#define DUART_ISR        0x05
+#define DUART_IMR        0x05
+#define DUART_CTU        0x06
+#define DUART_CTUR       0x06
+#define DUART_CTL        0x07
+#define DUART_CTLR       0x07
+#define DUART_MRB        0x08
+#define DUART_SRB        0x09
+#define DUART_CSRB       0x09
+#define DUART_CRB        0x0a
+#define DUART_RHRB       0x0b
+#define DUART_THRB       0x0b
+#define DUART_IVR        0x0c
+#define DUART_OPCR       0x0d
+#define DUART_STARTCTR   0x0e
+#define DUART_SETOPR     0x0e
+#define DUART_STOPCTR    0x0f
+#define DUART_CLROPR     0x0f
 
 /* The bit definitions here copied with slight renaming from
  * coldpriv.h

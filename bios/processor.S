@@ -60,6 +60,31 @@
  *      60             0        68060
  */
 
+ DUART = 0xc0000000
+
+
+MRA = DUART 
+SRA = DUART+1 
+CSRA = DUART+1
+CRA = DUART+2
+RBA = DUART+3
+TBA = DUART+3
+ACR = DUART+4
+ISR = DUART+5
+IMR = DUART+5
+CUR = DUART+6
+CLR = DUART+7
+MRB = DUART+8
+SRB = DUART+9
+CSRB = DUART+9
+CRB = DUART+10
+RBB = DUART+11
+TBB = DUART+11
+IVR = DUART+12
+IPR = DUART+13
+OPRC = DUART+14
+OPR   = DUART+15
+
 _detect_cpu:
 #if CONF_WITH_ADVANCED_CPU
         movem.l  d2/a2-a3,-(sp)
@@ -192,10 +217,21 @@ _detect_fpu:
 no60:   clr.l   -(sp)           // push NULL frame
         clr.l   -(sp)           // extra longs for 68060
         clr.l   -(sp)
+7:	btst #3,SRA
+	beq.s 7b
+         move.b #'1',(TBA)
         FRESTORE_SP_PLUS        // frestore (sp)+   reset FPU into NULL state
+8:	btst #3,SRA
+	beq.s 8b
+         move.b #'2',(TBA)
         FNOP                    // fnop             force it into IDLE state
+9:	btst #3,SRA
+	beq.s 9b
+         move.b #'3',(TBA)
         FSAVE_MINUS_SP          // fsave -(sp)      save the IDLE frame
-
+10:	btst #3,SRA
+	beq.s 10b
+         move.b #'4',(TBA)
         moveq   #0x10,d0        // assume 68060 FPU (cookie 0x00100000)
         cmpi.w  #60,d1          // d1 is loaded above the FPU code
         jeq     fexit
@@ -224,7 +260,6 @@ fexit:  move.l  a1,(0x2c).w     // restore Line-F
 #else
         // handle only 68000 (with possible SFP004)
         moveq   #0,d0           // assume no FPU
-
 #if CONF_WITH_SFP004
         move.l  sp,a0           // save the ssp
         move.l  (0x08).w,a1     // save the bus error vector

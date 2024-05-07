@@ -1,2 +1,2 @@
-m68k-atari-mint-ar qc libtiny68k_endrom.a CMakeFiles/tiny68k_endrom.dir/bios/endrom.c.o
+/usr/bin/m68k-atari-mint-ar qc libtiny68k_endrom.a CMakeFiles/tiny68k_endrom.dir/bios/endrom.c.o
 /usr/bin/m68k-atari-mint-ranlib libtiny68k_endrom.a

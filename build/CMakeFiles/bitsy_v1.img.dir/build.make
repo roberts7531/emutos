@@ -94,1710 +94,1682 @@ bitsy_v1/po/messages.pot: ../po/POTFILES.in
 CMakeFiles/bitsy_v1.img.dir/bios/startup.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/startup.S.o: ../bios/startup.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/startup.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/startup.S.o -c /home/roberts7531/Documents/emutos/bios/startup.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/startup.S.o -c /home/roberts7531/Documents/emutos/bios/startup.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/startup.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/startup.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/startup.S > CMakeFiles/bitsy_v1.img.dir/bios/startup.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/startup.S > CMakeFiles/bitsy_v1.img.dir/bios/startup.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/startup.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/startup.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/startup.S -o CMakeFiles/bitsy_v1.img.dir/bios/startup.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/startup.S -o CMakeFiles/bitsy_v1.img.dir/bios/startup.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.o: ../bios/lowstram.c
 CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.o -c /home/roberts7531/Documents/emutos/bios/lowstram.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.o -c /home/roberts7531/Documents/emutos/bios/lowstram.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/lowstram.c > CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/lowstram.c > CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/lowstram.c -o CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/lowstram.c -o CMakeFiles/bitsy_v1.img.dir/bios/lowstram.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/memory.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/memory.S.o: ../bios/memory.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/memory.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/memory.S.o -c /home/roberts7531/Documents/emutos/bios/memory.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/memory.S.o -c /home/roberts7531/Documents/emutos/bios/memory.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/memory.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/memory.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/memory.S > CMakeFiles/bitsy_v1.img.dir/bios/memory.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/memory.S > CMakeFiles/bitsy_v1.img.dir/bios/memory.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/memory.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/memory.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/memory.S -o CMakeFiles/bitsy_v1.img.dir/bios/memory.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/memory.S -o CMakeFiles/bitsy_v1.img.dir/bios/memory.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/processor.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/processor.S.o: ../bios/processor.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/processor.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/processor.S.o -c /home/roberts7531/Documents/emutos/bios/processor.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/processor.S.o -c /home/roberts7531/Documents/emutos/bios/processor.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/processor.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/processor.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/processor.S > CMakeFiles/bitsy_v1.img.dir/bios/processor.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/processor.S > CMakeFiles/bitsy_v1.img.dir/bios/processor.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/processor.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/processor.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/processor.S -o CMakeFiles/bitsy_v1.img.dir/bios/processor.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/processor.S -o CMakeFiles/bitsy_v1.img.dir/bios/processor.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.o: ../bios/vectors.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.o -c /home/roberts7531/Documents/emutos/bios/vectors.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.o -c /home/roberts7531/Documents/emutos/bios/vectors.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/vectors.S > CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/vectors.S > CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/vectors.S -o CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/vectors.S -o CMakeFiles/bitsy_v1.img.dir/bios/vectors.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.o: ../bios/aciavecs.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.o -c /home/roberts7531/Documents/emutos/bios/aciavecs.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.o -c /home/roberts7531/Documents/emutos/bios/aciavecs.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/aciavecs.S > CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/aciavecs.S > CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/aciavecs.S -o CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/aciavecs.S -o CMakeFiles/bitsy_v1.img.dir/bios/aciavecs.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/bios.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/bios.c.o: ../bios/bios.c
 CMakeFiles/bitsy_v1.img.dir/bios/bios.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/bios.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/bios.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/bios.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/bios.c.o -c /home/roberts7531/Documents/emutos/bios/bios.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/bios.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/bios.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/bios.c.o -c /home/roberts7531/Documents/emutos/bios/bios.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/bios.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/bios.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/bios.c > CMakeFiles/bitsy_v1.img.dir/bios/bios.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/bios.c > CMakeFiles/bitsy_v1.img.dir/bios/bios.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/bios.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/bios.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/bios.c -o CMakeFiles/bitsy_v1.img.dir/bios/bios.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/bios.c -o CMakeFiles/bitsy_v1.img.dir/bios/bios.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.o: ../bios/xbios.c
 CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.o -c /home/roberts7531/Documents/emutos/bios/xbios.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.o -c /home/roberts7531/Documents/emutos/bios/xbios.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/xbios.c > CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/xbios.c > CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/xbios.c -o CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/xbios.c -o CMakeFiles/bitsy_v1.img.dir/bios/xbios.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.o: ../bios/acsi.c
 CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.o -c /home/roberts7531/Documents/emutos/bios/acsi.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.o -c /home/roberts7531/Documents/emutos/bios/acsi.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/acsi.c > CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/acsi.c > CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/acsi.c -o CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/acsi.c -o CMakeFiles/bitsy_v1.img.dir/bios/acsi.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.o: ../bios/biosmem.c
 CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.o -c /home/roberts7531/Documents/emutos/bios/biosmem.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.o -c /home/roberts7531/Documents/emutos/bios/biosmem.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/biosmem.c > CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/biosmem.c > CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/biosmem.c -o CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/biosmem.c -o CMakeFiles/bitsy_v1.img.dir/bios/biosmem.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.o: ../bios/blkdev.c
 CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.o -c /home/roberts7531/Documents/emutos/bios/blkdev.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.o -c /home/roberts7531/Documents/emutos/bios/blkdev.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/blkdev.c > CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/blkdev.c > CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/blkdev.c -o CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/blkdev.c -o CMakeFiles/bitsy_v1.img.dir/bios/blkdev.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.o: ../bios/chardev.c
 CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.o -c /home/roberts7531/Documents/emutos/bios/chardev.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.o -c /home/roberts7531/Documents/emutos/bios/chardev.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/chardev.c > CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/chardev.c > CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/chardev.c -o CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/chardev.c -o CMakeFiles/bitsy_v1.img.dir/bios/chardev.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/clock.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/clock.c.o: ../bios/clock.c
 CMakeFiles/bitsy_v1.img.dir/bios/clock.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/clock.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/clock.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/clock.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/clock.c.o -c /home/roberts7531/Documents/emutos/bios/clock.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/clock.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/clock.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/clock.c.o -c /home/roberts7531/Documents/emutos/bios/clock.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/clock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/clock.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/clock.c > CMakeFiles/bitsy_v1.img.dir/bios/clock.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/clock.c > CMakeFiles/bitsy_v1.img.dir/bios/clock.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/clock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/clock.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/clock.c -o CMakeFiles/bitsy_v1.img.dir/bios/clock.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/clock.c -o CMakeFiles/bitsy_v1.img.dir/bios/clock.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/conout.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/conout.c.o: ../bios/conout.c
 CMakeFiles/bitsy_v1.img.dir/bios/conout.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/conout.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/conout.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/conout.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/conout.c.o -c /home/roberts7531/Documents/emutos/bios/conout.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/conout.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/conout.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/conout.c.o -c /home/roberts7531/Documents/emutos/bios/conout.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/conout.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/conout.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/conout.c > CMakeFiles/bitsy_v1.img.dir/bios/conout.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/conout.c > CMakeFiles/bitsy_v1.img.dir/bios/conout.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/conout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/conout.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/conout.c -o CMakeFiles/bitsy_v1.img.dir/bios/conout.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/conout.c -o CMakeFiles/bitsy_v1.img.dir/bios/conout.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/country.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/country.c.o: ../bios/country.c
 CMakeFiles/bitsy_v1.img.dir/bios/country.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/country.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/country.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/country.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/country.c.o -c /home/roberts7531/Documents/emutos/bios/country.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/country.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/country.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/country.c.o -c /home/roberts7531/Documents/emutos/bios/country.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/country.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/country.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/country.c > CMakeFiles/bitsy_v1.img.dir/bios/country.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/country.c > CMakeFiles/bitsy_v1.img.dir/bios/country.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/country.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/country.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/country.c -o CMakeFiles/bitsy_v1.img.dir/bios/country.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/country.c -o CMakeFiles/bitsy_v1.img.dir/bios/country.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/disk.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/disk.c.o: ../bios/disk.c
 CMakeFiles/bitsy_v1.img.dir/bios/disk.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/disk.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/disk.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/disk.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/disk.c.o -c /home/roberts7531/Documents/emutos/bios/disk.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/disk.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/disk.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/disk.c.o -c /home/roberts7531/Documents/emutos/bios/disk.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/disk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/disk.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/disk.c > CMakeFiles/bitsy_v1.img.dir/bios/disk.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/disk.c > CMakeFiles/bitsy_v1.img.dir/bios/disk.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/disk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/disk.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/disk.c -o CMakeFiles/bitsy_v1.img.dir/bios/disk.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/disk.c -o CMakeFiles/bitsy_v1.img.dir/bios/disk.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/dma.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/dma.c.o: ../bios/dma.c
 CMakeFiles/bitsy_v1.img.dir/bios/dma.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/dma.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/dma.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/dma.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/dma.c.o -c /home/roberts7531/Documents/emutos/bios/dma.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/dma.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/dma.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/dma.c.o -c /home/roberts7531/Documents/emutos/bios/dma.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/dma.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/dma.c > CMakeFiles/bitsy_v1.img.dir/bios/dma.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/dma.c > CMakeFiles/bitsy_v1.img.dir/bios/dma.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/dma.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/dma.c -o CMakeFiles/bitsy_v1.img.dir/bios/dma.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/dma.c -o CMakeFiles/bitsy_v1.img.dir/bios/dma.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.o: ../bios/dmasound.c
 CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.o -c /home/roberts7531/Documents/emutos/bios/dmasound.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.o -c /home/roberts7531/Documents/emutos/bios/dmasound.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/dmasound.c > CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/dmasound.c > CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/dmasound.c -o CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/dmasound.c -o CMakeFiles/bitsy_v1.img.dir/bios/dmasound.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.o: ../bios/floppy.c
 CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.o -c /home/roberts7531/Documents/emutos/bios/floppy.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.o -c /home/roberts7531/Documents/emutos/bios/floppy.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/floppy.c > CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/floppy.c > CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/floppy.c -o CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/floppy.c -o CMakeFiles/bitsy_v1.img.dir/bios/floppy.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/font.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/font.c.o: ../bios/font.c
 CMakeFiles/bitsy_v1.img.dir/bios/font.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/font.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/font.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/font.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/font.c.o -c /home/roberts7531/Documents/emutos/bios/font.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/font.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/font.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/font.c.o -c /home/roberts7531/Documents/emutos/bios/font.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/font.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/font.c > CMakeFiles/bitsy_v1.img.dir/bios/font.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/font.c > CMakeFiles/bitsy_v1.img.dir/bios/font.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/font.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/font.c -o CMakeFiles/bitsy_v1.img.dir/bios/font.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/font.c -o CMakeFiles/bitsy_v1.img.dir/bios/font.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/ide.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/ide.c.o: ../bios/ide.c
 CMakeFiles/bitsy_v1.img.dir/bios/ide.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/ide.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/ide.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/ide.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/ide.c.o -c /home/roberts7531/Documents/emutos/bios/ide.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/ide.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/ide.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/ide.c.o -c /home/roberts7531/Documents/emutos/bios/ide.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/ide.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/ide.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/ide.c > CMakeFiles/bitsy_v1.img.dir/bios/ide.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/ide.c > CMakeFiles/bitsy_v1.img.dir/bios/ide.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/ide.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/ide.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/ide.c -o CMakeFiles/bitsy_v1.img.dir/bios/ide.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/ide.c -o CMakeFiles/bitsy_v1.img.dir/bios/ide.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.o: ../bios/ikbd.c
 CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.o -c /home/roberts7531/Documents/emutos/bios/ikbd.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.o -c /home/roberts7531/Documents/emutos/bios/ikbd.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/ikbd.c > CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/ikbd.c > CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/ikbd.c -o CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/ikbd.c -o CMakeFiles/bitsy_v1.img.dir/bios/ikbd.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.o: ../bios/initinfo.c
 CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.o -c /home/roberts7531/Documents/emutos/bios/initinfo.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.o -c /home/roberts7531/Documents/emutos/bios/initinfo.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/initinfo.c > CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/initinfo.c > CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/initinfo.c -o CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/initinfo.c -o CMakeFiles/bitsy_v1.img.dir/bios/initinfo.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.o: ../bios/kprint.c
 CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.o -c /home/roberts7531/Documents/emutos/bios/kprint.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.o -c /home/roberts7531/Documents/emutos/bios/kprint.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/kprint.c > CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/kprint.c > CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/kprint.c -o CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/kprint.c -o CMakeFiles/bitsy_v1.img.dir/bios/kprint.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.o: ../bios/kprintasm.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.o -c /home/roberts7531/Documents/emutos/bios/kprintasm.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.o -c /home/roberts7531/Documents/emutos/bios/kprintasm.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/kprintasm.S > CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/kprintasm.S > CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/kprintasm.S -o CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/kprintasm.S -o CMakeFiles/bitsy_v1.img.dir/bios/kprintasm.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/linea.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/linea.S.o: ../bios/linea.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/linea.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/linea.S.o -c /home/roberts7531/Documents/emutos/bios/linea.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/linea.S.o -c /home/roberts7531/Documents/emutos/bios/linea.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/linea.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/linea.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/linea.S > CMakeFiles/bitsy_v1.img.dir/bios/linea.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/linea.S > CMakeFiles/bitsy_v1.img.dir/bios/linea.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/linea.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/linea.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/linea.S -o CMakeFiles/bitsy_v1.img.dir/bios/linea.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/linea.S -o CMakeFiles/bitsy_v1.img.dir/bios/linea.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.o: ../bios/lineainit.c
 CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.o -c /home/roberts7531/Documents/emutos/bios/lineainit.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.o -c /home/roberts7531/Documents/emutos/bios/lineainit.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/lineainit.c > CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/lineainit.c > CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/lineainit.c -o CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/lineainit.c -o CMakeFiles/bitsy_v1.img.dir/bios/lineainit.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.o: ../bios/lineavars.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.o -c /home/roberts7531/Documents/emutos/bios/lineavars.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.o -c /home/roberts7531/Documents/emutos/bios/lineavars.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/lineavars.S > CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/lineavars.S > CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/lineavars.S -o CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/lineavars.S -o CMakeFiles/bitsy_v1.img.dir/bios/lineavars.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/machine.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/machine.c.o: ../bios/machine.c
 CMakeFiles/bitsy_v1.img.dir/bios/machine.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/machine.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/machine.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/machine.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/machine.c.o -c /home/roberts7531/Documents/emutos/bios/machine.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/machine.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/machine.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/machine.c.o -c /home/roberts7531/Documents/emutos/bios/machine.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/machine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/machine.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/machine.c > CMakeFiles/bitsy_v1.img.dir/bios/machine.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/machine.c > CMakeFiles/bitsy_v1.img.dir/bios/machine.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/machine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/machine.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/machine.c -o CMakeFiles/bitsy_v1.img.dir/bios/machine.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/machine.c -o CMakeFiles/bitsy_v1.img.dir/bios/machine.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.o: ../bios/mfp.c
 CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.o -c /home/roberts7531/Documents/emutos/bios/mfp.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.o -c /home/roberts7531/Documents/emutos/bios/mfp.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/mfp.c > CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/mfp.c > CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/mfp.c -o CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/mfp.c -o CMakeFiles/bitsy_v1.img.dir/bios/mfp.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/midi.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/midi.c.o: ../bios/midi.c
 CMakeFiles/bitsy_v1.img.dir/bios/midi.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/midi.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/midi.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/midi.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/midi.c.o -c /home/roberts7531/Documents/emutos/bios/midi.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/midi.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/midi.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/midi.c.o -c /home/roberts7531/Documents/emutos/bios/midi.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/midi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/midi.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/midi.c > CMakeFiles/bitsy_v1.img.dir/bios/midi.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/midi.c > CMakeFiles/bitsy_v1.img.dir/bios/midi.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/midi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/midi.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/midi.c -o CMakeFiles/bitsy_v1.img.dir/bios/midi.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/midi.c -o CMakeFiles/bitsy_v1.img.dir/bios/midi.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.o: ../bios/mouse.c
 CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.o -c /home/roberts7531/Documents/emutos/bios/mouse.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.o -c /home/roberts7531/Documents/emutos/bios/mouse.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/mouse.c > CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/mouse.c > CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/mouse.c -o CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/mouse.c -o CMakeFiles/bitsy_v1.img.dir/bios/mouse.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.o: ../bios/natfeat.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.o -c /home/roberts7531/Documents/emutos/bios/natfeat.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.o -c /home/roberts7531/Documents/emutos/bios/natfeat.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/natfeat.S > CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/natfeat.S > CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/natfeat.S -o CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/natfeat.S -o CMakeFiles/bitsy_v1.img.dir/bios/natfeat.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.o: ../bios/natfeats.c
 CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.o -c /home/roberts7531/Documents/emutos/bios/natfeats.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.o -c /home/roberts7531/Documents/emutos/bios/natfeats.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/natfeats.c > CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/natfeats.c > CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/natfeats.c -o CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/natfeats.c -o CMakeFiles/bitsy_v1.img.dir/bios/natfeats.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.o: ../bios/nvram.c
 CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.o -c /home/roberts7531/Documents/emutos/bios/nvram.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.o -c /home/roberts7531/Documents/emutos/bios/nvram.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/nvram.c > CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/nvram.c > CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/nvram.c -o CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/nvram.c -o CMakeFiles/bitsy_v1.img.dir/bios/nvram.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.o: ../bios/panicasm.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.o -c /home/roberts7531/Documents/emutos/bios/panicasm.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.o -c /home/roberts7531/Documents/emutos/bios/panicasm.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/panicasm.S > CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/panicasm.S > CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/panicasm.S -o CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/panicasm.S -o CMakeFiles/bitsy_v1.img.dir/bios/panicasm.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/parport.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/parport.c.o: ../bios/parport.c
 CMakeFiles/bitsy_v1.img.dir/bios/parport.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/parport.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/parport.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/parport.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/parport.c.o -c /home/roberts7531/Documents/emutos/bios/parport.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/parport.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/parport.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/parport.c.o -c /home/roberts7531/Documents/emutos/bios/parport.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/parport.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/parport.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/parport.c > CMakeFiles/bitsy_v1.img.dir/bios/parport.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/parport.c > CMakeFiles/bitsy_v1.img.dir/bios/parport.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/parport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/parport.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/parport.c -o CMakeFiles/bitsy_v1.img.dir/bios/parport.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/parport.c -o CMakeFiles/bitsy_v1.img.dir/bios/parport.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/screen.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/screen.c.o: ../bios/screen.c
 CMakeFiles/bitsy_v1.img.dir/bios/screen.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/screen.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/screen.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/screen.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/screen.c.o -c /home/roberts7531/Documents/emutos/bios/screen.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/screen.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/screen.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/screen.c.o -c /home/roberts7531/Documents/emutos/bios/screen.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/screen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/screen.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/screen.c > CMakeFiles/bitsy_v1.img.dir/bios/screen.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/screen.c > CMakeFiles/bitsy_v1.img.dir/bios/screen.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/screen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/screen.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/screen.c -o CMakeFiles/bitsy_v1.img.dir/bios/screen.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/screen.c -o CMakeFiles/bitsy_v1.img.dir/bios/screen.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/serport.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/serport.c.o: ../bios/serport.c
 CMakeFiles/bitsy_v1.img.dir/bios/serport.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/serport.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/serport.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/serport.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/serport.c.o -c /home/roberts7531/Documents/emutos/bios/serport.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/serport.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/serport.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/serport.c.o -c /home/roberts7531/Documents/emutos/bios/serport.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/serport.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/serport.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/serport.c > CMakeFiles/bitsy_v1.img.dir/bios/serport.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/serport.c > CMakeFiles/bitsy_v1.img.dir/bios/serport.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/serport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/serport.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/serport.c -o CMakeFiles/bitsy_v1.img.dir/bios/serport.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/serport.c -o CMakeFiles/bitsy_v1.img.dir/bios/serport.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/sound.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/sound.c.o: ../bios/sound.c
 CMakeFiles/bitsy_v1.img.dir/bios/sound.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/sound.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/sound.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/sound.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/sound.c.o -c /home/roberts7531/Documents/emutos/bios/sound.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/sound.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/sound.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/sound.c.o -c /home/roberts7531/Documents/emutos/bios/sound.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/sound.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/sound.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/sound.c > CMakeFiles/bitsy_v1.img.dir/bios/sound.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/sound.c > CMakeFiles/bitsy_v1.img.dir/bios/sound.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/sound.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/sound.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/sound.c -o CMakeFiles/bitsy_v1.img.dir/bios/sound.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/sound.c -o CMakeFiles/bitsy_v1.img.dir/bios/sound.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/videl.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/videl.c.o: ../bios/videl.c
 CMakeFiles/bitsy_v1.img.dir/bios/videl.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/videl.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/videl.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/videl.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/videl.c.o -c /home/roberts7531/Documents/emutos/bios/videl.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/videl.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/videl.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/videl.c.o -c /home/roberts7531/Documents/emutos/bios/videl.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/videl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/videl.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/videl.c > CMakeFiles/bitsy_v1.img.dir/bios/videl.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/videl.c > CMakeFiles/bitsy_v1.img.dir/bios/videl.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/videl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/videl.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/videl.c -o CMakeFiles/bitsy_v1.img.dir/bios/videl.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/videl.c -o CMakeFiles/bitsy_v1.img.dir/bios/videl.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.o: ../bios/vt52.c
 CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.o -c /home/roberts7531/Documents/emutos/bios/vt52.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.o -c /home/roberts7531/Documents/emutos/bios/vt52.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/vt52.c > CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/vt52.c > CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/vt52.c -o CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/vt52.c -o CMakeFiles/bitsy_v1.img.dir/bios/vt52.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.o: ../bios/xhdi.c
 CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.o -c /home/roberts7531/Documents/emutos/bios/xhdi.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.o -c /home/roberts7531/Documents/emutos/bios/xhdi.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/xhdi.c > CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/xhdi.c > CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/xhdi.c -o CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/xhdi.c -o CMakeFiles/bitsy_v1.img.dir/bios/xhdi.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.o: ../bios/pmmu030.c
 CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.o -c /home/roberts7531/Documents/emutos/bios/pmmu030.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.o -c /home/roberts7531/Documents/emutos/bios/pmmu030.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/pmmu030.c > CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/pmmu030.c > CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/pmmu030.c -o CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/pmmu030.c -o CMakeFiles/bitsy_v1.img.dir/bios/pmmu030.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.o: ../bios/68040_pmmu.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.o -c /home/roberts7531/Documents/emutos/bios/68040_pmmu.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.o -c /home/roberts7531/Documents/emutos/bios/68040_pmmu.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/68040_pmmu.S > CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/68040_pmmu.S > CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/68040_pmmu.S -o CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/68040_pmmu.S -o CMakeFiles/bitsy_v1.img.dir/bios/68040_pmmu.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.o: ../bios/amiga.c
 CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.o -c /home/roberts7531/Documents/emutos/bios/amiga.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.o -c /home/roberts7531/Documents/emutos/bios/amiga.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/amiga.c > CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/amiga.c > CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/amiga.c -o CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/amiga.c -o CMakeFiles/bitsy_v1.img.dir/bios/amiga.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.o: ../bios/amiga2.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.o -c /home/roberts7531/Documents/emutos/bios/amiga2.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.o -c /home/roberts7531/Documents/emutos/bios/amiga2.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/amiga2.S > CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/amiga2.S > CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/amiga2.S -o CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/amiga2.S -o CMakeFiles/bitsy_v1.img.dir/bios/amiga2.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.o: ../bios/spi_vamp.c
 CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.o -c /home/roberts7531/Documents/emutos/bios/spi_vamp.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.o -c /home/roberts7531/Documents/emutos/bios/spi_vamp.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/spi_vamp.c > CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/spi_vamp.c > CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/spi_vamp.c -o CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/spi_vamp.c -o CMakeFiles/bitsy_v1.img.dir/bios/spi_vamp.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.o: ../bios/lisa.c
 CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.o -c /home/roberts7531/Documents/emutos/bios/lisa.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.o -c /home/roberts7531/Documents/emutos/bios/lisa.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/lisa.c > CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/lisa.c > CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/lisa.c -o CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/lisa.c -o CMakeFiles/bitsy_v1.img.dir/bios/lisa.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.o: ../bios/lisa2.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.o -c /home/roberts7531/Documents/emutos/bios/lisa2.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.o -c /home/roberts7531/Documents/emutos/bios/lisa2.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/lisa2.S > CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/lisa2.S > CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/lisa2.S -o CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/lisa2.S -o CMakeFiles/bitsy_v1.img.dir/bios/lisa2.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/delay.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/delay.c.o: ../bios/delay.c
 CMakeFiles/bitsy_v1.img.dir/bios/delay.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/delay.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/delay.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/delay.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/delay.c.o -c /home/roberts7531/Documents/emutos/bios/delay.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/delay.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/delay.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/delay.c.o -c /home/roberts7531/Documents/emutos/bios/delay.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/delay.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/delay.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/delay.c > CMakeFiles/bitsy_v1.img.dir/bios/delay.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/delay.c > CMakeFiles/bitsy_v1.img.dir/bios/delay.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/delay.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/delay.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/delay.c -o CMakeFiles/bitsy_v1.img.dir/bios/delay.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/delay.c -o CMakeFiles/bitsy_v1.img.dir/bios/delay.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.o: ../bios/delayasm.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.o -c /home/roberts7531/Documents/emutos/bios/delayasm.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.o -c /home/roberts7531/Documents/emutos/bios/delayasm.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/delayasm.S > CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/delayasm.S > CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/delayasm.S -o CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/delayasm.S -o CMakeFiles/bitsy_v1.img.dir/bios/delayasm.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/sd.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/sd.c.o: ../bios/sd.c
 CMakeFiles/bitsy_v1.img.dir/bios/sd.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/sd.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/sd.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/sd.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/sd.c.o -c /home/roberts7531/Documents/emutos/bios/sd.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/sd.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/sd.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/sd.c.o -c /home/roberts7531/Documents/emutos/bios/sd.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/sd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/sd.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/sd.c > CMakeFiles/bitsy_v1.img.dir/bios/sd.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/sd.c > CMakeFiles/bitsy_v1.img.dir/bios/sd.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/sd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/sd.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/sd.c -o CMakeFiles/bitsy_v1.img.dir/bios/sd.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/sd.c -o CMakeFiles/bitsy_v1.img.dir/bios/sd.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.o: ../bios/memory2.c
 CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.o -c /home/roberts7531/Documents/emutos/bios/memory2.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.o -c /home/roberts7531/Documents/emutos/bios/memory2.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/memory2.c > CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/memory2.c > CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/memory2.c -o CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/memory2.c -o CMakeFiles/bitsy_v1.img.dir/bios/memory2.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.o: ../bios/bootparams.c
 CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.o -c /home/roberts7531/Documents/emutos/bios/bootparams.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.o -c /home/roberts7531/Documents/emutos/bios/bootparams.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/bootparams.c > CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/bootparams.c > CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/bootparams.c -o CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/bootparams.c -o CMakeFiles/bitsy_v1.img.dir/bios/bootparams.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.o: ../bios/scsi.c
 CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.o -c /home/roberts7531/Documents/emutos/bios/scsi.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.o -c /home/roberts7531/Documents/emutos/bios/scsi.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/scsi.c > CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/scsi.c > CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/scsi.c -o CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/scsi.c -o CMakeFiles/bitsy_v1.img.dir/bios/scsi.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/nova.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/nova.c.o: ../bios/nova.c
 CMakeFiles/bitsy_v1.img.dir/bios/nova.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/nova.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/nova.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/nova.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/nova.c.o -c /home/roberts7531/Documents/emutos/bios/nova.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/nova.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/nova.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/nova.c.o -c /home/roberts7531/Documents/emutos/bios/nova.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/nova.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/nova.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/nova.c > CMakeFiles/bitsy_v1.img.dir/bios/nova.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/nova.c > CMakeFiles/bitsy_v1.img.dir/bios/nova.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/nova.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/nova.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/nova.c -o CMakeFiles/bitsy_v1.img.dir/bios/nova.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/nova.c -o CMakeFiles/bitsy_v1.img.dir/bios/nova.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.o: ../bios/dsp.c
 CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.o -c /home/roberts7531/Documents/emutos/bios/dsp.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.o -c /home/roberts7531/Documents/emutos/bios/dsp.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/dsp.c > CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/dsp.c > CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/dsp.c -o CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/dsp.c -o CMakeFiles/bitsy_v1.img.dir/bios/dsp.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.o: ../bios/dsp2.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.o -c /home/roberts7531/Documents/emutos/bios/dsp2.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.o -c /home/roberts7531/Documents/emutos/bios/dsp2.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/dsp2.S > CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/dsp2.S > CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/dsp2.S -o CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/dsp2.S -o CMakeFiles/bitsy_v1.img.dir/bios/dsp2.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.o: ../bios/scsidriv.c
 CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.o -c /home/roberts7531/Documents/emutos/bios/scsidriv.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.o -c /home/roberts7531/Documents/emutos/bios/scsidriv.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/scsidriv.c > CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/scsidriv.c > CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/scsidriv.c -o CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/scsidriv.c -o CMakeFiles/bitsy_v1.img.dir/bios/scsidriv.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.o: ../bios/machine_r7531.c
 CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.o -c /home/roberts7531/Documents/emutos/bios/machine_r7531.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.o -c /home/roberts7531/Documents/emutos/bios/machine_r7531.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/machine_r7531.c > CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/machine_r7531.c > CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/machine_r7531.c -o CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/machine_r7531.c -o CMakeFiles/bitsy_v1.img.dir/bios/machine_r7531.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.o: ../bdos/bdosmain.c
 CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.o -c /home/roberts7531/Documents/emutos/bdos/bdosmain.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.o -c /home/roberts7531/Documents/emutos/bdos/bdosmain.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/bdosmain.c > CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/bdosmain.c > CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/bdosmain.c -o CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/bdosmain.c -o CMakeFiles/bitsy_v1.img.dir/bdos/bdosmain.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/console.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/console.c.o: ../bdos/console.c
 CMakeFiles/bitsy_v1.img.dir/bdos/console.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/console.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/console.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/console.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/console.c.o -c /home/roberts7531/Documents/emutos/bdos/console.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/console.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/console.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/console.c.o -c /home/roberts7531/Documents/emutos/bdos/console.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/console.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/console.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/console.c > CMakeFiles/bitsy_v1.img.dir/bdos/console.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/console.c > CMakeFiles/bitsy_v1.img.dir/bdos/console.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/console.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/console.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/console.c -o CMakeFiles/bitsy_v1.img.dir/bdos/console.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/console.c -o CMakeFiles/bitsy_v1.img.dir/bdos/console.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.o: ../bdos/fsbuf.c
 CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.o -c /home/roberts7531/Documents/emutos/bdos/fsbuf.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.o -c /home/roberts7531/Documents/emutos/bdos/fsbuf.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsbuf.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsbuf.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsbuf.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsbuf.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsbuf.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.o: ../bdos/fsdir.c
 CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.o -c /home/roberts7531/Documents/emutos/bdos/fsdir.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.o -c /home/roberts7531/Documents/emutos/bdos/fsdir.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsdir.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsdir.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsdir.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsdir.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsdir.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.o: ../bdos/fsdrive.c
 CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.o -c /home/roberts7531/Documents/emutos/bdos/fsdrive.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.o -c /home/roberts7531/Documents/emutos/bdos/fsdrive.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsdrive.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsdrive.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsdrive.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsdrive.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsdrive.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.o: ../bdos/fsfat.c
 CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.o -c /home/roberts7531/Documents/emutos/bdos/fsfat.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.o -c /home/roberts7531/Documents/emutos/bdos/fsfat.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsfat.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsfat.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsfat.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsfat.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsfat.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.o: ../bdos/fsglob.c
 CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.o -c /home/roberts7531/Documents/emutos/bdos/fsglob.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.o -c /home/roberts7531/Documents/emutos/bdos/fsglob.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsglob.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsglob.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsglob.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsglob.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsglob.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.o: ../bdos/fshand.c
 CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.o -c /home/roberts7531/Documents/emutos/bdos/fshand.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.o -c /home/roberts7531/Documents/emutos/bdos/fshand.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fshand.c > CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fshand.c > CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fshand.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fshand.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fshand.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.o: ../bdos/fsio.c
 CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.o -c /home/roberts7531/Documents/emutos/bdos/fsio.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.o -c /home/roberts7531/Documents/emutos/bdos/fsio.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsio.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsio.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsio.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsio.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsio.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.o: ../bdos/fsmain.c
 CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.o -c /home/roberts7531/Documents/emutos/bdos/fsmain.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.o -c /home/roberts7531/Documents/emutos/bdos/fsmain.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsmain.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsmain.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsmain.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsmain.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsmain.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.o: ../bdos/fsopnclo.c
 CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.o -c /home/roberts7531/Documents/emutos/bdos/fsopnclo.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.o -c /home/roberts7531/Documents/emutos/bdos/fsopnclo.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsopnclo.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/fsopnclo.c > CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsopnclo.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/fsopnclo.c -o CMakeFiles/bitsy_v1.img.dir/bdos/fsopnclo.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.o: ../bdos/iumem.c
 CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.o -c /home/roberts7531/Documents/emutos/bdos/iumem.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.o -c /home/roberts7531/Documents/emutos/bdos/iumem.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/iumem.c > CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/iumem.c > CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/iumem.c -o CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/iumem.c -o CMakeFiles/bitsy_v1.img.dir/bdos/iumem.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.o: ../bdos/kpgmld.c
 CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.o -c /home/roberts7531/Documents/emutos/bdos/kpgmld.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.o -c /home/roberts7531/Documents/emutos/bdos/kpgmld.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/kpgmld.c > CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/kpgmld.c > CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/kpgmld.c -o CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/kpgmld.c -o CMakeFiles/bitsy_v1.img.dir/bdos/kpgmld.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.o: ../bdos/osmem.c
 CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.o -c /home/roberts7531/Documents/emutos/bdos/osmem.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.o -c /home/roberts7531/Documents/emutos/bdos/osmem.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/osmem.c > CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/osmem.c > CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/osmem.c -o CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/osmem.c -o CMakeFiles/bitsy_v1.img.dir/bdos/osmem.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.o: ../bdos/proc.c
 CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.o -c /home/roberts7531/Documents/emutos/bdos/proc.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.o -c /home/roberts7531/Documents/emutos/bdos/proc.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/proc.c > CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/proc.c > CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/proc.c -o CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/proc.c -o CMakeFiles/bitsy_v1.img.dir/bdos/proc.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.o: ../bdos/rwa.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.o -c /home/roberts7531/Documents/emutos/bdos/rwa.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.o -c /home/roberts7531/Documents/emutos/bdos/rwa.S
 
 CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/rwa.S > CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/rwa.S > CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/rwa.S -o CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/rwa.S -o CMakeFiles/bitsy_v1.img.dir/bdos/rwa.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/time.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/time.c.o: ../bdos/time.c
 CMakeFiles/bitsy_v1.img.dir/bdos/time.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/time.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/time.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/time.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/time.c.o -c /home/roberts7531/Documents/emutos/bdos/time.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/time.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/time.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/time.c.o -c /home/roberts7531/Documents/emutos/bdos/time.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/time.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/time.c > CMakeFiles/bitsy_v1.img.dir/bdos/time.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/time.c > CMakeFiles/bitsy_v1.img.dir/bdos/time.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/time.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/time.c -o CMakeFiles/bitsy_v1.img.dir/bdos/time.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/time.c -o CMakeFiles/bitsy_v1.img.dir/bdos/time.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.o: ../bdos/umem.c
 CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.o -c /home/roberts7531/Documents/emutos/bdos/umem.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.o -MF CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.o -c /home/roberts7531/Documents/emutos/bdos/umem.c
 
 CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/umem.c > CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bdos/umem.c > CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/umem.c -o CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bdos/umem.c -o CMakeFiles/bitsy_v1.img.dir/bdos/umem.c.s
 
 CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o: ../util/cookie.c
 CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o -c /home/roberts7531/Documents/emutos/util/cookie.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/cookie.c.o -c /home/roberts7531/Documents/emutos/util/cookie.c
 
 CMakeFiles/bitsy_v1.img.dir/util/cookie.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/util/cookie.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/cookie.c > CMakeFiles/bitsy_v1.img.dir/util/cookie.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/cookie.c > CMakeFiles/bitsy_v1.img.dir/util/cookie.c.i
 
 CMakeFiles/bitsy_v1.img.dir/util/cookie.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/util/cookie.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/cookie.c -o CMakeFiles/bitsy_v1.img.dir/util/cookie.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/cookie.c -o CMakeFiles/bitsy_v1.img.dir/util/cookie.c.s
 
 CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o: ../util/doprintf.c
 CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o -c /home/roberts7531/Documents/emutos/util/doprintf.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.o -c /home/roberts7531/Documents/emutos/util/doprintf.c
 
 CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/doprintf.c > CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/doprintf.c > CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.i
 
 CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/doprintf.c -o CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/doprintf.c -o CMakeFiles/bitsy_v1.img.dir/util/doprintf.c.s
 
 CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o: ../util/intmath.c
 CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o -c /home/roberts7531/Documents/emutos/util/intmath.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/intmath.c.o -c /home/roberts7531/Documents/emutos/util/intmath.c
 
 CMakeFiles/bitsy_v1.img.dir/util/intmath.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/util/intmath.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/intmath.c > CMakeFiles/bitsy_v1.img.dir/util/intmath.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/intmath.c > CMakeFiles/bitsy_v1.img.dir/util/intmath.c.i
 
 CMakeFiles/bitsy_v1.img.dir/util/intmath.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/util/intmath.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/intmath.c -o CMakeFiles/bitsy_v1.img.dir/util/intmath.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/intmath.c -o CMakeFiles/bitsy_v1.img.dir/util/intmath.c.s
 
 CMakeFiles/bitsy_v1.img.dir/util/memmove.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/memmove.S.o: ../util/memmove.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building ASM object CMakeFiles/bitsy_v1.img.dir/util/memmove.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/memmove.S.o -c /home/roberts7531/Documents/emutos/util/memmove.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/memmove.S.o -c /home/roberts7531/Documents/emutos/util/memmove.S
 
 CMakeFiles/bitsy_v1.img.dir/util/memmove.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/util/memmove.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/memmove.S > CMakeFiles/bitsy_v1.img.dir/util/memmove.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/memmove.S > CMakeFiles/bitsy_v1.img.dir/util/memmove.S.i
 
 CMakeFiles/bitsy_v1.img.dir/util/memmove.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/util/memmove.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/memmove.S -o CMakeFiles/bitsy_v1.img.dir/util/memmove.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/memmove.S -o CMakeFiles/bitsy_v1.img.dir/util/memmove.S.s
 
 CMakeFiles/bitsy_v1.img.dir/util/memset.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/memset.S.o: ../util/memset.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building ASM object CMakeFiles/bitsy_v1.img.dir/util/memset.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/memset.S.o -c /home/roberts7531/Documents/emutos/util/memset.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/memset.S.o -c /home/roberts7531/Documents/emutos/util/memset.S
 
 CMakeFiles/bitsy_v1.img.dir/util/memset.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/util/memset.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/memset.S > CMakeFiles/bitsy_v1.img.dir/util/memset.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/memset.S > CMakeFiles/bitsy_v1.img.dir/util/memset.S.i
 
 CMakeFiles/bitsy_v1.img.dir/util/memset.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/util/memset.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/memset.S -o CMakeFiles/bitsy_v1.img.dir/util/memset.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/memset.S -o CMakeFiles/bitsy_v1.img.dir/util/memset.S.s
 
 CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.o: ../util/miscasm.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building ASM object CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.o -c /home/roberts7531/Documents/emutos/util/miscasm.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.o -c /home/roberts7531/Documents/emutos/util/miscasm.S
 
 CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/miscasm.S > CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/miscasm.S > CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.i
 
 CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/miscasm.S -o CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/miscasm.S -o CMakeFiles/bitsy_v1.img.dir/util/miscasm.S.s
 
 CMakeFiles/bitsy_v1.img.dir/util/nls.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/nls.c.o: ../util/nls.c
 CMakeFiles/bitsy_v1.img.dir/util/nls.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/bitsy_v1.img.dir/util/nls.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/nls.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/nls.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/nls.c.o -c /home/roberts7531/Documents/emutos/util/nls.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/nls.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/nls.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/nls.c.o -c /home/roberts7531/Documents/emutos/util/nls.c
 
 CMakeFiles/bitsy_v1.img.dir/util/nls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/util/nls.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/nls.c > CMakeFiles/bitsy_v1.img.dir/util/nls.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/nls.c > CMakeFiles/bitsy_v1.img.dir/util/nls.c.i
 
 CMakeFiles/bitsy_v1.img.dir/util/nls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/util/nls.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/nls.c -o CMakeFiles/bitsy_v1.img.dir/util/nls.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/nls.c -o CMakeFiles/bitsy_v1.img.dir/util/nls.c.s
 
 CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.o: ../util/nlsasm.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building ASM object CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.o -c /home/roberts7531/Documents/emutos/util/nlsasm.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.o -c /home/roberts7531/Documents/emutos/util/nlsasm.S
 
 CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/nlsasm.S > CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/nlsasm.S > CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.i
 
 CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/nlsasm.S -o CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/nlsasm.S -o CMakeFiles/bitsy_v1.img.dir/util/nlsasm.S.s
 
 CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.o: ../util/setjmp.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building ASM object CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.o -c /home/roberts7531/Documents/emutos/util/setjmp.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.o -c /home/roberts7531/Documents/emutos/util/setjmp.S
 
 CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/setjmp.S > CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/setjmp.S > CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.i
 
 CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/setjmp.S -o CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/setjmp.S -o CMakeFiles/bitsy_v1.img.dir/util/setjmp.S.s
 
 CMakeFiles/bitsy_v1.img.dir/util/string.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/string.c.o: ../util/string.c
 CMakeFiles/bitsy_v1.img.dir/util/string.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/bitsy_v1.img.dir/util/string.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/string.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/string.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/string.c.o -c /home/roberts7531/Documents/emutos/util/string.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/string.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/string.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/string.c.o -c /home/roberts7531/Documents/emutos/util/string.c
 
 CMakeFiles/bitsy_v1.img.dir/util/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/util/string.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/string.c > CMakeFiles/bitsy_v1.img.dir/util/string.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/string.c > CMakeFiles/bitsy_v1.img.dir/util/string.c.i
 
 CMakeFiles/bitsy_v1.img.dir/util/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/util/string.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/string.c -o CMakeFiles/bitsy_v1.img.dir/util/string.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/string.c -o CMakeFiles/bitsy_v1.img.dir/util/string.c.s
 
 CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.o: ../util/lisautil.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building ASM object CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.o -c /home/roberts7531/Documents/emutos/util/lisautil.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.o -c /home/roberts7531/Documents/emutos/util/lisautil.S
 
 CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/lisautil.S > CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/util/lisautil.S > CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.i
 
 CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/lisautil.S -o CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/util/lisautil.S -o CMakeFiles/bitsy_v1.img.dir/util/lisautil.S.s
 
 CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.o: ../util/miscutil.c
 CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.o -c /home/roberts7531/Documents/emutos/util/miscutil.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.o -MF CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.o.d -o CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.o -c /home/roberts7531/Documents/emutos/util/miscutil.c
 
 CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/miscutil.c > CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/util/miscutil.c > CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.i
 
 CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/miscutil.c -o CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/util/miscutil.c -o CMakeFiles/bitsy_v1.img.dir/util/miscutil.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.o: ../bios/fnt_off_6x6.c
 CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_off_6x6.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_off_6x6.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_off_6x6.c > CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_off_6x6.c > CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_off_6x6.c -o CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_off_6x6.c -o CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_6x6.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.o: ../bios/fnt_off_8x8.c
 CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_off_8x8.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.o -MF CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_off_8x8.c
 
 CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_off_8x8.c > CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_off_8x8.c > CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_off_8x8.c -o CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_off_8x8.c -o CMakeFiles/bitsy_v1.img.dir/bios/fnt_off_8x8.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.o: ../vdi/vdi_asm.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building ASM object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.o -c /home/roberts7531/Documents/emutos/vdi/vdi_asm.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.o -c /home/roberts7531/Documents/emutos/vdi/vdi_asm.S
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_asm.S > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_asm.S > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_asm.S -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_asm.S -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_asm.S.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.o: ../vdi/vdi_bezier.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_bezier.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_bezier.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_bezier.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_bezier.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_bezier.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_bezier.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_bezier.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.o: ../vdi/vdi_col.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_col.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_col.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_col.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_col.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_col.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_col.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_col.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.o: ../vdi/vdi_control.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_control.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_control.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_control.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_control.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_control.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_control.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_control.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.o: ../vdi/vdi_esc.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_esc.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_esc.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_esc.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_esc.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_esc.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_esc.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_esc.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.o: ../vdi/vdi_fill.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_fill.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_fill.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_fill.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_fill.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_fill.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_fill.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_fill.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.o: ../vdi/vdi_gdp.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_gdp.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_gdp.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_gdp.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_gdp.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_gdp.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_gdp.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_gdp.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.o: ../vdi/vdi_input.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_input.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_input.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_input.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_input.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_input.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_input.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_input.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.o: ../vdi/vdi_line.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_line.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_line.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_line.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_line.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_line.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_line.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_line.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.o: ../vdi/vdi_main.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_main.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_main.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_main.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_main.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_main.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_main.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_main.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.o: ../vdi/vdi_marker.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_marker.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_marker.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_marker.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_marker.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_marker.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_marker.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_marker.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.o: ../vdi/vdi_misc.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_misc.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_misc.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_misc.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_misc.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_misc.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_misc.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_misc.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.o: ../vdi/vdi_mouse.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_mouse.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_mouse.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_mouse.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_mouse.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_mouse.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_mouse.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_mouse.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.o: ../vdi/vdi_raster.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_raster.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_raster.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_raster.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_raster.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_raster.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_raster.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_raster.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.o: ../vdi/vdi_text.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_text.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_text.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_text.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_text.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_text.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_text.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_text.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.o: ../vdi/vdi_textblit.c
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_textblit.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.o -MF CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.o.d -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.o -c /home/roberts7531/Documents/emutos/vdi/vdi_textblit.c
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_textblit.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_textblit.c > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_textblit.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_textblit.c -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_textblit.c.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.o: ../vdi/vdi_blit.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building ASM object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.o -c /home/roberts7531/Documents/emutos/vdi/vdi_blit.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.o -c /home/roberts7531/Documents/emutos/vdi/vdi_blit.S
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_blit.S > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_blit.S > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_blit.S -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_blit.S -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_blit.S.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.o: ../vdi/vdi_tblit.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building ASM object CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.o -c /home/roberts7531/Documents/emutos/vdi/vdi_tblit.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.o -c /home/roberts7531/Documents/emutos/vdi/vdi_tblit.S
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_tblit.S > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/vdi_tblit.S > CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_tblit.S -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/vdi_tblit.S -o CMakeFiles/bitsy_v1.img.dir/vdi/vdi_tblit.S.s
 
 CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.o: ../vdi/endvdi.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building ASM object CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.o -c /home/roberts7531/Documents/emutos/vdi/endvdi.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.o -c /home/roberts7531/Documents/emutos/vdi/endvdi.S
 
 CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/endvdi.S > CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/vdi/endvdi.S > CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.i
 
 CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/endvdi.S -o CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/vdi/endvdi.S -o CMakeFiles/bitsy_v1.img.dir/vdi/endvdi.S.s
 
 CMakeFiles/bitsy_v1.img.dir/version.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/version.c.o: version.c
 CMakeFiles/bitsy_v1.img.dir/version.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/bitsy_v1.img.dir/version.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/version.c.o -MF CMakeFiles/bitsy_v1.img.dir/version.c.o.d -o CMakeFiles/bitsy_v1.img.dir/version.c.o -c /home/roberts7531/Documents/emutos/build/version.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/version.c.o -MF CMakeFiles/bitsy_v1.img.dir/version.c.o.d -o CMakeFiles/bitsy_v1.img.dir/version.c.o -c /home/roberts7531/Documents/emutos/build/version.c
 
 CMakeFiles/bitsy_v1.img.dir/version.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/version.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/build/version.c > CMakeFiles/bitsy_v1.img.dir/version.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/build/version.c > CMakeFiles/bitsy_v1.img.dir/version.c.i
 
 CMakeFiles/bitsy_v1.img.dir/version.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/version.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/build/version.c -o CMakeFiles/bitsy_v1.img.dir/version.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/build/version.c -o CMakeFiles/bitsy_v1.img.dir/version.c.s
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.o: ../cli/cmdasm.S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building ASM object CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.o -c /home/roberts7531/Documents/emutos/cli/cmdasm.S
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.o -c /home/roberts7531/Documents/emutos/cli/cmdasm.S
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdasm.S > CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdasm.S > CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.i
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdasm.S -o CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdasm.S -o CMakeFiles/bitsy_v1.img.dir/cli/cmdasm.S.s
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o: ../cli/cmdmain.c
 CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o -c /home/roberts7531/Documents/emutos/cli/cmdmain.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.o -c /home/roberts7531/Documents/emutos/cli/cmdmain.c
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdmain.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdmain.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.i
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdmain.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdmain.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdmain.c.s
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.o: ../cli/cmdedit.c
 CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.o -c /home/roberts7531/Documents/emutos/cli/cmdedit.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.o -c /home/roberts7531/Documents/emutos/cli/cmdedit.c
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdedit.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdedit.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.i
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdedit.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdedit.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdedit.c.s
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o: ../cli/cmdexec.c
 CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o -c /home/roberts7531/Documents/emutos/cli/cmdexec.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o -c /home/roberts7531/Documents/emutos/cli/cmdexec.c
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdexec.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdexec.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.i
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdexec.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdexec.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.s
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o: ../cli/cmdint.c
 CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o -c /home/roberts7531/Documents/emutos/cli/cmdint.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o -c /home/roberts7531/Documents/emutos/cli/cmdint.c
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdint.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdint.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.i
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdint.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdint.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.s
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o: ../cli/cmdparse.c
 CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o -c /home/roberts7531/Documents/emutos/cli/cmdparse.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o -c /home/roberts7531/Documents/emutos/cli/cmdparse.c
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdparse.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdparse.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.i
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdparse.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdparse.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.s
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o: ../cli/cmdutil.c
 CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o -c /home/roberts7531/Documents/emutos/cli/cmdutil.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o -c /home/roberts7531/Documents/emutos/cli/cmdutil.c
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdutil.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/cmdutil.c > CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.i
 
 CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdutil.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.s
-
-CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
-CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o: ../cli/v9958.c
-CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o -c /home/roberts7531/Documents/emutos/cli/v9958.c
-
-CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/v9958.c > CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.i
-
-CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/v9958.c -o CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.s
-
-CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
-CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o: ../cli/v99x8.c
-CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o -MF CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o.d -o CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o -c /home/roberts7531/Documents/emutos/cli/v99x8.c
-
-CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/cli/v99x8.c > CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.i
-
-CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/v99x8.c -o CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/cli/cmdutil.c -o CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.s
 
 CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.o: ../bios/spi_duart.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.o -c /home/roberts7531/Documents/emutos/bios/spi_duart.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building ASM object CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.o"
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.o -c /home/roberts7531/Documents/emutos/bios/spi_duart.S
 
 CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/spi_duart.S > CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.i
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/roberts7531/Documents/emutos/bios/spi_duart.S > CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.i
 
 CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/spi_duart.S -o CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.s
+	/usr/bin/m68k-atari-mint-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/roberts7531/Documents/emutos/bios/spi_duart.S -o CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.s
 
 CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o: CMakeFiles/bitsy_v1.img.dir/flags.make
 CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o: bitsy_v1/util/langs.c
 CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o: CMakeFiles/bitsy_v1.img.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o -MF CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o -c /home/roberts7531/Documents/emutos/build/bitsy_v1/util/langs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o"
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o -MF CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o.d -o CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o -c /home/roberts7531/Documents/emutos/build/bitsy_v1/util/langs.c
 
 CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/build/bitsy_v1/util/langs.c > CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/build/bitsy_v1/util/langs.c > CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.i
 
 CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/build/bitsy_v1/util/langs.c -o CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/build/bitsy_v1/util/langs.c -o CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.s
 
 # Object files for target bitsy_v1.img
 bitsy_v1_img_OBJECTS = \
@@ -1921,8 +1893,6 @@ bitsy_v1_img_OBJECTS = \
 "CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o" \
 "CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o" \
 "CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o" \
-"CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o" \
-"CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o" \
 "CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.o" \
 "CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o"
 
@@ -2049,8 +2019,6 @@ bitsy_v1.img: CMakeFiles/bitsy_v1.img.dir/cli/cmdexec.c.o
 bitsy_v1.img: CMakeFiles/bitsy_v1.img.dir/cli/cmdint.c.o
 bitsy_v1.img: CMakeFiles/bitsy_v1.img.dir/cli/cmdparse.c.o
 bitsy_v1.img: CMakeFiles/bitsy_v1.img.dir/cli/cmdutil.c.o
-bitsy_v1.img: CMakeFiles/bitsy_v1.img.dir/cli/v9958.c.o
-bitsy_v1.img: CMakeFiles/bitsy_v1.img.dir/cli/v99x8.c.o
 bitsy_v1.img: CMakeFiles/bitsy_v1.img.dir/bios/spi_duart.S.o
 bitsy_v1.img: CMakeFiles/bitsy_v1.img.dir/bitsy_v1/util/langs.c.o
 bitsy_v1.img: CMakeFiles/bitsy_v1.img.dir/build.make
@@ -2058,7 +2026,7 @@ bitsy_v1.img: libfont.a
 bitsy_v1.img: libbitsy_v1_endrom.a
 bitsy_v1.img: bitsy_v1/bitsy_v1pp.ld
 bitsy_v1.img: CMakeFiles/bitsy_v1.img.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Linking C executable bitsy_v1.img"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Linking C executable bitsy_v1.img"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bitsy_v1.img.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

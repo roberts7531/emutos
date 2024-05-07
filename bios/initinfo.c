@@ -258,7 +258,15 @@ static void cprintf_bytesize(ULONG bytes)
 
     cprintf("%lu %s", value, unit);
 }
-
+#define GPU_REG_DATA 0xc080ffff
+#define GPU_REG_REGNO 0xc080fffe
+#define GPU_REG_WPROT 0xc080fffd
+void gpuWriteReg(UBYTE reg, UBYTE data);
+void gpuWriteReg(UBYTE reg, UBYTE data){
+	*((volatile UBYTE*)GPU_REG_WPROT) = 0xaf;
+	*((volatile UBYTE*)GPU_REG_REGNO) = reg;
+	*((volatile UBYTE*)GPU_REG_DATA) = data;
+}
 /*
  * initinfo - Show initial configuration at startup
  *
@@ -266,8 +274,10 @@ static void cprintf_bytesize(ULONG bytes)
  */
 WORD initinfo(ULONG *pshiftbits)
 {
+    gpuWriteReg(0,0);
+
     int screen_height = v_cel_my + 1;
-    int initinfo_height = 19; /* Define ENABLE_KDEBUG to guess correct value */
+    int initinfo_height = 18; /* Define ENABLE_KDEBUG to guess correct value */
     int top_margin;
 #ifdef ENABLE_KDEBUG
     int actual_initinfo_height;
@@ -345,7 +355,7 @@ WORD initinfo(ULONG *pshiftbits)
     cprintf("\033j");       /* save current cursor position */
     cprint_devices(dev);
 
-    pair_start(_("Boot time")); cprint_asctime(); pair_end();
+    //pair_start(_("Boot time")); cprint_asctime(); pair_end();
 
     /* Print separator followed by blank line */
     set_line();

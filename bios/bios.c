@@ -17,7 +17,7 @@
  * option any later version.  See doc/license.txt for details.
  */
 
-/* #define ENABLE_KDEBUG */
+#define ENABLE_KDEBUG 
 
 #include "emutos.h"
 #include "biosext.h"
@@ -227,6 +227,7 @@ static void bios_init(void)
     KDEBUG(("amiga_uae_init()\n"));
     amiga_uae_init();
 #endif
+    vecs_init();        /* setup all exception vectors (above) */
 
     /* Initialize the processor */
     KDEBUG(("processor_init()\n"));
@@ -757,11 +758,12 @@ BOOL can_shutdown(void)
 
 void biosmain(void)
 {
+    //debugOut('B');
     BOOL show_initinfo;         /* TRUE if welcome screen must be displayed */
     ULONG shiftbits;
-
+    //debugOut('I');
     bios_init();                /* Initialize the BIOS */
-
+    //debugOut('D');
     /* Steem needs this to initialize its GEMDOS hard disk emulation.
      * This may change drvbits. See Steem sources:
      * File steem/code/emulator.cpp, function intercept_bios(). */
@@ -772,6 +774,7 @@ void biosmain(void)
      * this allows a boot device that was selected via the welcome
      * screen to persist across warm boots.
      */
+    //debugOut('A');
     if (FIRST_BOOT)
         bootdev = blkdev_avail(DEFAULT_BOOTDEV) ? DEFAULT_BOOTDEV : FLOPPY_BOOTDEV;
 
@@ -782,7 +785,7 @@ void biosmain(void)
 #else
     show_initinfo = FIRST_BOOT;
 #endif
-
+        //debugOut('W');
     if (show_initinfo)
         bootdev = initinfo(&shiftbits); /* show the welcome screen */
     else

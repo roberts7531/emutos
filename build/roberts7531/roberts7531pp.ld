@@ -1,8 +1,8 @@
 OUTPUT_FORMAT(binary)
 MEMORY
 {
-    stram : ORIGIN = 0x00000000, LENGTH = 14M
-    rom : ORIGIN = 0x700000, LENGTH = 1M
+    stram : ORIGIN = 0x00000000, LENGTH = 4M
+    rom : ORIGIN = 0x80000000, LENGTH = 1M
 }
 REGION_ALIAS("REGION_RAM", stram)
 REGION_ALIAS("REGION_READ_ONLY", rom)
@@ -96,11 +96,11 @@ _ramtop = 0x5a4;
 _ramvalid = 0x5a8;
 _bell_hook = 0x5ac;
 _kcl_hook = 0x5b0;
+_pmmutree = 0x700;
+ASSERT((ABSOLUTE(_pmmutree) & 0xf) == 0, "error: bad _pmmutree alignment");
         . = 0x800;
         sysvars_end = .;
     } >stram
-
-
     .stack :
     {
         _stkbot = .;

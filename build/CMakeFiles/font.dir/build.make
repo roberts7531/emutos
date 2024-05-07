@@ -73,211 +73,211 @@ CMakeFiles/font.dir/bios/fnt_st_6x6.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_st_6x6.c.o: ../bios/fnt_st_6x6.c
 CMakeFiles/font.dir/bios/fnt_st_6x6.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/font.dir/bios/fnt_st_6x6.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_st_6x6.c.o -MF CMakeFiles/font.dir/bios/fnt_st_6x6.c.o.d -o CMakeFiles/font.dir/bios/fnt_st_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_st_6x6.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_st_6x6.c.o -MF CMakeFiles/font.dir/bios/fnt_st_6x6.c.o.d -o CMakeFiles/font.dir/bios/fnt_st_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_st_6x6.c
 
 CMakeFiles/font.dir/bios/fnt_st_6x6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_st_6x6.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_st_6x6.c > CMakeFiles/font.dir/bios/fnt_st_6x6.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_st_6x6.c > CMakeFiles/font.dir/bios/fnt_st_6x6.c.i
 
 CMakeFiles/font.dir/bios/fnt_st_6x6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_st_6x6.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_st_6x6.c -o CMakeFiles/font.dir/bios/fnt_st_6x6.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_st_6x6.c -o CMakeFiles/font.dir/bios/fnt_st_6x6.c.s
 
 CMakeFiles/font.dir/bios/fnt_st_8x8.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_st_8x8.c.o: ../bios/fnt_st_8x8.c
 CMakeFiles/font.dir/bios/fnt_st_8x8.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/font.dir/bios/fnt_st_8x8.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_st_8x8.c.o -MF CMakeFiles/font.dir/bios/fnt_st_8x8.c.o.d -o CMakeFiles/font.dir/bios/fnt_st_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_st_8x8.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_st_8x8.c.o -MF CMakeFiles/font.dir/bios/fnt_st_8x8.c.o.d -o CMakeFiles/font.dir/bios/fnt_st_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_st_8x8.c
 
 CMakeFiles/font.dir/bios/fnt_st_8x8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_st_8x8.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_st_8x8.c > CMakeFiles/font.dir/bios/fnt_st_8x8.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_st_8x8.c > CMakeFiles/font.dir/bios/fnt_st_8x8.c.i
 
 CMakeFiles/font.dir/bios/fnt_st_8x8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_st_8x8.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_st_8x8.c -o CMakeFiles/font.dir/bios/fnt_st_8x8.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_st_8x8.c -o CMakeFiles/font.dir/bios/fnt_st_8x8.c.s
 
 CMakeFiles/font.dir/bios/fnt_st_8x16.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_st_8x16.c.o: ../bios/fnt_st_8x16.c
 CMakeFiles/font.dir/bios/fnt_st_8x16.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/font.dir/bios/fnt_st_8x16.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_st_8x16.c.o -MF CMakeFiles/font.dir/bios/fnt_st_8x16.c.o.d -o CMakeFiles/font.dir/bios/fnt_st_8x16.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_st_8x16.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_st_8x16.c.o -MF CMakeFiles/font.dir/bios/fnt_st_8x16.c.o.d -o CMakeFiles/font.dir/bios/fnt_st_8x16.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_st_8x16.c
 
 CMakeFiles/font.dir/bios/fnt_st_8x16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_st_8x16.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_st_8x16.c > CMakeFiles/font.dir/bios/fnt_st_8x16.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_st_8x16.c > CMakeFiles/font.dir/bios/fnt_st_8x16.c.i
 
 CMakeFiles/font.dir/bios/fnt_st_8x16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_st_8x16.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_st_8x16.c -o CMakeFiles/font.dir/bios/fnt_st_8x16.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_st_8x16.c -o CMakeFiles/font.dir/bios/fnt_st_8x16.c.s
 
 CMakeFiles/font.dir/bios/fnt_l2_6x6.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_l2_6x6.c.o: ../bios/fnt_l2_6x6.c
 CMakeFiles/font.dir/bios/fnt_l2_6x6.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/font.dir/bios/fnt_l2_6x6.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_l2_6x6.c.o -MF CMakeFiles/font.dir/bios/fnt_l2_6x6.c.o.d -o CMakeFiles/font.dir/bios/fnt_l2_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_l2_6x6.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_l2_6x6.c.o -MF CMakeFiles/font.dir/bios/fnt_l2_6x6.c.o.d -o CMakeFiles/font.dir/bios/fnt_l2_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_l2_6x6.c
 
 CMakeFiles/font.dir/bios/fnt_l2_6x6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_l2_6x6.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_l2_6x6.c > CMakeFiles/font.dir/bios/fnt_l2_6x6.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_l2_6x6.c > CMakeFiles/font.dir/bios/fnt_l2_6x6.c.i
 
 CMakeFiles/font.dir/bios/fnt_l2_6x6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_l2_6x6.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_l2_6x6.c -o CMakeFiles/font.dir/bios/fnt_l2_6x6.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_l2_6x6.c -o CMakeFiles/font.dir/bios/fnt_l2_6x6.c.s
 
 CMakeFiles/font.dir/bios/fnt_l2_8x8.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_l2_8x8.c.o: ../bios/fnt_l2_8x8.c
 CMakeFiles/font.dir/bios/fnt_l2_8x8.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/font.dir/bios/fnt_l2_8x8.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_l2_8x8.c.o -MF CMakeFiles/font.dir/bios/fnt_l2_8x8.c.o.d -o CMakeFiles/font.dir/bios/fnt_l2_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_l2_8x8.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_l2_8x8.c.o -MF CMakeFiles/font.dir/bios/fnt_l2_8x8.c.o.d -o CMakeFiles/font.dir/bios/fnt_l2_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_l2_8x8.c
 
 CMakeFiles/font.dir/bios/fnt_l2_8x8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_l2_8x8.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_l2_8x8.c > CMakeFiles/font.dir/bios/fnt_l2_8x8.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_l2_8x8.c > CMakeFiles/font.dir/bios/fnt_l2_8x8.c.i
 
 CMakeFiles/font.dir/bios/fnt_l2_8x8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_l2_8x8.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_l2_8x8.c -o CMakeFiles/font.dir/bios/fnt_l2_8x8.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_l2_8x8.c -o CMakeFiles/font.dir/bios/fnt_l2_8x8.c.s
 
 CMakeFiles/font.dir/bios/fnt_l2_8x16.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_l2_8x16.c.o: ../bios/fnt_l2_8x16.c
 CMakeFiles/font.dir/bios/fnt_l2_8x16.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/font.dir/bios/fnt_l2_8x16.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_l2_8x16.c.o -MF CMakeFiles/font.dir/bios/fnt_l2_8x16.c.o.d -o CMakeFiles/font.dir/bios/fnt_l2_8x16.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_l2_8x16.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_l2_8x16.c.o -MF CMakeFiles/font.dir/bios/fnt_l2_8x16.c.o.d -o CMakeFiles/font.dir/bios/fnt_l2_8x16.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_l2_8x16.c
 
 CMakeFiles/font.dir/bios/fnt_l2_8x16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_l2_8x16.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_l2_8x16.c > CMakeFiles/font.dir/bios/fnt_l2_8x16.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_l2_8x16.c > CMakeFiles/font.dir/bios/fnt_l2_8x16.c.i
 
 CMakeFiles/font.dir/bios/fnt_l2_8x16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_l2_8x16.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_l2_8x16.c -o CMakeFiles/font.dir/bios/fnt_l2_8x16.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_l2_8x16.c -o CMakeFiles/font.dir/bios/fnt_l2_8x16.c.s
 
 CMakeFiles/font.dir/bios/fnt_gr_6x6.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_gr_6x6.c.o: ../bios/fnt_gr_6x6.c
 CMakeFiles/font.dir/bios/fnt_gr_6x6.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/font.dir/bios/fnt_gr_6x6.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_gr_6x6.c.o -MF CMakeFiles/font.dir/bios/fnt_gr_6x6.c.o.d -o CMakeFiles/font.dir/bios/fnt_gr_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_gr_6x6.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_gr_6x6.c.o -MF CMakeFiles/font.dir/bios/fnt_gr_6x6.c.o.d -o CMakeFiles/font.dir/bios/fnt_gr_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_gr_6x6.c
 
 CMakeFiles/font.dir/bios/fnt_gr_6x6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_gr_6x6.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_gr_6x6.c > CMakeFiles/font.dir/bios/fnt_gr_6x6.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_gr_6x6.c > CMakeFiles/font.dir/bios/fnt_gr_6x6.c.i
 
 CMakeFiles/font.dir/bios/fnt_gr_6x6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_gr_6x6.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_gr_6x6.c -o CMakeFiles/font.dir/bios/fnt_gr_6x6.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_gr_6x6.c -o CMakeFiles/font.dir/bios/fnt_gr_6x6.c.s
 
 CMakeFiles/font.dir/bios/fnt_gr_8x8.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_gr_8x8.c.o: ../bios/fnt_gr_8x8.c
 CMakeFiles/font.dir/bios/fnt_gr_8x8.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/font.dir/bios/fnt_gr_8x8.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_gr_8x8.c.o -MF CMakeFiles/font.dir/bios/fnt_gr_8x8.c.o.d -o CMakeFiles/font.dir/bios/fnt_gr_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_gr_8x8.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_gr_8x8.c.o -MF CMakeFiles/font.dir/bios/fnt_gr_8x8.c.o.d -o CMakeFiles/font.dir/bios/fnt_gr_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_gr_8x8.c
 
 CMakeFiles/font.dir/bios/fnt_gr_8x8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_gr_8x8.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_gr_8x8.c > CMakeFiles/font.dir/bios/fnt_gr_8x8.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_gr_8x8.c > CMakeFiles/font.dir/bios/fnt_gr_8x8.c.i
 
 CMakeFiles/font.dir/bios/fnt_gr_8x8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_gr_8x8.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_gr_8x8.c -o CMakeFiles/font.dir/bios/fnt_gr_8x8.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_gr_8x8.c -o CMakeFiles/font.dir/bios/fnt_gr_8x8.c.s
 
 CMakeFiles/font.dir/bios/fnt_gr_8x16.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_gr_8x16.c.o: ../bios/fnt_gr_8x16.c
 CMakeFiles/font.dir/bios/fnt_gr_8x16.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/font.dir/bios/fnt_gr_8x16.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_gr_8x16.c.o -MF CMakeFiles/font.dir/bios/fnt_gr_8x16.c.o.d -o CMakeFiles/font.dir/bios/fnt_gr_8x16.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_gr_8x16.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_gr_8x16.c.o -MF CMakeFiles/font.dir/bios/fnt_gr_8x16.c.o.d -o CMakeFiles/font.dir/bios/fnt_gr_8x16.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_gr_8x16.c
 
 CMakeFiles/font.dir/bios/fnt_gr_8x16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_gr_8x16.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_gr_8x16.c > CMakeFiles/font.dir/bios/fnt_gr_8x16.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_gr_8x16.c > CMakeFiles/font.dir/bios/fnt_gr_8x16.c.i
 
 CMakeFiles/font.dir/bios/fnt_gr_8x16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_gr_8x16.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_gr_8x16.c -o CMakeFiles/font.dir/bios/fnt_gr_8x16.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_gr_8x16.c -o CMakeFiles/font.dir/bios/fnt_gr_8x16.c.s
 
 CMakeFiles/font.dir/bios/fnt_ru_6x6.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_ru_6x6.c.o: ../bios/fnt_ru_6x6.c
 CMakeFiles/font.dir/bios/fnt_ru_6x6.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/font.dir/bios/fnt_ru_6x6.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_ru_6x6.c.o -MF CMakeFiles/font.dir/bios/fnt_ru_6x6.c.o.d -o CMakeFiles/font.dir/bios/fnt_ru_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_ru_6x6.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_ru_6x6.c.o -MF CMakeFiles/font.dir/bios/fnt_ru_6x6.c.o.d -o CMakeFiles/font.dir/bios/fnt_ru_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_ru_6x6.c
 
 CMakeFiles/font.dir/bios/fnt_ru_6x6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_ru_6x6.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_ru_6x6.c > CMakeFiles/font.dir/bios/fnt_ru_6x6.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_ru_6x6.c > CMakeFiles/font.dir/bios/fnt_ru_6x6.c.i
 
 CMakeFiles/font.dir/bios/fnt_ru_6x6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_ru_6x6.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_ru_6x6.c -o CMakeFiles/font.dir/bios/fnt_ru_6x6.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_ru_6x6.c -o CMakeFiles/font.dir/bios/fnt_ru_6x6.c.s
 
 CMakeFiles/font.dir/bios/fnt_ru_8x8.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_ru_8x8.c.o: ../bios/fnt_ru_8x8.c
 CMakeFiles/font.dir/bios/fnt_ru_8x8.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/font.dir/bios/fnt_ru_8x8.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_ru_8x8.c.o -MF CMakeFiles/font.dir/bios/fnt_ru_8x8.c.o.d -o CMakeFiles/font.dir/bios/fnt_ru_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_ru_8x8.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_ru_8x8.c.o -MF CMakeFiles/font.dir/bios/fnt_ru_8x8.c.o.d -o CMakeFiles/font.dir/bios/fnt_ru_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_ru_8x8.c
 
 CMakeFiles/font.dir/bios/fnt_ru_8x8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_ru_8x8.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_ru_8x8.c > CMakeFiles/font.dir/bios/fnt_ru_8x8.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_ru_8x8.c > CMakeFiles/font.dir/bios/fnt_ru_8x8.c.i
 
 CMakeFiles/font.dir/bios/fnt_ru_8x8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_ru_8x8.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_ru_8x8.c -o CMakeFiles/font.dir/bios/fnt_ru_8x8.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_ru_8x8.c -o CMakeFiles/font.dir/bios/fnt_ru_8x8.c.s
 
 CMakeFiles/font.dir/bios/fnt_ru_8x16.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_ru_8x16.c.o: ../bios/fnt_ru_8x16.c
 CMakeFiles/font.dir/bios/fnt_ru_8x16.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/font.dir/bios/fnt_ru_8x16.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_ru_8x16.c.o -MF CMakeFiles/font.dir/bios/fnt_ru_8x16.c.o.d -o CMakeFiles/font.dir/bios/fnt_ru_8x16.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_ru_8x16.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_ru_8x16.c.o -MF CMakeFiles/font.dir/bios/fnt_ru_8x16.c.o.d -o CMakeFiles/font.dir/bios/fnt_ru_8x16.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_ru_8x16.c
 
 CMakeFiles/font.dir/bios/fnt_ru_8x16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_ru_8x16.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_ru_8x16.c > CMakeFiles/font.dir/bios/fnt_ru_8x16.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_ru_8x16.c > CMakeFiles/font.dir/bios/fnt_ru_8x16.c.i
 
 CMakeFiles/font.dir/bios/fnt_ru_8x16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_ru_8x16.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_ru_8x16.c -o CMakeFiles/font.dir/bios/fnt_ru_8x16.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_ru_8x16.c -o CMakeFiles/font.dir/bios/fnt_ru_8x16.c.s
 
 CMakeFiles/font.dir/bios/fnt_tr_6x6.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_tr_6x6.c.o: ../bios/fnt_tr_6x6.c
 CMakeFiles/font.dir/bios/fnt_tr_6x6.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/font.dir/bios/fnt_tr_6x6.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_tr_6x6.c.o -MF CMakeFiles/font.dir/bios/fnt_tr_6x6.c.o.d -o CMakeFiles/font.dir/bios/fnt_tr_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_tr_6x6.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_tr_6x6.c.o -MF CMakeFiles/font.dir/bios/fnt_tr_6x6.c.o.d -o CMakeFiles/font.dir/bios/fnt_tr_6x6.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_tr_6x6.c
 
 CMakeFiles/font.dir/bios/fnt_tr_6x6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_tr_6x6.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_tr_6x6.c > CMakeFiles/font.dir/bios/fnt_tr_6x6.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_tr_6x6.c > CMakeFiles/font.dir/bios/fnt_tr_6x6.c.i
 
 CMakeFiles/font.dir/bios/fnt_tr_6x6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_tr_6x6.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_tr_6x6.c -o CMakeFiles/font.dir/bios/fnt_tr_6x6.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_tr_6x6.c -o CMakeFiles/font.dir/bios/fnt_tr_6x6.c.s
 
 CMakeFiles/font.dir/bios/fnt_tr_8x8.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_tr_8x8.c.o: ../bios/fnt_tr_8x8.c
 CMakeFiles/font.dir/bios/fnt_tr_8x8.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/font.dir/bios/fnt_tr_8x8.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_tr_8x8.c.o -MF CMakeFiles/font.dir/bios/fnt_tr_8x8.c.o.d -o CMakeFiles/font.dir/bios/fnt_tr_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_tr_8x8.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_tr_8x8.c.o -MF CMakeFiles/font.dir/bios/fnt_tr_8x8.c.o.d -o CMakeFiles/font.dir/bios/fnt_tr_8x8.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_tr_8x8.c
 
 CMakeFiles/font.dir/bios/fnt_tr_8x8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_tr_8x8.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_tr_8x8.c > CMakeFiles/font.dir/bios/fnt_tr_8x8.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_tr_8x8.c > CMakeFiles/font.dir/bios/fnt_tr_8x8.c.i
 
 CMakeFiles/font.dir/bios/fnt_tr_8x8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_tr_8x8.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_tr_8x8.c -o CMakeFiles/font.dir/bios/fnt_tr_8x8.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_tr_8x8.c -o CMakeFiles/font.dir/bios/fnt_tr_8x8.c.s
 
 CMakeFiles/font.dir/bios/fnt_tr_8x16.c.o: CMakeFiles/font.dir/flags.make
 CMakeFiles/font.dir/bios/fnt_tr_8x16.c.o: ../bios/fnt_tr_8x16.c
 CMakeFiles/font.dir/bios/fnt_tr_8x16.c.o: CMakeFiles/font.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/font.dir/bios/fnt_tr_8x16.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_tr_8x16.c.o -MF CMakeFiles/font.dir/bios/fnt_tr_8x16.c.o.d -o CMakeFiles/font.dir/bios/fnt_tr_8x16.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_tr_8x16.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/font.dir/bios/fnt_tr_8x16.c.o -MF CMakeFiles/font.dir/bios/fnt_tr_8x16.c.o.d -o CMakeFiles/font.dir/bios/fnt_tr_8x16.c.o -c /home/roberts7531/Documents/emutos/bios/fnt_tr_8x16.c
 
 CMakeFiles/font.dir/bios/fnt_tr_8x16.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/font.dir/bios/fnt_tr_8x16.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_tr_8x16.c > CMakeFiles/font.dir/bios/fnt_tr_8x16.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/fnt_tr_8x16.c > CMakeFiles/font.dir/bios/fnt_tr_8x16.c.i
 
 CMakeFiles/font.dir/bios/fnt_tr_8x16.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/font.dir/bios/fnt_tr_8x16.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_tr_8x16.c -o CMakeFiles/font.dir/bios/fnt_tr_8x16.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/fnt_tr_8x16.c -o CMakeFiles/font.dir/bios/fnt_tr_8x16.c.s
 
 # Object files for target font
 font_OBJECTS = \

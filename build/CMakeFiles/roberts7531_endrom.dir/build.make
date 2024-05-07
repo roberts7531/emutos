@@ -73,15 +73,15 @@ CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o: CMakeFiles/roberts7531_endrom
 CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o: ../bios/endrom.c
 CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o: CMakeFiles/roberts7531_endrom.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roberts7531/Documents/emutos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o -MF CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o.d -o CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o -c /home/roberts7531/Documents/emutos/bios/endrom.c
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o -MF CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o.d -o CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.o -c /home/roberts7531/Documents/emutos/bios/endrom.c
 
 CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.i"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/endrom.c > CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.i
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/roberts7531/Documents/emutos/bios/endrom.c > CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.i
 
 CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.s"
-	/usr/bin/m68k-atari-mint-gcc-4.6.4 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/endrom.c -o CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.s
+	/usr/bin/m68k-atari-mint-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/roberts7531/Documents/emutos/bios/endrom.c -o CMakeFiles/roberts7531_endrom.dir/bios/endrom.c.s
 
 # Object files for target roberts7531_endrom
 roberts7531_endrom_OBJECTS = \

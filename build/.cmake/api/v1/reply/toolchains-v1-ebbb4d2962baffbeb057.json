@@ -1,0 +1,62 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "/usr/bin/m68k-atari-mint-gcc",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/usr/lib/gcc/m68k-atari-mint/4.6.4/include",
+						"/usr/lib/gcc/m68k-atari-mint/4.6.4/include-fixed",
+						"/usr/m68k-atari-mint/include"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/lib/gcc/m68k-atari-mint/4.6.4",
+						"/usr/m68k-atari-mint/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"c",
+						"gcc"
+					]
+				},
+				"path" : "/usr/bin/m68k-atari-mint-gcc",
+				"version" : "4.6.4"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -16,10 +16,10 @@ void r7531_ikbd_init(void){
  	write_duart(DUART_CSRB,0xCC);
  	/* MOVE.B #$93,MRA Set port A to 8 bit character, no parity*/
  	write_duart(DUART_MRB,0x13);
- 	write_duart(DUART_MRB,0x17);
+ 	write_duart(DUART_MRB,0x07);
  	write_duart(DUART_CRB,0x05);
 
-	write_duart(DUART_THRA,'a');
+
 	return;
 }
 // 0 no -1 yes
@@ -33,12 +33,12 @@ UBYTE r7531_ikbd_cinRdy(void){
 
 
 static void duart_out(UBYTE byte){
-	while(!(read_duart(DUART_SRA)&DUART_SR_TXRDY)){}
-	write_duart(DUART_THRA,byte);
+	while(!(read_duart(DUART_SRB)&DUART_SR_TXRDY)){}
+	write_duart(DUART_THRB,byte);
 }
 
 void r7531_ikbd_writeb(UBYTE byte){
-	duart_out(byte);
+	//duart_out(byte);
 } 
 
 UBYTE r7531_ikbd_readb(WORD timeout){
