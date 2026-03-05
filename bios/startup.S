@@ -368,8 +368,8 @@ _realmain:
 #if defined(MACHINE_ROBERTS7531)
         // This SBC requires a write to 0x00B0xxxx to map RAM 
         // to 0x0. ROM (at 0x00700000) is mapped there on boot.
-        move.l  #0,0xB00000
         
+        move.l  #0,0xB00000
         //lea _int_vbl,A0
         //move.l a0,0x68
         
@@ -380,11 +380,11 @@ _realmain:
 	MOVE.B #0x93,MRA
 	MOVE.B #0x07,MRA
  	MOVE.B #0x60,ACR 
- 	MOVE.b CRA,D0
- 	MOVE.B #0x66,CSRA 
- 	move.b #0,CUR
- 	move.b #2,CLR
- 	move.b OPRC,D0
+ 	//MOVE.b CRA,D0
+ 	MOVE.B #0xcc,CSRA 
+ 	//move.b #0,CUR
+ 	//move.b #2,CLR
+ 	//move.b OPRC,D0
  	
 
  	MOVE.B #0x05,CRA 

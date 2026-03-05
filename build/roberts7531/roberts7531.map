@@ -249,1369 +249,1373 @@ Linker script and memory map
                 0x0000000000000001                ASSERT (((ABSOLUTE (_dskbuf) & 0x3) == 0x0), error: bad _dskbuf alignment)
                 0x0000000000000001                ASSERT ((ABSOLUTE (__low_stram_end) <= 0x8000), error: .low_stram section extends beyond 32k)
 
-.text           0x0000000080000000    0x42794
+.text           0x0000000080000000    0x42534
  CREATE_OBJECT_SYMBOLS
                 0x0000000080000000                __text = .
  *(.text)
  .text          0x0000000080000000        0x0 CMakeFiles/roberts7531.img.dir/bios/lowstram.c.o
  .text          0x0000000080000000        0x0 CMakeFiles/roberts7531.img.dir/bios/lineavars.S.o
- .text          0x0000000080000000      0x168 CMakeFiles/roberts7531.img.dir/bios/startup.S.o
+ .text          0x0000000080000000      0x14c CMakeFiles/roberts7531.img.dir/bios/startup.S.o
                 0x0000000080000000                _os_header
                 0x0000000080000030                _main
                 0x000000008000004c                _osxhbootdelay
-                0x000000008000015c                memdone
- .text          0x0000000080000168      0x104 CMakeFiles/roberts7531.img.dir/bios/memory.S.o
-                0x0000000080000168                meminit
-                0x0000000080000210                _detect_32bit_address_bus
- .text          0x000000008000026c      0x2b0 CMakeFiles/roberts7531.img.dir/bios/processor.S.o
-                0x00000000800003bc                _processor_init
-                0x0000000080000492                _invalidate_instruction_cache
-                0x0000000080000492                _instruction_cache_kludge
-                0x00000000800004d0                _flush_data_cache
-                0x00000000800004d2                _invalidate_data_cache
- .text          0x000000008000051c      0x5a0 CMakeFiles/roberts7531.img.dir/bios/vectors.S.o
-                0x000000008000051c                _init_exc_vec
-                0x0000000080000534                _init_user_vec
-                0x000000008000062e                _int_vbl
-                0x0000000080000686                _int_timerc
-                0x00000000800006ae                _duart_interrupt
-                0x000000008000073a                _call_etv_critic
-                0x0000000080000754                _default_etv_critic
-                0x000000008000075c                _int_illegal
-                0x0000000080000782                _int_priv
-                0x00000000800007e4                _int_unimpint
-                0x0000000080000a00                _biostrap
-                0x0000000080000a0e                _xbiostrap
-                0x0000000080000a68                _just_rte
-                0x0000000080000a6a                _xbios_unimpl
-                0x0000000080000a76                _supexec
-                0x0000000080000a7c                _check_read_byte
-                0x0000000080000aa6                _keyclick
- .text          0x0000000080000abc      0x1bc CMakeFiles/roberts7531.img.dir/bios/aciavecs.S.o
-                0x0000000080000abc                _init_acia_vecs
-                0x0000000080000b74                ikbdraw
-                0x0000000080000c62                _call_mousevec
- .text          0x0000000080000c78      0xb90 CMakeFiles/roberts7531.img.dir/bios/bios.c.o
-                0x0000000080000c78                _setexc
-                0x0000000080000c94                _tickcal
-                0x0000000080000c98                _drvmap
-                0x0000000080000c9e                _mediach
-                0x0000000080000cb2                _getbpb
-                0x0000000080000cc6                _lrwabs
-                0x0000000080000d94                _bcostat
-                0x0000000080000df8                _bconin
-                0x0000000080000e5c                _bconstat
-                0x0000000080000ec0                _bconout
-                0x0000000080001224                _biosmain
-                0x000000008000178a                _bconout_str
-                0x00000000800017b6                _is_text_pointer
-                0x00000000800017d4                _bios_ent
-                0x00000000800017d6                _bios_vecs
- .text          0x0000000080001808      0x19c CMakeFiles/roberts7531.img.dir/bios/xbios.c.o
-                0x0000000080001896                _xbios_do_unimpl
-                0x000000008000189e                _xbios_ent
-                0x00000000800018a0                _xbios_vecs
- .text          0x00000000800019a4        0x0 CMakeFiles/roberts7531.img.dir/bios/acsi.c.o
- .text          0x00000000800019a4       0xc8 CMakeFiles/roberts7531.img.dir/bios/biosmem.c.o
-                0x00000000800019a4                _bmem_init
-                0x00000000800019ea                _balloc_stram
-                0x0000000080001a36                _getmpb
- .text          0x0000000080001a6c      0xbd8 CMakeFiles/roberts7531.img.dir/bios/blkdev.c.o
-                0x0000000080001fa2                _blkdev_getbpb
-                0x0000000080002388                _compute_cksum
-                0x000000008000239e                _blkdev_init
-                0x00000000800024de                _blkdev_boot
-                0x0000000080002512                _add_partition
-                0x0000000080002608                _get_shift
-                0x000000008000262a                _blkdev_drvmap
-                0x0000000080002632                _blkdev_avail
- .text          0x0000000080002644      0x150 CMakeFiles/roberts7531.img.dir/bios/chardev.c.o
-                0x0000000080002644                _char_dummy
-                0x0000000080002648                _charout_dummy
-                0x000000008000264c                _bcostat2
-                0x000000008000265a                _bconout5
-                0x0000000080002680                _bconout2
-                0x0000000080002690                _chardev_init
- .text          0x0000000080002794       0x28 CMakeFiles/roberts7531.img.dir/bios/clock.c.o
-                0x0000000080002794                _clock_init
-                0x0000000080002796                _settime
-                0x00000000800027ac                _gettime
- .text          0x00000000800027bc      0x258 CMakeFiles/roberts7531.img.dir/bios/conout.c.o
-                0x00000000800027bc                _invert_cell
-                0x00000000800027be                _move_cursor
-                0x000000008000280c                _blank_out
-                0x000000008000287a                _scroll_up
-                0x00000000800028f2                _ascii_out
-                0x000000008000299c                _scroll_down
- .text          0x0000000080002a14      0x204 CMakeFiles/roberts7531.img.dir/bios/country.c.o
-                0x0000000080002a14                _detect_akp
-                0x0000000080002a44                _detect_idt
-                0x0000000080002a4e                _get_keytbl
-                0x0000000080002a56                _get_fonts
- .text          0x0000000080002c18      0xd94 CMakeFiles/roberts7531.img.dir/bios/disk.c.o
-                0x0000000080002d16                _byteswap
-                0x0000000080002d30                _disk_inquire
-                0x0000000080002d34                _disk_get_capacity
-                0x0000000080002db8                _disk_rw
-                0x0000000080003772                _disk_rescan
-                0x00000000800037ca                _disk_mediach
-                0x000000008000384a                _disk_init_all
-                0x00000000800038fe                _DMAread
-                0x000000008000395c                _DMAwrite
- .text          0x00000000800039ac       0x14 CMakeFiles/roberts7531.img.dir/bios/dma.c.o
-                0x00000000800039ac                _set_dma_addr
- .text          0x00000000800039c0        0x0 CMakeFiles/roberts7531.img.dir/bios/dmasound.c.o
- .text          0x00000000800039c0      0x5fc CMakeFiles/roberts7531.img.dir/bios/floppy.c.o
-                0x00000000800039c0                _flop_hdv_init
-                0x00000000800039e8                _flop_boot_read
-                0x00000000800039ec                _flop_checksum
-                0x0000000080003a2a                _flop_mediach
-                0x0000000080003a72                _floppy_rw
-                0x0000000080003a76                _protobt
-                0x0000000080003ba2                _floprd
-                0x0000000080003ba6                _flopwr
-                0x0000000080003baa                _flopver
-                0x0000000080003bda                _flopfmt
-                0x0000000080003eba                _floprate
- .text          0x0000000080003fbc      0x114 CMakeFiles/roberts7531.img.dir/bios/font.c.o
-                0x0000000080003fbc                _font_init
-                0x000000008000404c                _font_set_default
- .text          0x00000000800040d0      0xc6c CMakeFiles/roberts7531.img.dir/bios/ide.c.o
-                0x0000000080004628                _detect_ide
-                0x0000000080004676                _ide_init
-                0x0000000080004920                _ide_rw
-                0x0000000080004cac                _ide_ioctl
- .text          0x0000000080004d3c      0xe40 CMakeFiles/roberts7531.img.dir/bios/ikbd.c.o
-                0x0000000080005328                _keytbl
-                0x0000000080005364                _bioskeys
-                0x000000008000539e                _kbshift
-                0x00000000800053b8                _push_ascii_ikbdiorec
-                0x00000000800053fa                _bconstat2
-                0x0000000080005432                _bconin2
-                0x00000000800054b4                _kbrate
-                0x00000000800054f6                _kb_timerc_int
-                0x000000008000560e                _kbd_int
-                0x0000000080005a12                _ikbd_int
-                0x0000000080005aa2                _bcostat4
-                0x0000000080005aa6                _bconout4
-                0x0000000080005aba                _ikbdws
-                0x0000000080005ae6                _ikbd_writeb
-                0x0000000080005af6                _ikbd_writew
-                0x0000000080005b1a                _kbd_init
- .text          0x0000000080005b7c      0x724 CMakeFiles/roberts7531.img.dir/bios/initinfo.c.o
-                0x0000000080005d1c                _gpuWriteReg
-                0x0000000080005e30                _initinfo
-                0x00000000800061da                _display_startup_msg
- .text          0x00000000800062a0      0xa54 CMakeFiles/roberts7531.img.dir/bios/kprint.c.o
-                0x00000000800063da                _debugOut2
-                0x00000000800063f6                _cprintf
-                0x0000000080006414                _kprintf
-                0x000000008000643a                _kcprintf
-                0x0000000080006648                _dopanic
- .text          0x0000000080006cf4        0x0 CMakeFiles/roberts7531.img.dir/bios/kprintasm.S.o
- .text          0x0000000080006cf4       0xc4 CMakeFiles/roberts7531.img.dir/bios/linea.S.o
-                0x0000000080006cf4                _int_linea
- .text          0x0000000080006db8       0x84 CMakeFiles/roberts7531.img.dir/bios/lineainit.c.o
-                0x0000000080006db8                _set_screen_shift
-                0x0000000080006de4                _linea_init
- .text          0x0000000080006e3c      0x344 CMakeFiles/roberts7531.img.dir/bios/machine.c.o
-                0x0000000080006e78                _machine_detect
-                0x0000000080006f08                _machine_init
-                0x0000000080006f96                _fill_cookie_jar
-                0x00000000800070fe                _machine_name
- .text          0x0000000080007180       0x18 CMakeFiles/roberts7531.img.dir/bios/mfp.c.o
-                0x0000000080007180                _init_system_timer
- .text          0x0000000080007198       0x34 CMakeFiles/roberts7531.img.dir/bios/midi.c.o
-                0x0000000080007198                _bconstat3
-                0x00000000800071ae                _bconin3
-                0x00000000800071c2                _bcostat3
-                0x00000000800071c6                _bconout3
-                0x00000000800071c8                _midiws
-                0x00000000800071ca                _midi_init
- .text          0x00000000800071cc      0x178 CMakeFiles/roberts7531.img.dir/bios/mouse.c.o
-                0x00000000800071cc                _Initmous
- .text          0x0000000080007344       0x1c CMakeFiles/roberts7531.img.dir/bios/natfeat.S.o
-                0x0000000080007348                _xhdi_vec
- .text          0x0000000080007360        0x0 CMakeFiles/roberts7531.img.dir/bios/natfeats.c.o
- .text          0x0000000080007360        0x0 CMakeFiles/roberts7531.img.dir/bios/nvram.c.o
- .text          0x0000000080007360       0x5c CMakeFiles/roberts7531.img.dir/bios/panicasm.S.o
-                0x0000000080007360                _panic
-                0x000000008000738c                _halt
-                0x0000000080007392                _kill_program
-                0x000000008000739c                _warm_reset
-                0x00000000800073a8                _cold_reset
- .text          0x00000000800073bc       0x10 CMakeFiles/roberts7531.img.dir/bios/parport.c.o
-                0x00000000800073bc                _parport_init
-                0x00000000800073be                _bconin0
-                0x00000000800073c2                _bcostat0
-                0x00000000800073c6                _bconout0
- .text          0x00000000800073cc      0x1f8 CMakeFiles/roberts7531.img.dir/bios/screen.c.o
-                0x00000000800073cc                _check_moderez
-                0x00000000800073d0                _initialise_palette_registers
-                0x00000000800073d2                _screen_init_mode
-                0x00000000800073ec                _screen_init_address
-                0x000000008000741a                _set_rez_hacked
-                0x000000008000742e                _rez_changeable
-                0x0000000080007432                _get_monitor_type
-                0x0000000080007436                _calc_vram_size
-                0x0000000080007450                _screen_get_current_mode_info
-                0x0000000080007484                _get_palette
-                0x00000000800074a4                _get_pixel_size
-                0x0000000080007502                _physbase
-                0x000000008000750a                _logbase
-                0x0000000080007512                _getrez
-                0x000000008000751c                _setscreen
-                0x0000000080007590                _setpalette
-                0x000000008000759a                _setcolor
-                0x000000008000759e                _vsync
- .text          0x00000000800075c4      0xc1c CMakeFiles/roberts7531.img.dir/bios/serport.c.o
-                0x000000008000760e                _bconstat1
-                0x0000000080007624                _bconin1
-                0x0000000080007632                _bcostat1
-                0x0000000080007636                _bconout1
-                0x000000008000763a                _rsconf1
-                0x000000008000798c                _bconstatDUARTB
-                0x00000000800079a2                _bconinDUARTB
-                0x00000000800079c2                _bconoutDUARTB
-                0x0000000080007a48                _push_serial_iorec
-                0x0000000080007a78                _write_duart
-                0x0000000080007a8c                _read_duart
-                0x0000000080007a9e                _duart_rs232_interrupt_handler_channel_a
-                0x0000000080007b26                _duart_rs232_interrupt_handler_channel_b
-                0x0000000080007b5a                _duart_init_system_timer
-                0x0000000080007b82                _duart_rs232_enable_interrupt
-                0x0000000080007b9a                _init_duart
-                0x0000000080007c1e                _init_serport
-                0x0000000080008070                _bconmap
- .text          0x00000000800081e0       0x38 CMakeFiles/roberts7531.img.dir/bios/sound.c.o
-                0x00000000800081e4                _snd_init
-                0x00000000800081fa                _giaccess
-                0x00000000800081fe                _ongibit
-                0x0000000080008200                _offgibit
-                0x0000000080008202                _dosound
-                0x0000000080008206                _bell
- .text          0x0000000080008218        0x0 CMakeFiles/roberts7531.img.dir/bios/videl.c.o
- .text          0x0000000080008218      0xab4 CMakeFiles/roberts7531.img.dir/bios/vt52.c.o
-                0x0000000080008a74                _cputc
-                0x0000000080008a90                _blink
-                0x0000000080008b0a                _cursconf
-                0x0000000080008b72                _vt52_init
- .text          0x0000000080008ccc      0x8bc CMakeFiles/roberts7531.img.dir/bios/xhdi.c.o
-                0x0000000080008e36                _init_XHDI_drvmap
-                0x0000000080008e5e                _xhdi_handler
- .text          0x0000000080009588      0x11c CMakeFiles/roberts7531.img.dir/bios/pmmu030.c.o
-                0x0000000080009588                _setup_68030_pmmu
- .text          0x00000000800096a4        0x0 CMakeFiles/roberts7531.img.dir/bios/68040_pmmu.S.o
- .text          0x00000000800096a4        0x0 CMakeFiles/roberts7531.img.dir/bios/amiga.c.o
- .text          0x00000000800096a4        0x0 CMakeFiles/roberts7531.img.dir/bios/amiga2.S.o
- .text          0x00000000800096a4        0x0 CMakeFiles/roberts7531.img.dir/bios/spi_vamp.c.o
- .text          0x00000000800096a4        0x0 CMakeFiles/roberts7531.img.dir/bios/lisa.c.o
- .text          0x00000000800096a4        0x0 CMakeFiles/roberts7531.img.dir/bios/lisa2.S.o
- .text          0x00000000800096a4       0x40 CMakeFiles/roberts7531.img.dir/bios/delay.c.o
-                0x00000000800096a4                _init_delay
-                0x00000000800096e0                _calibrate_delay
- .text          0x00000000800096e4       0x88 CMakeFiles/roberts7531.img.dir/bios/delayasm.S.o
-                0x00000000800096e4                _run_calibration
- .text          0x000000008000976c        0x0 CMakeFiles/roberts7531.img.dir/bios/sd.c.o
- .text          0x000000008000976c       0x14 CMakeFiles/roberts7531.img.dir/bios/memory2.c.o
-                0x000000008000976c                _ttram_detect
- .text          0x0000000080009780        0x0 CMakeFiles/roberts7531.img.dir/bios/bootparams.c.o
- .text          0x0000000080009780        0x0 CMakeFiles/roberts7531.img.dir/bios/scsi.c.o
- .text          0x0000000080009780        0x0 CMakeFiles/roberts7531.img.dir/bios/nova.c.o
- .text          0x0000000080009780        0x0 CMakeFiles/roberts7531.img.dir/bios/dsp.c.o
- .text          0x0000000080009780        0x0 CMakeFiles/roberts7531.img.dir/bios/dsp2.S.o
- .text          0x0000000080009780        0x0 CMakeFiles/roberts7531.img.dir/bios/scsidriv.c.o
- .text          0x0000000080009780       0x9c CMakeFiles/roberts7531.img.dir/bios/machine_r7531.c.o
-                0x0000000080009780                _r7531_ikbd_init
-                0x00000000800097d6                _r7531_ikbd_cinRdy
-                0x00000000800097de                _r7531_ikbd_writeb
-                0x00000000800097e0                _r7531_ikbd_readb
- .text          0x000000008000981c      0xa00 CMakeFiles/roberts7531.img.dir/bdos/bdosmain.c.o
-                0x000000008000988c                _osinit_before_xmaddalt
-                0x00000000800098d0                _osinit_after_xmaddalt
-                0x00000000800098f8                _osif
- .text          0x000000008000a21c      0x7e4 CMakeFiles/roberts7531.img.dir/bdos/console.c.o
-                0x000000008000a466                _stdhdl_init
-                0x000000008000a4c6                _get_default_handle
-                0x000000008000a4d4                _xconstat
-                0x000000008000a52a                _xconostat
-                0x000000008000a54c                _xprtostat
-                0x000000008000a56e                _xauxistat
-                0x000000008000a5c4                _xauxostat
-                0x000000008000a5e6                _tabout
-                0x000000008000a686                _xconout
-                0x000000008000a6a4                _xauxout
-                0x000000008000a6cc                _xprtout
-                0x000000008000a6f4                _xrawcin
-                0x000000008000a70c                _conin
-                0x000000008000a736                _xconin
-                0x000000008000a768                _xnecin
-                0x000000008000a79a                _xauxin
-                0x000000008000a7bc                _xrawio
-                0x000000008000a830                _xconws
-                0x000000008000a866                _cgets
-                0x000000008000a9ca                _xconrs
- .text          0x000000008000aa00      0x460 CMakeFiles/roberts7531.img.dir/bdos/fsbuf.c.o
-                0x000000008000aa6e                _bufl_init
-                0x000000008000aacc                _flush
-                0x000000008000ac0c                _getbcb
-                0x000000008000ae18                _getrec
- .text          0x000000008000ae60     0x1908 CMakeFiles/roberts7531.img.dir/bdos/fsdir.c.o
-                0x000000008000b250                _xgsdtof
-                0x000000008000b2b4                _builds
-                0x000000008000b410                _xsnext
-                0x000000008000b65a                _incr_curdir_usage
-                0x000000008000b6b4                _decr_curdir_usage
-                0x000000008000b6ec                _xgetdir
-                0x000000008000b77c                _dirinit
-                0x000000008000b828                _makofd
-                0x000000008000b890                _scan
-                0x000000008000ba20                _findit
-                0x000000008000bbe2                _xchdir
-                0x000000008000bc94                _ixsfirst
-                0x000000008000bdfc                _xsfirst
-                0x000000008000be4e                _xrename
-                0x000000008000c27e                _xchmod
-                0x000000008000c36c                _xrmdir
-                0x000000008000c49e                _xmkdir
-                0x000000008000c704                _free_available_dnds
- .text          0x000000008000c768      0x324 CMakeFiles/roberts7531.img.dir/bdos/fsdrive.c.o
-                0x000000008000c768                _log_media
-                0x000000008000c974                _ckdrv
- .text          0x000000008000ca8c      0x5f0 CMakeFiles/roberts7531.img.dir/bdos/fsfat.c.o
-                0x000000008000ca8c                _cl2rec
-                0x000000008000caa6                _clfix
-                0x000000008000cc36                _getrealcl
-                0x000000008000cd40                _getclnum
-                0x000000008000cd60                _nextcl
-                0x000000008000cf18                _xgetfree
- .text          0x000000008000d07c        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsglob.c.o
- .text          0x000000008000d07c      0x150 CMakeFiles/roberts7531.img.dir/bdos/fshand.c.o
-                0x000000008000d07c                _ixforce
-                0x000000008000d0fc                _xforce
-                0x000000008000d112                _xdup
- .text          0x000000008000d1cc      0x754 CMakeFiles/roberts7531.img.dir/bdos/fsio.c.o
-                0x000000008000d63e                _eof
-                0x000000008000d66a                _ixlseek
-                0x000000008000d75c                _xlseek
-                0x000000008000d7d8                _ixgetfcb
-                0x000000008000d87e                _ixread
-                0x000000008000d8b4                _xread
-                0x000000008000d8dc                _ixwrite
-                0x000000008000d8f6                _xwrite
- .text          0x000000008000d920       0xb0 CMakeFiles/roberts7531.img.dir/bdos/fsmain.c.o
-                0x000000008000d920                _xgetdta
-                0x000000008000d92c                _xsetdta
-                0x000000008000d93a                _xsetdrv
-                0x000000008000d960                _xgetdrv
-                0x000000008000d96e                _getofd
- .text          0x000000008000d9d0      0x8f8 CMakeFiles/roberts7531.img.dir/bdos/fsopnclo.c.o
-                0x000000008000dada                _xopen
-                0x000000008000db56                _ixclose
-                0x000000008000dcec                _xclose
-                0x000000008000de42                _ixdel
-                0x000000008000df5c                _xunlink
-                0x000000008000dfe8                _ixcreat
-                0x000000008000e280                _xcreat
-                0x000000008000e292                _contains_illegal_characters
- .text          0x000000008000e2c8      0x244 CMakeFiles/roberts7531.img.dir/bdos/iumem.c.o
-                0x000000008000e2c8                _ffit
-                0x000000008000e3bc                _freeit
-                0x000000008000e4b4                _shrinkit
- .text          0x000000008000e50c      0x254 CMakeFiles/roberts7531.img.dir/bdos/kpgmld.c.o
-                0x000000008000e50c                _kpgmhdrld
-                0x000000008000e576                _kpgmld
- .text          0x000000008000e760      0x320 CMakeFiles/roberts7531.img.dir/bdos/osmem.c.o
-                0x000000008000e760                _xmfremd
-                0x000000008000e87e                _xmgetblk
-                0x000000008000e94c                _xmgetmd
-                0x000000008000ea3a                _xmfreblk
-                0x000000008000ea5c                _osmem_init
- .text          0x000000008000ea80      0x6bc CMakeFiles/roberts7531.img.dir/bdos/proc.c.o
-                0x000000008000ec64                _xexec
-                0x000000008000efd6                _xterm
-                0x000000008000f0d2                _x0term
-                0x000000008000f0d8                _xtermres
- .text          0x000000008000f13c      0x178 CMakeFiles/roberts7531.img.dir/bdos/rwa.S.o
-                0x000000008000f13c                _bdos_trap2
-                0x000000008000f158                _enter
-                0x000000008000f1d6                _gouser
-                0x000000008000f20c                _termuser
- .text          0x000000008000f2b4      0x200 CMakeFiles/roberts7531.img.dir/bdos/time.c.o
-                0x000000008000f39c                _xgetdate
-                0x000000008000f3a6                _xsetdate
-                0x000000008000f40e                _xgettime
-                0x000000008000f418                _xsettime
-                0x000000008000f46c                _time_init
- .text          0x000000008000f4b4      0x1e0 CMakeFiles/roberts7531.img.dir/bdos/umem.c.o
-                0x000000008000f4b4                _xmfree
-                0x000000008000f4fe                _xsetblk
-                0x000000008000f588                _xmxalloc
-                0x000000008000f5f6                _xmalloc
-                0x000000008000f622                _umem_init
-                0x000000008000f65c                _set_owner
- .text          0x000000008000f694      0x120 CMakeFiles/roberts7531.img.dir/util/cookie.c.o
-                0x000000008000f694                _cookie_init
-                0x000000008000f6ac                _cookie_add
-                0x000000008000f700                _cookie_get
-                0x000000008000f73e                _get_idt_cookie
-                0x000000008000f784                _nvdi_cookie_present
- .text          0x000000008000f7b4      0x55c CMakeFiles/roberts7531.img.dir/util/doprintf.c.o
-                0x000000008000f86e                _doprintf
- .text          0x000000008000fd10       0x88 CMakeFiles/roberts7531.img.dir/util/intmath.c.o
-                0x000000008000fd10                _Isqrt
- .text          0x000000008000fd98      0x274 CMakeFiles/roberts7531.img.dir/util/memmove.S.o
-                0x000000008000fd98                _memcpy
-                0x000000008000fdba                _memmove
- .text          0x000000008001000c       0xcc CMakeFiles/roberts7531.img.dir/util/memset.S.o
-                0x000000008001000c                _bzero_nobuiltin
-                0x000000008001001a                _memset
- .text          0x00000000800100d8       0xc0 CMakeFiles/roberts7531.img.dir/util/miscasm.S.o
-                0x00000000800100d8                _trap1
-                0x00000000800100f8                _trap1_pexec
-                0x000000008001011c                _just_rts
-                0x000000008001011e                _mul_div_round
-                0x000000008001013a                _protect_v
-                0x000000008001014a                _protect_w
-                0x0000000080010162                _protect_ww
-                0x000000008001017a                _protect_wlwwwl
- .text          0x0000000080010198        0x0 CMakeFiles/roberts7531.img.dir/util/nls.c.o
- .text          0x0000000080010198        0x0 CMakeFiles/roberts7531.img.dir/util/nlsasm.S.o
- .text          0x0000000080010198       0x24 CMakeFiles/roberts7531.img.dir/util/setjmp.S.o
-                0x0000000080010198                _setjmp
-                0x00000000800101a6                _longjmp
- .text          0x00000000800101bc      0x1ec CMakeFiles/roberts7531.img.dir/util/string.c.o
-                0x00000000800101d2                _strlcpy
-                0x0000000080010222                _strlen
-                0x000000008001023a                _strcat
-                0x000000008001026e                _strcmp
-                0x0000000080010292                _memcmp
-                0x00000000800102c2                _strncmp
-                0x00000000800102f6                _strncasecmp
-                0x0000000080010354                _toupper
-                0x000000008001036a                _sprintf
- .text          0x00000000800103a8        0x0 CMakeFiles/roberts7531.img.dir/util/lisautil.S.o
- .text          0x00000000800103a8       0x68 CMakeFiles/roberts7531.img.dir/util/miscutil.c.o
-                0x00000000800103a8                _build_root_path
-                0x00000000800103c2                _extract_drive_number
-                0x00000000800103fe                _set_all_files
- .text          0x0000000080010410      0x204 CMakeFiles/roberts7531.img.dir/bios/fnt_off_6x6.c.o
-                0x0000000080010410                _off_6x6_table
- .text          0x0000000080010614      0x204 CMakeFiles/roberts7531.img.dir/bios/fnt_off_8x8.c.o
-                0x0000000080010614                _off_8x8_table
- .text          0x0000000080010818      0x1f4 CMakeFiles/roberts7531.img.dir/vdi/vdi_asm.S.o
-                0x0000000080010818                _vditrap
-                0x0000000080010834                _GSX_ENTRY
-                0x00000000800108b8                _mouse_int
-                0x0000000080010970                _wheel_int
-                0x00000000800109c8                _mov_cur
-                0x00000000800109ee                _call_user_but
-                0x00000000800109fa                _call_user_wheel
- .text          0x0000000080010a0c        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_bezier.c.o
- .text          0x0000000080010a0c      0x3a4 CMakeFiles/roberts7531.img.dir/vdi/vdi_col.c.o
-                0x0000000080010b1c                _vdi_vs_color
-                0x0000000080010b90                _init_colors
-                0x0000000080010c54                _vdi_vq_color
- .text          0x0000000080010db0      0x77c CMakeFiles/roberts7531.img.dir/vdi/vdi_control.c.o
-                0x0000000080010f88                _get_vwk_by_handle
-                0x0000000080010fac                _update_rez_dependent
-                0x0000000080011064                _validate_color_index
-                0x000000008001107c                _vdi_vs_clip
-                0x0000000080011128                _vdi_vswr_mode
-                0x000000008001116e                _vdi_v_opnvwk
-                0x000000008001121a                _vdi_v_clsvwk
-                0x0000000080011280                _vdi_v_opnwk
-                0x000000008001136a                _vdi_v_clswk
-                0x00000000800113bc                _vdi_v_clrwk
-                0x00000000800113da                _vdi_vq_extnd
- .text          0x000000008001152c      0x3c0 CMakeFiles/roberts7531.img.dir/vdi/vdi_esc.c.o
-                0x000000008001182a                _vdi_v_escape
-                0x0000000080011854                _esc_init
-                0x0000000080011878                _esc_exit
- .text          0x00000000800118ec      0xe84 CMakeFiles/roberts7531.img.dir/vdi/vdi_fill.c.o
-                0x0000000080011bd0                _vdi_vsf_udpat
-                0x0000000080011c2c                _vdi_vsf_color
-                0x0000000080011c5e                _vdi_vsf_perimeter
-                0x0000000080011c8c                _vdi_vr_recfl
-                0x0000000080011d3c                _vdi_vqf_attributes
-                0x0000000080011d80                _st_fl_ptr
-                0x0000000080011e5a                _vdi_vsf_style
-                0x0000000080011e9c                _vdi_vsf_interior
-                0x0000000080011ec2                _clc_flit
-                0x000000008001200c                _polygon
-                0x000000008001210a                _vdi_v_fillarea
-                0x0000000080012128                _contourfill
-                0x00000000800123c4                _vdi_v_contourfill
-                0x0000000080012404                _vdi_v_get_pixel
-                0x0000000080012434                _get_pix
-                0x0000000080012448                _put_pix
-                0x00000000800124dc                _SOLID
-                0x00000000800124de                _HOLLOW
-                0x00000000800124e0                _ROM_UD_PATRN
- .text          0x0000000080012770      0x7c4 CMakeFiles/roberts7531.img.dir/vdi/vdi_gdp.c.o
-                0x0000000080012af6                _vdi_v_gdp
- .text          0x0000000080012f34      0x200 CMakeFiles/roberts7531.img.dir/vdi/vdi_input.c.o
-                0x0000000080012f74                _vdi_v_choice
-                0x0000000080012f88                _vdi_v_string
-                0x0000000080013074                _vdi_vq_key_s
-                0x0000000080013096                _vdi_vsin_mode
-                0x00000000800130ea                _vdi_vqin_mode
- .text          0x0000000080013134     0x1bb4 CMakeFiles/roberts7531.img.dir/vdi/vdi_line.c.o
-                0x0000000080013710                _vdi_vsl_udsty
-                0x0000000080013720                _vdi_vsl_type
-                0x000000008001375a                _vdi_vsl_width
-                0x00000000800137a8                _vdi_vsl_ends
-                0x00000000800137e6                _vdi_vsl_color
-                0x0000000080013818                _vdi_vql_attributes
-                0x000000008001385e                _draw_rect_common
-                0x0000000080013862                _Vwk2Attrib
-                0x000000008001388e                _draw_rect
-                0x00000000800138cc                _linea_rect
-                0x00000000800139be                _linea_hline
-                0x0000000080013a0a                _linea_polygon
-                0x0000000080013aae                _linea_fill
-                0x0000000080013b3c                _clip_line
-                0x0000000080013dec                _arrow
-                0x0000000080013ede                _wideline
-                0x000000008001440a                _abline
-                0x0000000080014af6                _polyline
-                0x0000000080014bb2                _vdi_v_pline
-                0x0000000080014c46                _linea_line
-                0x0000000080014caa                _set_LN_MASK
-                0x0000000080014cda                _LINE_STYLE
- .text          0x0000000080014ce8      0x308 CMakeFiles/roberts7531.img.dir/vdi/vdi_main.c.o
-                0x0000000080014ce8                _screen
- .text          0x0000000080014ff0      0x378 CMakeFiles/roberts7531.img.dir/vdi/vdi_marker.c.o
-                0x0000000080014ff0                _vdi_vsm_height
-                0x00000000800150d4                _vdi_vsm_type
-                0x000000008001510e                _vdi_vsm_color
-                0x0000000080015140                _vdi_v_pmarker
-                0x000000008001527e                _vdi_vqm_attributes
- .text          0x0000000080015368      0x168 CMakeFiles/roberts7531.img.dir/vdi/vdi_misc.c.o
-                0x00000000800153b2                _arb_corner
-                0x00000000800153dc                _arb_line
-                0x0000000080015406                _vdi_vex_timv
-                0x0000000080015440                _timer_init
-                0x000000008001547c                _timer_exit
-                0x00000000800154a4                _get_start_addr
- .text          0x00000000800154d0      0x97c CMakeFiles/roberts7531.img.dir/vdi/vdi_mouse.c.o
-                0x00000000800156f4                _vdi_vq_mouse
-                0x0000000080015720                _vdi_vex_butv
-                0x0000000080015738                _vdi_vex_motv
-                0x0000000080015750                _vdi_vex_curv
-                0x0000000080015768                _vdi_vex_wheelv
-                0x0000000080015780                _vdimouse_init
-                0x0000000080015878                _vdimouse_exit
-                0x00000000800158e2                _cur_display
-                0x0000000080015c00                _cur_replace
-                0x0000000080015cec                _vdi_v_locator
-                0x0000000080015da4                _vdi_v_hide_c
-                0x0000000080015e12                _linea_show_mouse
-                0x0000000080015e30                _vdi_v_show_c
-                0x0000000080015e32                _linea_hide_mouse
-                0x0000000080015e36                _linea_transform_mouse
-                0x0000000080015e44                _vdi_vsc_form
- .text          0x0000000080015e4c      0x5bc CMakeFiles/roberts7531.img.dir/vdi/vdi_raster.c.o
-                0x0000000080016212                _vdi_vr_trnfm
-                0x000000008001632e                _vdi_vro_cpyfm
-                0x0000000080016364                _vdi_vrt_cpyfm
-                0x000000008001639c                _linea_raster
-                0x00000000800163c6                _linea_blit
- .text          0x0000000080016408     0x1710 CMakeFiles/roberts7531.img.dir/vdi/vdi_text.c.o
-                0x0000000080016e94                _vdi_v_gtext
-                0x0000000080016eb8                _text_init2
-                0x0000000080016f04                _text_init
-                0x0000000080017082                _vdi_vst_height
-                0x0000000080017174                _vdi_vst_point
-                0x0000000080017290                _vdi_vst_effects
-                0x00000000800172b0                _vdi_vst_alignment
-                0x00000000800172ee                _vdi_vst_rotation
-                0x000000008001732c                _vdi_vst_font
-                0x000000008001743e                _vdi_vst_color
-                0x0000000080017470                _vdi_vqt_attributes
-                0x00000000800174e2                _vdi_vqt_extent
-                0x00000000800175c0                _vdi_vqt_width
-                0x000000008001767c                _vdi_vqt_name
-                0x000000008001771c                _vdi_vqt_fontinfo
-                0x00000000800177cc                _gdp_justified
-                0x0000000080017a26                _vdi_vst_load_fonts
-                0x0000000080017af2                _vdi_vst_unload_fonts
- .text          0x0000000080017b18      0xfc0 CMakeFiles/roberts7531.img.dir/vdi/vdi_textblit.c.o
-                0x0000000080017bc2                _outline
-                0x0000000080017ccc                _rotate
-                0x0000000080017f36                _scale
-                0x0000000080018152                _direct_screen_blit
-                0x0000000080018348                _text_blt
- .text          0x0000000080018ad8      0x74c CMakeFiles/roberts7531.img.dir/vdi/vdi_blit.S.o
-                0x0000000080018e20                _fast_bit_blt
- .text          0x0000000080019224      0x7b0 CMakeFiles/roberts7531.img.dir/vdi/vdi_tblit.S.o
-                0x0000000080019224                _normal_blit
- .text          0x00000000800199d4        0x0 CMakeFiles/roberts7531.img.dir/vdi/endvdi.S.o
- .text          0x00000000800199d4        0xc CMakeFiles/roberts7531.img.dir/version.c.o
-                0x00000000800199d4                _version
- .text          0x00000000800199e0      0x224 CMakeFiles/roberts7531.img.dir/util/gemdos.c.o
-                0x00000000800199e2                _pgmld
-                0x0000000080019a34                _dos_setdt
-                0x0000000080019a6a                _dos_label
-                0x0000000080019adc                _dos_space
-                0x0000000080019b3e                _dos_alloc_stram
-                0x0000000080019b52                _dos_avail_stram
-                0x0000000080019b66                _dos_alloc_anyram
-                0x0000000080019b7c                _dos_avail_anyram
-                0x0000000080019b92                _dos_free
-                0x0000000080019ba4                _dos_shrink
-                0x0000000080019bbe                _dos_load_file
- .text          0x0000000080019c04      0x30c CMakeFiles/roberts7531.img.dir/util/optimize.c.o
-                0x0000000080019c04                _fmt_str
-                0x0000000080019c96                _unfmt_str
-                0x0000000080019ce6                _inf_sset
-                0x0000000080019d12                _inf_sget
-                0x0000000080019d34                _inf_gindex
-                0x0000000080019d7e                _inf_what
-                0x0000000080019dd8                _scan_2
-                0x0000000080019e5c                _filename_start
-                0x0000000080019e74                _wildcmp
- .text          0x0000000080019f10       0x30 CMakeFiles/roberts7531.img.dir/util/optimopt.S.o
-                0x0000000080019f10                _scasb
-                0x0000000080019f26                _expand_string
- .text          0x0000000080019f40      0x190 CMakeFiles/roberts7531.img.dir/util/rectfunc.c.o
-                0x0000000080019f40                _inside
-                0x0000000080019f7a                _rc_constrain
-                0x0000000080019fd6                _rc_equal
-                0x0000000080019ff8                _rc_intersect
-                0x000000008001a070                _rc_union
- .text          0x000000008001a0d0       0x30 CMakeFiles/roberts7531.img.dir/util/stringasm.S.o
-                0x000000008001a0d0                _strlencpy
-                0x000000008001a0e4                _strchr
- .text          0x000000008001a100       0xc4 CMakeFiles/roberts7531.img.dir/aes/gemasm.S.o
-                0x000000008001a100                _psetup
-                0x000000008001a128                _gotopgm
-                0x000000008001a14c                _dsptch
-                0x000000008001a196                _switchto
- .text          0x000000008001a1c4      0x168 CMakeFiles/roberts7531.img.dir/aes/gemstart.S.o
-                0x000000008001a1c4                _ui_start
-                0x000000008001a27e                _accdesk_start
-                0x000000008001a2c2                _dos_exec
- .text          0x000000008001a32c      0x270 CMakeFiles/roberts7531.img.dir/aes/gemdosif.S.o
-                0x000000008001a32c                _disable_interrupts
-                0x000000008001a338                _enable_interrupts
-                0x000000008001a340                _retake
-                0x000000008001a35e                _giveerr
-                0x000000008001a366                _takeerr
-                0x000000008001a480                _unset_aestrap
-                0x000000008001a48a                _set_aestrap
-                0x000000008001a49c                _far_bcha
-                0x000000008001a4c2                _far_mcha
-                0x000000008001a4f0                _aes_wheel
-                0x000000008001a51e                _drawrat
-                0x000000008001a52e                _tikcod
- .text          0x000000008001a59c      0x388 CMakeFiles/roberts7531.img.dir/aes/gemaplib.c.o
-                0x000000008001a59c                _ap_init
-                0x000000008001a5ae                _ap_rdwr
-                0x000000008001a626                _ap_find
-                0x000000008001a64c                _ap_tplay
-                0x000000008001a7d4                _ap_trecd
-                0x000000008001a8a8                _ap_exit
- .text          0x000000008001a924      0x37c CMakeFiles/roberts7531.img.dir/aes/gemasync.c.o
-                0x000000008001a924                _azombie
-                0x000000008001a9d2                _evinsert
-                0x000000008001a9fa                _mwait
-                0x000000008001aa42                _iasync
-                0x000000008001ab7a                _apret
-                0x000000008001abfc                _acancel
- .text          0x000000008001aca0      0x88c CMakeFiles/roberts7531.img.dir/aes/gemctrl.c.o
-                0x000000008001ad7e                _ct_chgown
-                0x000000008001ada8                _ct_mouse
-                0x000000008001ae1e                _ctlmgr
- .text          0x000000008001b52c      0x2fc CMakeFiles/roberts7531.img.dir/aes/gemdisp.c.o
-                0x000000008001b52c                _forkq
-                0x000000008001b592                _forker
-                0x000000008001b6ac                _chkkbd
-                0x000000008001b734                _disp
- .text          0x000000008001b828      0x550 CMakeFiles/roberts7531.img.dir/aes/gemevlib.c.o
-                0x000000008001b882                _ev_block
-                0x000000008001b8aa                _ev_button
-                0x000000008001b8e4                _ev_mesag
-                0x000000008001b940                _ev_mouse
-                0x000000008001b968                _ev_timer
-                0x000000008001b98a                _ev_multi
-                0x000000008001bd32                _ev_dclick
- .text          0x000000008001bd78      0x140 CMakeFiles/roberts7531.img.dir/aes/gemflag.c.o
-                0x000000008001bd78                _tchange
-                0x000000008001be08                _tak_flag
-                0x000000008001be34                _amutex
-                0x000000008001be72                _unsync
- .text          0x000000008001beb8      0x4c4 CMakeFiles/roberts7531.img.dir/aes/gemfmalt.c.o
-                0x000000008001bfc6                _fm_alert
- .text          0x000000008001c37c      0x728 CMakeFiles/roberts7531.img.dir/aes/gemfmlib.c.o
-                0x000000008001c410                _fm_own
-                0x000000008001c4c4                _fm_keybd
-                0x000000008001c57e                _fm_button
-                0x000000008001c710                _fm_do
-                0x000000008001c8ba                _fm_dial
-                0x000000008001c93c                _fm_show
-                0x000000008001c986                _eralert
-                0x000000008001c9fe                _fm_error
- .text          0x000000008001caa4     0x10b8 CMakeFiles/roberts7531.img.dir/aes/gemfslib.c.o
-                0x000000008001cd92                _fs_start
-                0x000000008001cde0                _fs_input
- .text          0x000000008001db5c     0x107c CMakeFiles/roberts7531.img.dir/aes/gemgraf.c.o
-                0x000000008001dca0                _gsx_sclip
-                0x000000008001dd18                _gsx_gclip
-                0x000000008001dd30                _gsx_chkclip
-                0x000000008001dd94                _gsx_pline
-                0x000000008001dde8                _gsx_cline
-                0x000000008001de24                _gsx_attr
-                0x000000008001dece                _gsx_xbox
-                0x000000008001dee2                _gsx_xcbox
-                0x000000008001e00a                _gsx_blt
-                0x000000008001e18e                _bb_screen
-                0x000000008001e1be                _gsx_trans
-                0x000000008001e23e                _gsx_start
-                0x000000008001e460                _bb_fill
-                0x000000008001e4fa                _gsx_tblt
-                0x000000008001e606                _gr_inside
-                0x000000008001e622                _gr_rect
-                0x000000008001e6a0                _gr_just
-                0x000000008001e776                _gr_gtext
-                0x000000008001e7cc                _gr_crack
-                0x000000008001e81a                _gr_gicon
-                0x000000008001eb30                _gr_box
- .text          0x000000008001ebd8      0x904 CMakeFiles/roberts7531.img.dir/aes/gemgrlib.c.o
-                0x000000008001ed5c                _gr_stepcalc
-                0x000000008001ee32                _gr_rubwind
-                0x000000008001eeca                _gr_rubbox
-                0x000000008001eef2                _gr_dragbox
-                0x000000008001efc6                _gr_2box
-                0x000000008001f078                _gr_movebox
-                0x000000008001f176                _gr_growbox
-                0x000000008001f1f2                _gr_shrinkbox
-                0x000000008001f274                _gr_watchbox
-                0x000000008001f326                _gr_slidebox
-                0x000000008001f3d2                _gr_mouse
-                0x000000008001f4b2                _gr_mkstate
- .text          0x000000008001f4dc      0xa60 CMakeFiles/roberts7531.img.dir/aes/gemgsxif.c.o
-                0x000000008001f504                _gsx_malloc
-                0x000000008001f602                _gsx_mfree
-                0x000000008001f612                _gsx_mret
-                0x000000008001f628                _gsx_0code
-                0x000000008001f67a                _gsx_1code
-                0x000000008001f694                _gsx_wsclose
-                0x000000008001f6a0                _gsx_wsclear
-                0x000000008001f6ac                _ratinit
-                0x000000008001f6c0                _gsx_graphic
-                0x000000008001f72c                _gsx_tick
-                0x000000008001f750                _gsx_mxmy
-                0x000000008001f766                _gsx_kstate
-                0x000000008001f778                _gsx_moff
-                0x000000008001f7a4                _ratexit
-                0x000000008001f7a6                _gsx_mon
-                0x000000008001f7c8                _gsx_mfset
-                0x000000008001f82e                _gsx_char
-                0x000000008001f886                _gsx_setmousexy
-                0x000000008001f8cc                _gsx_nplanes
-                0x000000008001f8e2                _gsx_textsize
-                0x000000008001f916                _gsx_fix_screen
-                0x000000008001f964                _gsx_fix
-                0x000000008001f9ee                _v_pline
-                0x000000008001fa14                _vs_clip
-                0x000000008001fa44                _vst_height
-                0x000000008001fa8c                _vr_recfl
-                0x000000008001fab2                _vro_cpyfm
-                0x000000008001fd62                _bb_restore
-                0x000000008001fd70                _bb_save
-                0x000000008001fd80                _vrt_cpyfm
-                0x000000008001fdd0                _vrn_trnfm
-                0x000000008001fdea                _vsl_width
-                0x000000008001fe0a                _vex_wheelv
-                0x000000008001fe28                _gsx_init
- .text          0x000000008001ff3c      0xbd0 CMakeFiles/roberts7531.img.dir/aes/geminit.c.o
-                0x000000008001ff86                _size_theglo
-                0x000000008001ff8e                _init_p0_stkptr
-                0x000000008001ffa0                _default_mform
-                0x000000008001ffa8                _set_mouse_to_arrow
-                0x000000008001ffb8                _set_mouse_to_hourglass
-                0x000000008001ffc8                _all_run
-                0x0000000080020000                _wait_for_accs
-                0x000000008002004e                _set_aes_background
-                0x0000000080020082                _run_accs_and_desktop
-                0x000000008002054a                _gem_main
- .text          0x0000000080020b0c      0x8d4 CMakeFiles/roberts7531.img.dir/aes/geminput.c.o
-                0x0000000080020b0c                _in_mrect
-                0x0000000080020b36                _b_click
-                0x0000000080020bb8                _b_delay
-                0x0000000080020c40                _set_ctrl
-                0x0000000080020c58                _get_ctrl
-                0x0000000080020c70                _get_mown
-                0x0000000080020c7c                _dq
-                0x0000000080020cae                _fq
-                0x0000000080020ce0                _evremove
-                0x0000000080020e20                _bchange
-                0x0000000080020f5e                _set_mown
-                0x0000000080020fa4                _post_keybd
-                0x0000000080020ff8                _kchange
-                0x0000000080021022                _downorup
-                0x0000000080021058                _mchange
-                0x000000008002114c                _wheel_change
-                0x000000008002114e                _akbin
-                0x00000000800211b6                _adelay
-                0x0000000080021290                _abutton
-                0x000000008002130c                _amouse
- .text          0x00000000800213e0      0xc6c CMakeFiles/roberts7531.img.dir/aes/gemmnext.c.o
-                0x0000000080021994                _mnext_init
-                0x00000000800219d6                _mn_popup
-                0x0000000080021d4c                _mn_attach
-                0x0000000080021dc6                _mn_istart
-                0x0000000080021e4a                _mn_settings
-                0x0000000080021ee0                _display_submenu
-                0x000000008002200a                _undisplay_submenu
- .text          0x000000008002204c      0x9d0 CMakeFiles/roberts7531.img.dir/aes/gemmnlib.c.o
-                0x0000000080022196                _do_chg
-                0x0000000080022256                _mn_do
-                0x00000000800227c8                _mn_bar
-                0x00000000800228b8                _mn_cleanup
-                0x0000000080022916                _mn_register
-                0x00000000800229c4                _mn_init
-                0x00000000800229e4                _mn_getownid
- .text          0x0000000080022a1c      0x8f4 CMakeFiles/roberts7531.img.dir/aes/gemobed.c.o
-                0x0000000080022b88                _ob_center
-                0x0000000080022c6c                _ins_char
-                0x0000000080022d38                _ob_edit
- .text          0x0000000080023310      0x29c CMakeFiles/roberts7531.img.dir/aes/gemobjop.c.o
-                0x0000000080023310                _ob_sst
-                0x0000000080023418                _everyobj
-                0x0000000080023556                _get_par
- .text          0x00000000800235ac     0x111c CMakeFiles/roberts7531.img.dir/aes/gemoblib.c.o
-                0x00000000800235ac                _ob_offset
-                0x0000000080023624                _ob_relxywh
-                0x000000008002365c                _ob_actxywh
-                0x000000008002369e                _ob_setxywh
-                0x00000000800236d6                _ob_format
-                0x00000000800240ee                _ob_draw
-                0x00000000800241bc                _ob_find
-                0x000000008002432c                _ob_add
-                0x00000000800243bc                _ob_delete
-                0x0000000080024478                _ob_order
-                0x000000008002453e                _ob_change
-                0x00000000800246a6                _ob_fs
- .text          0x00000000800246c8      0x250 CMakeFiles/roberts7531.img.dir/aes/gempd.c.o
-                0x00000000800246c8                _pd_index
-                0x00000000800246fc                _fpdnm
-                0x000000008002478e                _p_nameit
-                0x00000000800247d0                _p_setappdir
-                0x0000000080024812                _pstart
-                0x00000000800248e8                _insert_process
- .text          0x0000000080024918      0x1e4 CMakeFiles/roberts7531.img.dir/aes/gemqueue.c.o
-                0x0000000080024a2c                _aqueue
- .text          0x0000000080024afc      0xb3c CMakeFiles/roberts7531.img.dir/aes/gemrslib.c.o
-                0x0000000080024eb4                _rs_obfix
-                0x0000000080024f20                _rs_free
-                0x0000000080024ff0                _rs_gaddr
-                0x0000000080025022                _rs_saddr
-                0x0000000080025056                _rs_fixit
-                0x0000000080025120                _rs_load
-                0x000000008002561e                _rs_str
-                0x0000000080025636                _xlate_obj_array
- .text          0x0000000080025638       0xe0 CMakeFiles/roberts7531.img.dir/aes/gemsclib.c.o
-                0x0000000080025638                _sc_read
-                0x000000008002564c                _sc_write
-                0x0000000080025668                _sc_clear
- .text          0x0000000080025718      0xa00 CMakeFiles/roberts7531.img.dir/aes/gemshlib.c.o
-                0x0000000080025816                _sh_read
-                0x0000000080025848                _sh_write
-                0x0000000080025978                _sh_get
-                0x0000000080025994                _sh_put
-                0x00000000800259b0                _sh_tographic
-                0x00000000800259ec                _sh_name
-                0x0000000080025a0e                _sh_envrn
-                0x0000000080025a6a                _sh_find
-                0x0000000080025c6a                _sh_rdef
-                0x0000000080025c8c                _sh_wdef
-                0x0000000080025cb0                _aes_run_rom_program
-                0x0000000080025ce2                _sh_main
- .text          0x0000000080026118      0xf24 CMakeFiles/roberts7531.img.dir/aes/gemsuper.c.o
-                0x0000000080026118                _super
- .text          0x000000008002703c     0x21d8 CMakeFiles/roberts7531.img.dir/aes/gemwmlib.c.o
-                0x000000008002721a                _w_getsize
-                0x000000008002726a                _w_setactive
-                0x00000000800272bc                _w_drawdesk
-                0x0000000080027304                _w_bldactive
-                0x0000000080027d6e                _ap_sendmsg
-                0x0000000080027dc2                _w_update
-                0x0000000080027f3a                _wm_init
-                0x00000000800281c8                _wm_start
-                0x0000000080028200                _wm_create
-                0x00000000800282cc                _wm_get
-                0x00000000800284e0                _wm_find
-                0x0000000080028500                _wm_update
-                0x0000000080028552                _wm_calc
-                0x0000000080028b26                _wm_set
-                0x0000000080028ea2                _wm_close
-                0x0000000080028f2a                _wm_delete
-                0x000000008002901c                _wm_open
-                0x0000000080029112                _wm_new
- .text          0x0000000080029214      0x300 CMakeFiles/roberts7531.img.dir/aes/gemwrect.c.o
-                0x000000008002940e                _or_start
-                0x0000000080029440                _get_orect
-                0x0000000080029452                _newrect
- .text          0x0000000080029514       0x20 CMakeFiles/roberts7531.img.dir/aes/gsx2.c.o
-                0x0000000080029514                _gsx2
- .text          0x0000000080029534       0x3c CMakeFiles/roberts7531.img.dir/desk/deskstart.S.o
-                0x0000000080029534                _deskstart
- .text          0x0000000080029570     0x1f30 CMakeFiles/roberts7531.img.dir/desk/deskmain.c.o
-                0x000000008002a058                _hndl_msg
-                0x000000008002a366                _align_title
-                0x000000008002a3ba                _install_shortcuts
-                0x000000008002a44a                _deskmain
-                0x000000008002b436                _shortcut_mapping
- .text          0x000000008002b4a0      0x8cc CMakeFiles/roberts7531.img.dir/desk/gembind.c.o
-                0x000000008002b4f6                _appl_init
-                0x000000008002b53e                _appl_exit
-                0x000000008002b54a                _evnt_button
-                0x000000008002b59c                _evnt_timer
-                0x000000008002b5b6                _evnt_multi
-                0x000000008002b6b6                _evnt_dclick
-                0x000000008002b6d0                _menu_bar
-                0x000000008002b6ea                _menu_icheck
-                0x000000008002b70c                _menu_ienable
-                0x000000008002b72e                _menu_tnormal
-                0x000000008002b750                _objc_add
-                0x000000008002b772                _objc_draw
-                0x000000008002b7b4                _objc_find
-                0x000000008002b7e6                _objc_offset
-                0x000000008002b81c                _objc_order
-                0x000000008002b83e                _form_do
-                0x000000008002b858                _form_dial
-                0x000000008002b8aa                _form_alert
-                0x000000008002b8c4                _form_error
-                0x000000008002b8d6                _form_center
-                0x000000008002b918                _graf_rubbox
-                0x000000008002b95e                _graf_growbox_grect
-                0x000000008002b9ac                _graf_shrinkbox_grect
-                0x000000008002b9fa                _graf_handle
-                0x000000008002ba34                _graf_mouse
-                0x000000008002ba4e                _graf_mkstate
-                0x000000008002ba82                _fsel_exinput
-                0x000000008002bab6                _wind_create_grect
-                0x000000008002baea                _wind_open_grect
-                0x000000008002bb1e                _wind_close
-                0x000000008002bb30                _wind_delete
-                0x000000008002bb42                _wind_get
-                0x000000008002bb8c                _wind_get_grect
-                0x000000008002bbb0                _wind_set
-                0x000000008002bbec                _wind_set_grect
-                0x000000008002bc10                _wind_find
-                0x000000008002bc2a                _wind_update
-                0x000000008002bc3c                _wind_calc_grect
-                0x000000008002bca6                _wind_new
-                0x000000008002bcb2                _rsrc_load
-                0x000000008002bcc4                _rsrc_free
-                0x000000008002bcd0                _rsrc_obfix
-                0x000000008002bcea                _shel_write
-                0x000000008002bd1c                _shel_get
-                0x000000008002bd36                _shel_put
-                0x000000008002bd50                _shel_wdef
- .text          0x000000008002bd6c      0xee4 CMakeFiles/roberts7531.img.dir/desk/deskact.c.o
-                0x000000008002bfda                _act_chg
-                0x000000008002c0b0                _act_allchg
-                0x000000008002c28c                _act_bsclick
-                0x000000008002c3c0                _act_bdown
- .text          0x000000008002cc50     0x1de8 CMakeFiles/roberts7531.img.dir/desk/deskapp.c.o
-                0x000000008002cdc0                _nomem_alert
-                0x000000008002cde2                _app_alloc
-                0x000000008002ce1e                _app_free
-                0x000000008002ce88                _scan_str
-                0x000000008002cf16                _app_tran
-                0x000000008002cfc0                _app_start
-                0x000000008002dc0a                _app_save
-                0x000000008002e3c0                _app_blddesk
-                0x000000008002e670                _app_afind_by_id
-                0x000000008002e69e                _app_afind_by_name
-                0x000000008002e778                _app_afind_viewer
-                0x000000008002e7a2                _app_read_inf
- .text          0x000000008002ea38     0x1374 CMakeFiles/roberts7531.img.dir/desk/deskdir.c.o
-                0x000000008002ebbc                _draw_dial
-                0x000000008002ed52                _draw_fld
-                0x000000008002edb6                _add_path
-                0x000000008002edf4                _add_fname
-                0x000000008002ee0e                _del_fname
-                0x000000008002f24a                _illegal_op_msg
-                0x000000008002f2bc                _d_doop
-                0x000000008002f73c                _dir_op
- .text          0x000000008002fdac      0x544 CMakeFiles/roberts7531.img.dir/desk/deskfpd.c.o
-                0x000000008002fdd6                _pn_close
-                0x000000008002fdd8                _pn_open
-                0x000000008002fe38                _pn_sort
-                0x000000008003009c                _pn_active
-                0x000000008003027c                _pn_clear
-                0x0000000080030298                _pn_selected
-                0x00000000800302b8                _pn_count
- .text          0x00000000800302f0     0x1878 CMakeFiles/roberts7531.img.dir/desk/deskfun.c.o
-                0x0000000080030428                _fun_alert
-                0x0000000080030442                _fun_alert_merge
-                0x000000008003047a                _fun_msg
-                0x000000008003052a                _fun_mark_for_rebld
-                0x000000008003056c                _fun_rebld_marked
-                0x00000000800305ba                _fun_rebld
-                0x0000000080030614                _add_one_level
-                0x00000000800308a6                _fun_search
-                0x0000000080030b9c                _fun_selectall
-                0x0000000080030c2a                _fun_mask
-                0x0000000080030cd6                _fun_mkdir
-                0x0000000080030e36                _fun_op
-                0x0000000080030eb8                _fun_close
-                0x0000000080031078                _wants_to_delete_files
-                0x00000000800310b8                _fun_del
-                0x00000000800316f8                _fun_drag
- .text          0x0000000080031b68        0x0 CMakeFiles/roberts7531.img.dir/desk/deskglob.c.o
- .text          0x0000000080031b68     0x1994 CMakeFiles/roberts7531.img.dir/desk/deskinf.c.o
-                0x0000000080031ffc                _dr_code
-                0x0000000080032390                _start_dialog
-                0x0000000080032416                _end_dialog
-                0x0000000080032506                _inf_show
-                0x0000000080032534                _inf_numset
-                0x00000000800325e6                _set_tedinfo_name
-                0x0000000080032624                _inf_file_folder
-                0x00000000800329ba                _inf_disk
-                0x0000000080032ad2                _inf_pref
-                0x0000000080032d1e                _inf_backgrounds
-                0x0000000080032fa2                _inf_conf
-                0x0000000080033490                _opn_appl
- .text          0x00000000800334fc     0x1848 CMakeFiles/roberts7531.img.dir/desk/deskins.c.o
-                0x0000000080033638                _is_installed
-                0x0000000080033668                _is_viewer
-                0x0000000080033d52                _snap_icon
-                0x0000000080034346                _ins_devices
-                0x0000000080034506                _ins_app
-                0x0000000080034598                _is_executable
-                0x00000000800349d4                _ins_icon
-                0x0000000080034af8                _rmv_icon
-                0x0000000080034b66                _ins_shortcut
- .text          0x0000000080034d44      0x308 CMakeFiles/roberts7531.img.dir/desk/deskobj.c.o
-                0x0000000080034d44                _obj_init
-                0x0000000080034ed0                _obj_walloc
-                0x0000000080034f12                _obj_wfree
-                0x0000000080034f84                _obj_ialloc
-                0x0000000080034ff8                _obj_get_obid
- .text          0x000000008003504c       0x88 CMakeFiles/roberts7531.img.dir/desk/deskpro.c.o
-                0x000000008003504c                _pro_run
- .text          0x00000000800350d4       0x40 CMakeFiles/roberts7531.img.dir/desk/deskrez.c.o
-                0x00000000800350d4                _change_resolution
- .text          0x0000000080035114       0x14 CMakeFiles/roberts7531.img.dir/desk/deskrsrc.c.o
-                0x0000000080035114                _desktop_str_addr
- .text          0x0000000080035128     0x199c CMakeFiles/roberts7531.img.dir/desk/desksupp.c.o
-                0x00000000800351d8                _deselect_all
-                0x00000000800351f4                _desk_clear
-                0x0000000080035290                _desk_clear_all
-                0x00000000800352ce                _desk_verify
-                0x0000000080035352                _do_wredraw
-                0x0000000080035446                _do_xyfix
-                0x0000000080035466                _do_wopen
-                0x0000000080035566                _do_wfull
-                0x0000000080035600                _remove_locate_shortcut
-                0x00000000800356fa                _i_find
-                0x00000000800357d4                _valid_drive
-                0x0000000080035842                _malloc_fail_alert
-                0x0000000080035854                _desk_busy_on
-                0x0000000080035864                _desk_busy_off
-                0x0000000080035872                _set_default_path
-                0x0000000080035940                _do_info
-                0x0000000080035ade                _print_file
-                0x0000000080035c7e                _do_aopen
-                0x00000000800363b2                _do_diropen
-                0x00000000800364c0                _do_fopen
-                0x0000000080036678                _refresh_window
-                0x00000000800366f2                _refresh_drive
-                0x000000008003674a                _do_dopen
-                0x000000008003685e                _do_open
- .text          0x0000000080036ac4      0xf84 CMakeFiles/roberts7531.img.dir/desk/deskwin.c.o
-                0x0000000080036ac4                _win_view
-                0x0000000080036c46                _win_start
-                0x0000000080036cb2                _win_free
-                0x0000000080036d04                _win_alloc
-                0x0000000080036dec                _win_find
-                0x0000000080036e16                _win_top
-                0x0000000080036e5e                _win_onbottom
-                0x0000000080036e80                _win_ontop
-                0x0000000080036ebc                _win_count
-                0x0000000080036ec4                _win_bldview
-                0x00000000800375ca                _win_dispfile
-                0x0000000080037662                _win_slide
-                0x0000000080037708                _win_arrow
-                0x0000000080037806                _win_srtall
-                0x000000008003784a                _win_bdall
-                0x000000008003789e                _win_shwall
-                0x0000000080037904                _win_isel
-                0x0000000080037958                _win_sname
-                0x0000000080037988                _win_sinfo
- .text          0x0000000080037a48       0xd0 CMakeFiles/roberts7531.img.dir/cli/cmdasm.S.o
-                0x0000000080037a48                _coma_start
-                0x0000000080037a86                _getwh
-                0x0000000080037a92                _getht
-                0x0000000080037aa0                _jmp_gemdos
-                0x0000000080037ac8                _jmp_bios
-                0x0000000080037af0                _jmp_xbios
- .text          0x0000000080037b18      0x4b8 CMakeFiles/roberts7531.img.dir/cli/cmdmain.c.o
-                0x0000000080037cce                _cmdmain
-                0x0000000080037f92                _valid_res
- .text          0x0000000080037fd0      0x898 CMakeFiles/roberts7531.img.dir/cli/cmdedit.c.o
-                0x000000008003812a                _insert_char
-                0x00000000800381b0                _read_line
-                0x0000000080038752                _init_screen
-                0x000000008003878a                _init_cmdedit
-                0x00000000800387d2                _save_history
- .text          0x0000000080038868      0x388 CMakeFiles/roberts7531.img.dir/cli/cmdexec.c.o
-                0x000000008003893e                _exec_program
- .text          0x0000000080038bf0     0x2630 CMakeFiles/roberts7531.img.dir/cli/cmdint.c.o
-                0x000000008003a616                _lookup_builtin
-                0x000000008003a704                _get_path
- .text          0x000000008003b220      0x18c CMakeFiles/roberts7531.img.dir/cli/cmdparse.c.o
-                0x000000008003b26c                _parse_line
- .text          0x000000008003b3ac      0x7e0 CMakeFiles/roberts7531.img.dir/cli/cmdutil.c.o
-                0x000000008003b3b2                _escape
-                0x000000008003b3e6                _message
-                0x000000008003b41a                _messagenl
-                0x000000008003b548                _errmsg
-                0x000000008003b76c                _strlower
-                0x000000008003b796                _strupper
-                0x000000008003b7c0                _getword
-                0x000000008003b852                _decode_date_time
-                0x000000008003b9ae                _get_path_component
-                0x000000008003ba26                _has_wildcard
-                0x000000008003ba58                _strequal
-                0x000000008003bab2                _program_extension
-                0x000000008003bb2e                _getcookie
- .text          0x000000008003bb8c      0x140 CMakeFiles/roberts7531.img.dir/bios/spi_duart.S.o
-                0x000000008003bb8c                _spi_initialise
-                0x000000008003bb90                _spi_clock_ident
-                0x000000008003bb92                _spi_clock_sd
-                0x000000008003bb94                _spi_clock_mmc
-                0x000000008003bb96                _spi_cs_assert
-                0x000000008003bba2                _spi_cs_unassert
-                0x000000008003bbb2                _spi_send_byte
-                0x000000008003bc50                _spi_recv_byte
- .text          0x000000008003bccc        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/util/langs.c.o
- .text          0x000000008003bccc      0xeb0 CMakeFiles/roberts7531.img.dir/roberts7531/aes/gem_rsc.c.o
-                0x000000008003bccc                _gem_rsc_init
-                0x000000008003bd1e                _gem_rsc_fixit
-                0x000000008003c178                _rs_fstr
-                0x000000008003c1b4                _rs_trees
-                0x000000008003c1c0                _rs_bitblk
- .text          0x000000008003cb7c     0x32f4 CMakeFiles/roberts7531.img.dir/roberts7531/desk/desk_rsc.c.o
-                0x000000008003cb7c                _desk_rs_init
-                0x000000008003d532                _desk_rs_fstr
-                0x000000008003d612                _desk_rs_bitblk
- .text          0x000000008003fe70      0x894 CMakeFiles/roberts7531.img.dir/roberts7531/desk/icons.c.o
-                0x000000008003fe72                _icon_rs_iconblk
- .text          0x0000000080040704      0x270 CMakeFiles/roberts7531.img.dir/roberts7531/aes/mforms.c.o
-                0x0000000080040704                _mform_rs_data
- .text          0x0000000080040974      0x4dc libfont.a(fnt_st_6x6.c.o)
-                0x0000000080040df4                _fnt_st_6x6
- .text          0x0000000080040e50      0x85c libfont.a(fnt_st_8x8.c.o)
-                0x0000000080041650                _fnt_st_8x8
- .text          0x00000000800416ac     0x105c libfont.a(fnt_st_8x16.c.o)
-                0x00000000800426ac                _fnt_st_8x16
- .text          0x0000000080042708       0x24 /usr/lib/gcc/m68k-atari-mint/4.6.4/mshort/libgcc.a(_mulsi3.o)
-                0x0000000080042708                ___mulsi3
- .text          0x000000008004272c       0x5c /usr/lib/gcc/m68k-atari-mint/4.6.4/mshort/libgcc.a(_udivsi3.o)
-                0x000000008004272c                ___udivsi3
- .text          0x0000000080042788        0xc libroberts7531_endrom.a(endrom.c.o)
-                0x0000000080042788                _ui_mupb
+                0x0000000080000140                memdone
+ .text          0x000000008000014c      0x104 CMakeFiles/roberts7531.img.dir/bios/memory.S.o
+                0x000000008000014c                meminit
+                0x00000000800001f4                _detect_32bit_address_bus
+ .text          0x0000000080000250      0x2b0 CMakeFiles/roberts7531.img.dir/bios/processor.S.o
+                0x00000000800003a0                _processor_init
+                0x0000000080000476                _invalidate_instruction_cache
+                0x0000000080000476                _instruction_cache_kludge
+                0x00000000800004b4                _flush_data_cache
+                0x00000000800004b6                _invalidate_data_cache
+ .text          0x0000000080000500      0x5dc CMakeFiles/roberts7531.img.dir/bios/vectors.S.o
+                0x0000000080000500                _init_exc_vec
+                0x0000000080000518                _init_user_vec
+                0x0000000080000612                _int_vbl
+                0x000000008000066a                _int_timerc
+                0x0000000080000692                _duart_interrupt
+                0x000000008000071e                _call_etv_critic
+                0x0000000080000738                _default_etv_critic
+                0x0000000080000740                _int_illegal
+                0x0000000080000766                _int_priv
+                0x00000000800007c8                _int_unimpint
+                0x00000000800009e4                _biostrap
+                0x00000000800009f2                _xbiostrap
+                0x0000000080000a4c                _just_rte
+                0x0000000080000a4e                _xbios_unimpl
+                0x0000000080000a5a                _supexec
+                0x0000000080000a60                _check_read_byte
+                0x0000000080000ac6                _keyclick
+ .text          0x0000000080000adc      0x1bc CMakeFiles/roberts7531.img.dir/bios/aciavecs.S.o
+                0x0000000080000adc                _init_acia_vecs
+                0x0000000080000b94                ikbdraw
+                0x0000000080000c82                _call_mousevec
+ .text          0x0000000080000c98      0xb90 CMakeFiles/roberts7531.img.dir/bios/bios.c.o
+                0x0000000080000c98                _setexc
+                0x0000000080000cb4                _tickcal
+                0x0000000080000cb8                _drvmap
+                0x0000000080000cbe                _mediach
+                0x0000000080000cd2                _getbpb
+                0x0000000080000ce6                _lrwabs
+                0x0000000080000db4                _bcostat
+                0x0000000080000e18                _bconin
+                0x0000000080000e7c                _bconstat
+                0x0000000080000ee0                _bconout
+                0x0000000080001244                _biosmain
+                0x00000000800017aa                _bconout_str
+                0x00000000800017d6                _is_text_pointer
+                0x00000000800017f4                _bios_ent
+                0x00000000800017f6                _bios_vecs
+ .text          0x0000000080001828      0x19c CMakeFiles/roberts7531.img.dir/bios/xbios.c.o
+                0x00000000800018b6                _xbios_do_unimpl
+                0x00000000800018be                _xbios_ent
+                0x00000000800018c0                _xbios_vecs
+ .text          0x00000000800019c4        0x0 CMakeFiles/roberts7531.img.dir/bios/acsi.c.o
+ .text          0x00000000800019c4       0xc8 CMakeFiles/roberts7531.img.dir/bios/biosmem.c.o
+                0x00000000800019c4                _bmem_init
+                0x0000000080001a0a                _balloc_stram
+                0x0000000080001a56                _getmpb
+ .text          0x0000000080001a8c      0xbd8 CMakeFiles/roberts7531.img.dir/bios/blkdev.c.o
+                0x0000000080001fc2                _blkdev_getbpb
+                0x00000000800023a8                _compute_cksum
+                0x00000000800023be                _blkdev_init
+                0x00000000800024fe                _blkdev_boot
+                0x0000000080002532                _add_partition
+                0x0000000080002628                _get_shift
+                0x000000008000264a                _blkdev_drvmap
+                0x0000000080002652                _blkdev_avail
+ .text          0x0000000080002664      0x150 CMakeFiles/roberts7531.img.dir/bios/chardev.c.o
+                0x0000000080002664                _char_dummy
+                0x0000000080002668                _charout_dummy
+                0x000000008000266c                _bcostat2
+                0x000000008000267a                _bconout5
+                0x00000000800026a0                _bconout2
+                0x00000000800026b0                _chardev_init
+ .text          0x00000000800027b4       0x28 CMakeFiles/roberts7531.img.dir/bios/clock.c.o
+                0x00000000800027b4                _clock_init
+                0x00000000800027b6                _settime
+                0x00000000800027cc                _gettime
+ .text          0x00000000800027dc       0xc0 CMakeFiles/roberts7531.img.dir/bios/conout.c.o
+                0x00000000800027dc                _setBlink
+                0x00000000800027de                _setInvert
+                0x00000000800027e0                _setFg
+                0x00000000800027e2                _setBg
+                0x00000000800027e4                _invert_cell
+                0x00000000800027e6                _move_cursor
+                0x0000000080002834                _ascii_out
+                0x0000000080002896                _blank_out
+                0x0000000080002898                _scroll_up
+                0x000000008000289a                _scroll_down
+ .text          0x000000008000289c      0x204 CMakeFiles/roberts7531.img.dir/bios/country.c.o
+                0x000000008000289c                _detect_akp
+                0x00000000800028cc                _detect_idt
+                0x00000000800028d6                _get_keytbl
+                0x00000000800028de                _get_fonts
+ .text          0x0000000080002aa0      0xd94 CMakeFiles/roberts7531.img.dir/bios/disk.c.o
+                0x0000000080002b9e                _byteswap
+                0x0000000080002bb8                _disk_inquire
+                0x0000000080002bbc                _disk_get_capacity
+                0x0000000080002c40                _disk_rw
+                0x00000000800035fa                _disk_rescan
+                0x0000000080003652                _disk_mediach
+                0x00000000800036d2                _disk_init_all
+                0x0000000080003786                _DMAread
+                0x00000000800037e4                _DMAwrite
+ .text          0x0000000080003834       0x14 CMakeFiles/roberts7531.img.dir/bios/dma.c.o
+                0x0000000080003834                _set_dma_addr
+ .text          0x0000000080003848        0x0 CMakeFiles/roberts7531.img.dir/bios/dmasound.c.o
+ .text          0x0000000080003848      0x5fc CMakeFiles/roberts7531.img.dir/bios/floppy.c.o
+                0x0000000080003848                _flop_hdv_init
+                0x0000000080003870                _flop_boot_read
+                0x0000000080003874                _flop_checksum
+                0x00000000800038b2                _flop_mediach
+                0x00000000800038fa                _floppy_rw
+                0x00000000800038fe                _protobt
+                0x0000000080003a2a                _floprd
+                0x0000000080003a2e                _flopwr
+                0x0000000080003a32                _flopver
+                0x0000000080003a62                _flopfmt
+                0x0000000080003d42                _floprate
+ .text          0x0000000080003e44      0x118 CMakeFiles/roberts7531.img.dir/bios/font.c.o
+                0x0000000080003e44                _font_init
+                0x0000000080003ed4                _font_set_default
+ .text          0x0000000080003f5c      0xb80 CMakeFiles/roberts7531.img.dir/bios/ide.c.o
+                0x000000008000440c                _detect_ide
+                0x000000008000443c                _ide_init
+                0x00000000800046bc                _ide_rw
+                0x0000000080004a4c                _ide_ioctl
+ .text          0x0000000080004adc      0xe40 CMakeFiles/roberts7531.img.dir/bios/ikbd.c.o
+                0x00000000800050c8                _keytbl
+                0x0000000080005104                _bioskeys
+                0x000000008000513e                _kbshift
+                0x0000000080005158                _push_ascii_ikbdiorec
+                0x000000008000519a                _bconstat2
+                0x00000000800051d2                _bconin2
+                0x0000000080005254                _kbrate
+                0x0000000080005296                _kb_timerc_int
+                0x00000000800053ae                _kbd_int
+                0x00000000800057b2                _ikbd_int
+                0x0000000080005842                _bcostat4
+                0x0000000080005846                _bconout4
+                0x000000008000585a                _ikbdws
+                0x0000000080005886                _ikbd_writeb
+                0x0000000080005896                _ikbd_writew
+                0x00000000800058ba                _kbd_init
+ .text          0x000000008000591c      0x724 CMakeFiles/roberts7531.img.dir/bios/initinfo.c.o
+                0x0000000080005abc                _gpuWriteReg
+                0x0000000080005bd0                _initinfo
+                0x0000000080005f7a                _display_startup_msg
+ .text          0x0000000080006040      0xa54 CMakeFiles/roberts7531.img.dir/bios/kprint.c.o
+                0x000000008000610a                _debugOut2
+                0x0000000080006194                _cprintf
+                0x00000000800061b2                _kprintf
+                0x00000000800061d8                _kcprintf
+                0x00000000800063e6                _dopanic
+ .text          0x0000000080006a94        0x0 CMakeFiles/roberts7531.img.dir/bios/kprintasm.S.o
+ .text          0x0000000080006a94       0xc4 CMakeFiles/roberts7531.img.dir/bios/linea.S.o
+                0x0000000080006a94                _int_linea
+ .text          0x0000000080006b58       0x84 CMakeFiles/roberts7531.img.dir/bios/lineainit.c.o
+                0x0000000080006b58                _set_screen_shift
+                0x0000000080006b84                _linea_init
+ .text          0x0000000080006bdc      0x344 CMakeFiles/roberts7531.img.dir/bios/machine.c.o
+                0x0000000080006c18                _machine_detect
+                0x0000000080006ca8                _machine_init
+                0x0000000080006d36                _fill_cookie_jar
+                0x0000000080006e9e                _machine_name
+ .text          0x0000000080006f20       0x18 CMakeFiles/roberts7531.img.dir/bios/mfp.c.o
+                0x0000000080006f20                _init_system_timer
+ .text          0x0000000080006f38       0x34 CMakeFiles/roberts7531.img.dir/bios/midi.c.o
+                0x0000000080006f38                _bconstat3
+                0x0000000080006f4e                _bconin3
+                0x0000000080006f62                _bcostat3
+                0x0000000080006f66                _bconout3
+                0x0000000080006f68                _midiws
+                0x0000000080006f6a                _midi_init
+ .text          0x0000000080006f6c      0x178 CMakeFiles/roberts7531.img.dir/bios/mouse.c.o
+                0x0000000080006f6c                _Initmous
+ .text          0x00000000800070e4       0x1c CMakeFiles/roberts7531.img.dir/bios/natfeat.S.o
+                0x00000000800070e8                _xhdi_vec
+ .text          0x0000000080007100        0x0 CMakeFiles/roberts7531.img.dir/bios/natfeats.c.o
+ .text          0x0000000080007100        0x0 CMakeFiles/roberts7531.img.dir/bios/nvram.c.o
+ .text          0x0000000080007100       0x5c CMakeFiles/roberts7531.img.dir/bios/panicasm.S.o
+                0x0000000080007100                _panic
+                0x000000008000712c                _halt
+                0x0000000080007132                _kill_program
+                0x000000008000713c                _warm_reset
+                0x0000000080007148                _cold_reset
+ .text          0x000000008000715c       0x10 CMakeFiles/roberts7531.img.dir/bios/parport.c.o
+                0x000000008000715c                _parport_init
+                0x000000008000715e                _bconin0
+                0x0000000080007162                _bcostat0
+                0x0000000080007166                _bconout0
+ .text          0x000000008000716c      0x1f8 CMakeFiles/roberts7531.img.dir/bios/screen.c.o
+                0x000000008000716c                _check_moderez
+                0x0000000080007170                _initialise_palette_registers
+                0x0000000080007172                _screen_init_mode
+                0x000000008000718c                _screen_init_address
+                0x00000000800071ba                _set_rez_hacked
+                0x00000000800071ce                _rez_changeable
+                0x00000000800071d2                _get_monitor_type
+                0x00000000800071d6                _calc_vram_size
+                0x00000000800071f0                _screen_get_current_mode_info
+                0x0000000080007224                _get_palette
+                0x0000000080007244                _get_pixel_size
+                0x00000000800072a2                _physbase
+                0x00000000800072aa                _logbase
+                0x00000000800072b2                _getrez
+                0x00000000800072bc                _setscreen
+                0x0000000080007330                _setpalette
+                0x000000008000733a                _setcolor
+                0x000000008000733e                _vsync
+ .text          0x0000000080007364      0xc1c CMakeFiles/roberts7531.img.dir/bios/serport.c.o
+                0x00000000800073ae                _bconstat1
+                0x00000000800073c4                _bconin1
+                0x00000000800073d2                _bcostat1
+                0x00000000800073d6                _bconout1
+                0x00000000800073da                _rsconf1
+                0x000000008000772c                _bconstatDUARTB
+                0x0000000080007742                _bconinDUARTB
+                0x0000000080007762                _bconoutDUARTB
+                0x00000000800077e8                _push_serial_iorec
+                0x0000000080007818                _write_duart
+                0x000000008000782c                _read_duart
+                0x000000008000783e                _duart_rs232_interrupt_handler_channel_a
+                0x00000000800078c6                _duart_rs232_interrupt_handler_channel_b
+                0x00000000800078fa                _duart_init_system_timer
+                0x0000000080007922                _duart_rs232_enable_interrupt
+                0x000000008000793a                _init_duart
+                0x00000000800079be                _init_serport
+                0x0000000080007e10                _bconmap
+ .text          0x0000000080007f80       0x38 CMakeFiles/roberts7531.img.dir/bios/sound.c.o
+                0x0000000080007f84                _snd_init
+                0x0000000080007f9a                _giaccess
+                0x0000000080007f9e                _ongibit
+                0x0000000080007fa0                _offgibit
+                0x0000000080007fa2                _dosound
+                0x0000000080007fa6                _bell
+ .text          0x0000000080007fb8        0x0 CMakeFiles/roberts7531.img.dir/bios/videl.c.o
+ .text          0x0000000080007fb8      0xab4 CMakeFiles/roberts7531.img.dir/bios/vt52.c.o
+                0x0000000080008814                _cputc
+                0x0000000080008830                _blink
+                0x00000000800088aa                _cursconf
+                0x0000000080008912                _vt52_init
+ .text          0x0000000080008a6c      0x8bc CMakeFiles/roberts7531.img.dir/bios/xhdi.c.o
+                0x0000000080008bd6                _init_XHDI_drvmap
+                0x0000000080008bfe                _xhdi_handler
+ .text          0x0000000080009328      0x11c CMakeFiles/roberts7531.img.dir/bios/pmmu030.c.o
+                0x0000000080009328                _setup_68030_pmmu
+ .text          0x0000000080009444        0x0 CMakeFiles/roberts7531.img.dir/bios/68040_pmmu.S.o
+ .text          0x0000000080009444        0x0 CMakeFiles/roberts7531.img.dir/bios/amiga.c.o
+ .text          0x0000000080009444        0x0 CMakeFiles/roberts7531.img.dir/bios/amiga2.S.o
+ .text          0x0000000080009444        0x0 CMakeFiles/roberts7531.img.dir/bios/spi_vamp.c.o
+ .text          0x0000000080009444        0x0 CMakeFiles/roberts7531.img.dir/bios/lisa.c.o
+ .text          0x0000000080009444        0x0 CMakeFiles/roberts7531.img.dir/bios/lisa2.S.o
+ .text          0x0000000080009444       0x40 CMakeFiles/roberts7531.img.dir/bios/delay.c.o
+                0x0000000080009444                _init_delay
+                0x0000000080009480                _calibrate_delay
+ .text          0x0000000080009484       0x88 CMakeFiles/roberts7531.img.dir/bios/delayasm.S.o
+                0x0000000080009484                _run_calibration
+ .text          0x000000008000950c        0x0 CMakeFiles/roberts7531.img.dir/bios/sd.c.o
+ .text          0x000000008000950c       0x14 CMakeFiles/roberts7531.img.dir/bios/memory2.c.o
+                0x000000008000950c                _ttram_detect
+ .text          0x0000000080009520        0x0 CMakeFiles/roberts7531.img.dir/bios/bootparams.c.o
+ .text          0x0000000080009520        0x0 CMakeFiles/roberts7531.img.dir/bios/scsi.c.o
+ .text          0x0000000080009520        0x0 CMakeFiles/roberts7531.img.dir/bios/nova.c.o
+ .text          0x0000000080009520        0x0 CMakeFiles/roberts7531.img.dir/bios/dsp.c.o
+ .text          0x0000000080009520        0x0 CMakeFiles/roberts7531.img.dir/bios/dsp2.S.o
+ .text          0x0000000080009520        0x0 CMakeFiles/roberts7531.img.dir/bios/scsidriv.c.o
+ .text          0x0000000080009520       0x9c CMakeFiles/roberts7531.img.dir/bios/machine_r7531.c.o
+                0x0000000080009520                _r7531_ikbd_init
+                0x0000000080009576                _r7531_ikbd_cinRdy
+                0x000000008000957e                _r7531_ikbd_writeb
+                0x0000000080009580                _r7531_ikbd_readb
+ .text          0x00000000800095bc      0xa00 CMakeFiles/roberts7531.img.dir/bdos/bdosmain.c.o
+                0x000000008000962c                _osinit_before_xmaddalt
+                0x0000000080009670                _osinit_after_xmaddalt
+                0x0000000080009698                _osif
+ .text          0x0000000080009fbc      0x7e4 CMakeFiles/roberts7531.img.dir/bdos/console.c.o
+                0x000000008000a206                _stdhdl_init
+                0x000000008000a266                _get_default_handle
+                0x000000008000a274                _xconstat
+                0x000000008000a2ca                _xconostat
+                0x000000008000a2ec                _xprtostat
+                0x000000008000a30e                _xauxistat
+                0x000000008000a364                _xauxostat
+                0x000000008000a386                _tabout
+                0x000000008000a426                _xconout
+                0x000000008000a444                _xauxout
+                0x000000008000a46c                _xprtout
+                0x000000008000a494                _xrawcin
+                0x000000008000a4ac                _conin
+                0x000000008000a4d6                _xconin
+                0x000000008000a508                _xnecin
+                0x000000008000a53a                _xauxin
+                0x000000008000a55c                _xrawio
+                0x000000008000a5d0                _xconws
+                0x000000008000a606                _cgets
+                0x000000008000a76a                _xconrs
+ .text          0x000000008000a7a0      0x460 CMakeFiles/roberts7531.img.dir/bdos/fsbuf.c.o
+                0x000000008000a80e                _bufl_init
+                0x000000008000a86c                _flush
+                0x000000008000a9ac                _getbcb
+                0x000000008000abb8                _getrec
+ .text          0x000000008000ac00     0x1908 CMakeFiles/roberts7531.img.dir/bdos/fsdir.c.o
+                0x000000008000aff0                _xgsdtof
+                0x000000008000b054                _builds
+                0x000000008000b1b0                _xsnext
+                0x000000008000b3fa                _incr_curdir_usage
+                0x000000008000b454                _decr_curdir_usage
+                0x000000008000b48c                _xgetdir
+                0x000000008000b51c                _dirinit
+                0x000000008000b5c8                _makofd
+                0x000000008000b630                _scan
+                0x000000008000b7c0                _findit
+                0x000000008000b982                _xchdir
+                0x000000008000ba34                _ixsfirst
+                0x000000008000bb9c                _xsfirst
+                0x000000008000bbee                _xrename
+                0x000000008000c01e                _xchmod
+                0x000000008000c10c                _xrmdir
+                0x000000008000c23e                _xmkdir
+                0x000000008000c4a4                _free_available_dnds
+ .text          0x000000008000c508      0x324 CMakeFiles/roberts7531.img.dir/bdos/fsdrive.c.o
+                0x000000008000c508                _log_media
+                0x000000008000c714                _ckdrv
+ .text          0x000000008000c82c      0x5f0 CMakeFiles/roberts7531.img.dir/bdos/fsfat.c.o
+                0x000000008000c82c                _cl2rec
+                0x000000008000c846                _clfix
+                0x000000008000c9d6                _getrealcl
+                0x000000008000cae0                _getclnum
+                0x000000008000cb00                _nextcl
+                0x000000008000ccb8                _xgetfree
+ .text          0x000000008000ce1c        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsglob.c.o
+ .text          0x000000008000ce1c      0x150 CMakeFiles/roberts7531.img.dir/bdos/fshand.c.o
+                0x000000008000ce1c                _ixforce
+                0x000000008000ce9c                _xforce
+                0x000000008000ceb2                _xdup
+ .text          0x000000008000cf6c      0x754 CMakeFiles/roberts7531.img.dir/bdos/fsio.c.o
+                0x000000008000d3de                _eof
+                0x000000008000d40a                _ixlseek
+                0x000000008000d4fc                _xlseek
+                0x000000008000d578                _ixgetfcb
+                0x000000008000d61e                _ixread
+                0x000000008000d654                _xread
+                0x000000008000d67c                _ixwrite
+                0x000000008000d696                _xwrite
+ .text          0x000000008000d6c0       0xb0 CMakeFiles/roberts7531.img.dir/bdos/fsmain.c.o
+                0x000000008000d6c0                _xgetdta
+                0x000000008000d6cc                _xsetdta
+                0x000000008000d6da                _xsetdrv
+                0x000000008000d700                _xgetdrv
+                0x000000008000d70e                _getofd
+ .text          0x000000008000d770      0x8f8 CMakeFiles/roberts7531.img.dir/bdos/fsopnclo.c.o
+                0x000000008000d87a                _xopen
+                0x000000008000d8f6                _ixclose
+                0x000000008000da8c                _xclose
+                0x000000008000dbe2                _ixdel
+                0x000000008000dcfc                _xunlink
+                0x000000008000dd88                _ixcreat
+                0x000000008000e020                _xcreat
+                0x000000008000e032                _contains_illegal_characters
+ .text          0x000000008000e068      0x244 CMakeFiles/roberts7531.img.dir/bdos/iumem.c.o
+                0x000000008000e068                _ffit
+                0x000000008000e15c                _freeit
+                0x000000008000e254                _shrinkit
+ .text          0x000000008000e2ac      0x254 CMakeFiles/roberts7531.img.dir/bdos/kpgmld.c.o
+                0x000000008000e2ac                _kpgmhdrld
+                0x000000008000e316                _kpgmld
+ .text          0x000000008000e500      0x320 CMakeFiles/roberts7531.img.dir/bdos/osmem.c.o
+                0x000000008000e500                _xmfremd
+                0x000000008000e61e                _xmgetblk
+                0x000000008000e6ec                _xmgetmd
+                0x000000008000e7da                _xmfreblk
+                0x000000008000e7fc                _osmem_init
+ .text          0x000000008000e820      0x6bc CMakeFiles/roberts7531.img.dir/bdos/proc.c.o
+                0x000000008000ea04                _xexec
+                0x000000008000ed76                _xterm
+                0x000000008000ee72                _x0term
+                0x000000008000ee78                _xtermres
+ .text          0x000000008000eedc      0x178 CMakeFiles/roberts7531.img.dir/bdos/rwa.S.o
+                0x000000008000eedc                _bdos_trap2
+                0x000000008000eef8                _enter
+                0x000000008000ef76                _gouser
+                0x000000008000efac                _termuser
+ .text          0x000000008000f054      0x200 CMakeFiles/roberts7531.img.dir/bdos/time.c.o
+                0x000000008000f13c                _xgetdate
+                0x000000008000f146                _xsetdate
+                0x000000008000f1ae                _xgettime
+                0x000000008000f1b8                _xsettime
+                0x000000008000f20c                _time_init
+ .text          0x000000008000f254      0x1e0 CMakeFiles/roberts7531.img.dir/bdos/umem.c.o
+                0x000000008000f254                _xmfree
+                0x000000008000f29e                _xsetblk
+                0x000000008000f328                _xmxalloc
+                0x000000008000f396                _xmalloc
+                0x000000008000f3c2                _umem_init
+                0x000000008000f3fc                _set_owner
+ .text          0x000000008000f434      0x120 CMakeFiles/roberts7531.img.dir/util/cookie.c.o
+                0x000000008000f434                _cookie_init
+                0x000000008000f44c                _cookie_add
+                0x000000008000f4a0                _cookie_get
+                0x000000008000f4de                _get_idt_cookie
+                0x000000008000f524                _nvdi_cookie_present
+ .text          0x000000008000f554      0x55c CMakeFiles/roberts7531.img.dir/util/doprintf.c.o
+                0x000000008000f60e                _doprintf
+ .text          0x000000008000fab0       0x88 CMakeFiles/roberts7531.img.dir/util/intmath.c.o
+                0x000000008000fab0                _Isqrt
+ .text          0x000000008000fb38      0x274 CMakeFiles/roberts7531.img.dir/util/memmove.S.o
+                0x000000008000fb38                _memcpy
+                0x000000008000fb5a                _memmove
+ .text          0x000000008000fdac       0xcc CMakeFiles/roberts7531.img.dir/util/memset.S.o
+                0x000000008000fdac                _bzero_nobuiltin
+                0x000000008000fdba                _memset
+ .text          0x000000008000fe78       0xc0 CMakeFiles/roberts7531.img.dir/util/miscasm.S.o
+                0x000000008000fe78                _trap1
+                0x000000008000fe98                _trap1_pexec
+                0x000000008000febc                _just_rts
+                0x000000008000febe                _mul_div_round
+                0x000000008000feda                _protect_v
+                0x000000008000feea                _protect_w
+                0x000000008000ff02                _protect_ww
+                0x000000008000ff1a                _protect_wlwwwl
+ .text          0x000000008000ff38        0x0 CMakeFiles/roberts7531.img.dir/util/nls.c.o
+ .text          0x000000008000ff38        0x0 CMakeFiles/roberts7531.img.dir/util/nlsasm.S.o
+ .text          0x000000008000ff38       0x24 CMakeFiles/roberts7531.img.dir/util/setjmp.S.o
+                0x000000008000ff38                _setjmp
+                0x000000008000ff46                _longjmp
+ .text          0x000000008000ff5c      0x1ec CMakeFiles/roberts7531.img.dir/util/string.c.o
+                0x000000008000ff72                _strlcpy
+                0x000000008000ffc2                _strlen
+                0x000000008000ffda                _strcat
+                0x000000008001000e                _strcmp
+                0x0000000080010032                _memcmp
+                0x0000000080010062                _strncmp
+                0x0000000080010096                _strncasecmp
+                0x00000000800100f4                _toupper
+                0x000000008001010a                _sprintf
+ .text          0x0000000080010148        0x0 CMakeFiles/roberts7531.img.dir/util/lisautil.S.o
+ .text          0x0000000080010148       0x68 CMakeFiles/roberts7531.img.dir/util/miscutil.c.o
+                0x0000000080010148                _build_root_path
+                0x0000000080010162                _extract_drive_number
+                0x000000008001019e                _set_all_files
+ .text          0x00000000800101b0      0x204 CMakeFiles/roberts7531.img.dir/bios/fnt_off_6x6.c.o
+                0x00000000800101b0                _off_6x6_table
+ .text          0x00000000800103b4      0x204 CMakeFiles/roberts7531.img.dir/bios/fnt_off_8x8.c.o
+                0x00000000800103b4                _off_8x8_table
+ .text          0x00000000800105b8      0x1f4 CMakeFiles/roberts7531.img.dir/vdi/vdi_asm.S.o
+                0x00000000800105b8                _vditrap
+                0x00000000800105d4                _GSX_ENTRY
+                0x0000000080010658                _mouse_int
+                0x0000000080010710                _wheel_int
+                0x0000000080010768                _mov_cur
+                0x000000008001078e                _call_user_but
+                0x000000008001079a                _call_user_wheel
+ .text          0x00000000800107ac        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_bezier.c.o
+ .text          0x00000000800107ac      0x3a4 CMakeFiles/roberts7531.img.dir/vdi/vdi_col.c.o
+                0x00000000800108bc                _vdi_vs_color
+                0x0000000080010930                _init_colors
+                0x00000000800109f4                _vdi_vq_color
+ .text          0x0000000080010b50      0x77c CMakeFiles/roberts7531.img.dir/vdi/vdi_control.c.o
+                0x0000000080010d28                _get_vwk_by_handle
+                0x0000000080010d4c                _update_rez_dependent
+                0x0000000080010e04                _validate_color_index
+                0x0000000080010e1c                _vdi_vs_clip
+                0x0000000080010ec8                _vdi_vswr_mode
+                0x0000000080010f0e                _vdi_v_opnvwk
+                0x0000000080010fba                _vdi_v_clsvwk
+                0x0000000080011020                _vdi_v_opnwk
+                0x000000008001110a                _vdi_v_clswk
+                0x000000008001115c                _vdi_v_clrwk
+                0x000000008001117a                _vdi_vq_extnd
+ .text          0x00000000800112cc      0x3c0 CMakeFiles/roberts7531.img.dir/vdi/vdi_esc.c.o
+                0x00000000800115ca                _vdi_v_escape
+                0x00000000800115f4                _esc_init
+                0x0000000080011618                _esc_exit
+ .text          0x000000008001168c      0xe84 CMakeFiles/roberts7531.img.dir/vdi/vdi_fill.c.o
+                0x0000000080011970                _vdi_vsf_udpat
+                0x00000000800119cc                _vdi_vsf_color
+                0x00000000800119fe                _vdi_vsf_perimeter
+                0x0000000080011a2c                _vdi_vr_recfl
+                0x0000000080011adc                _vdi_vqf_attributes
+                0x0000000080011b20                _st_fl_ptr
+                0x0000000080011bfa                _vdi_vsf_style
+                0x0000000080011c3c                _vdi_vsf_interior
+                0x0000000080011c62                _clc_flit
+                0x0000000080011dac                _polygon
+                0x0000000080011eaa                _vdi_v_fillarea
+                0x0000000080011ec8                _contourfill
+                0x0000000080012164                _vdi_v_contourfill
+                0x00000000800121a4                _vdi_v_get_pixel
+                0x00000000800121d4                _get_pix
+                0x00000000800121e8                _put_pix
+                0x000000008001227c                _SOLID
+                0x000000008001227e                _HOLLOW
+                0x0000000080012280                _ROM_UD_PATRN
+ .text          0x0000000080012510      0x7c4 CMakeFiles/roberts7531.img.dir/vdi/vdi_gdp.c.o
+                0x0000000080012896                _vdi_v_gdp
+ .text          0x0000000080012cd4      0x200 CMakeFiles/roberts7531.img.dir/vdi/vdi_input.c.o
+                0x0000000080012d14                _vdi_v_choice
+                0x0000000080012d28                _vdi_v_string
+                0x0000000080012e14                _vdi_vq_key_s
+                0x0000000080012e36                _vdi_vsin_mode
+                0x0000000080012e8a                _vdi_vqin_mode
+ .text          0x0000000080012ed4     0x1bb4 CMakeFiles/roberts7531.img.dir/vdi/vdi_line.c.o
+                0x00000000800134b0                _vdi_vsl_udsty
+                0x00000000800134c0                _vdi_vsl_type
+                0x00000000800134fa                _vdi_vsl_width
+                0x0000000080013548                _vdi_vsl_ends
+                0x0000000080013586                _vdi_vsl_color
+                0x00000000800135b8                _vdi_vql_attributes
+                0x00000000800135fe                _draw_rect_common
+                0x0000000080013602                _Vwk2Attrib
+                0x000000008001362e                _draw_rect
+                0x000000008001366c                _linea_rect
+                0x000000008001375e                _linea_hline
+                0x00000000800137aa                _linea_polygon
+                0x000000008001384e                _linea_fill
+                0x00000000800138dc                _clip_line
+                0x0000000080013b8c                _arrow
+                0x0000000080013c7e                _wideline
+                0x00000000800141aa                _abline
+                0x0000000080014896                _polyline
+                0x0000000080014952                _vdi_v_pline
+                0x00000000800149e6                _linea_line
+                0x0000000080014a4a                _set_LN_MASK
+                0x0000000080014a7a                _LINE_STYLE
+ .text          0x0000000080014a88      0x308 CMakeFiles/roberts7531.img.dir/vdi/vdi_main.c.o
+                0x0000000080014a88                _screen
+ .text          0x0000000080014d90      0x378 CMakeFiles/roberts7531.img.dir/vdi/vdi_marker.c.o
+                0x0000000080014d90                _vdi_vsm_height
+                0x0000000080014e74                _vdi_vsm_type
+                0x0000000080014eae                _vdi_vsm_color
+                0x0000000080014ee0                _vdi_v_pmarker
+                0x000000008001501e                _vdi_vqm_attributes
+ .text          0x0000000080015108      0x168 CMakeFiles/roberts7531.img.dir/vdi/vdi_misc.c.o
+                0x0000000080015152                _arb_corner
+                0x000000008001517c                _arb_line
+                0x00000000800151a6                _vdi_vex_timv
+                0x00000000800151e0                _timer_init
+                0x000000008001521c                _timer_exit
+                0x0000000080015244                _get_start_addr
+ .text          0x0000000080015270      0x97c CMakeFiles/roberts7531.img.dir/vdi/vdi_mouse.c.o
+                0x0000000080015494                _vdi_vq_mouse
+                0x00000000800154c0                _vdi_vex_butv
+                0x00000000800154d8                _vdi_vex_motv
+                0x00000000800154f0                _vdi_vex_curv
+                0x0000000080015508                _vdi_vex_wheelv
+                0x0000000080015520                _vdimouse_init
+                0x0000000080015618                _vdimouse_exit
+                0x0000000080015682                _cur_display
+                0x00000000800159a0                _cur_replace
+                0x0000000080015a8c                _vdi_v_locator
+                0x0000000080015b44                _vdi_v_hide_c
+                0x0000000080015bb2                _linea_show_mouse
+                0x0000000080015bd0                _vdi_v_show_c
+                0x0000000080015bd2                _linea_hide_mouse
+                0x0000000080015bd6                _linea_transform_mouse
+                0x0000000080015be4                _vdi_vsc_form
+ .text          0x0000000080015bec      0x5bc CMakeFiles/roberts7531.img.dir/vdi/vdi_raster.c.o
+                0x0000000080015fb2                _vdi_vr_trnfm
+                0x00000000800160ce                _vdi_vro_cpyfm
+                0x0000000080016104                _vdi_vrt_cpyfm
+                0x000000008001613c                _linea_raster
+                0x0000000080016166                _linea_blit
+ .text          0x00000000800161a8     0x1710 CMakeFiles/roberts7531.img.dir/vdi/vdi_text.c.o
+                0x0000000080016c34                _vdi_v_gtext
+                0x0000000080016c58                _text_init2
+                0x0000000080016ca4                _text_init
+                0x0000000080016e22                _vdi_vst_height
+                0x0000000080016f14                _vdi_vst_point
+                0x0000000080017030                _vdi_vst_effects
+                0x0000000080017050                _vdi_vst_alignment
+                0x000000008001708e                _vdi_vst_rotation
+                0x00000000800170cc                _vdi_vst_font
+                0x00000000800171de                _vdi_vst_color
+                0x0000000080017210                _vdi_vqt_attributes
+                0x0000000080017282                _vdi_vqt_extent
+                0x0000000080017360                _vdi_vqt_width
+                0x000000008001741c                _vdi_vqt_name
+                0x00000000800174bc                _vdi_vqt_fontinfo
+                0x000000008001756c                _gdp_justified
+                0x00000000800177c6                _vdi_vst_load_fonts
+                0x0000000080017892                _vdi_vst_unload_fonts
+ .text          0x00000000800178b8      0xfc0 CMakeFiles/roberts7531.img.dir/vdi/vdi_textblit.c.o
+                0x0000000080017962                _outline
+                0x0000000080017a6c                _rotate
+                0x0000000080017cd6                _scale
+                0x0000000080017ef2                _direct_screen_blit
+                0x00000000800180e8                _text_blt
+ .text          0x0000000080018878      0x74c CMakeFiles/roberts7531.img.dir/vdi/vdi_blit.S.o
+                0x0000000080018bc0                _fast_bit_blt
+ .text          0x0000000080018fc4      0x7b0 CMakeFiles/roberts7531.img.dir/vdi/vdi_tblit.S.o
+                0x0000000080018fc4                _normal_blit
+ .text          0x0000000080019774        0x0 CMakeFiles/roberts7531.img.dir/vdi/endvdi.S.o
+ .text          0x0000000080019774        0xc CMakeFiles/roberts7531.img.dir/version.c.o
+                0x0000000080019774                _version
+ .text          0x0000000080019780      0x224 CMakeFiles/roberts7531.img.dir/util/gemdos.c.o
+                0x0000000080019782                _pgmld
+                0x00000000800197d4                _dos_setdt
+                0x000000008001980a                _dos_label
+                0x000000008001987c                _dos_space
+                0x00000000800198de                _dos_alloc_stram
+                0x00000000800198f2                _dos_avail_stram
+                0x0000000080019906                _dos_alloc_anyram
+                0x000000008001991c                _dos_avail_anyram
+                0x0000000080019932                _dos_free
+                0x0000000080019944                _dos_shrink
+                0x000000008001995e                _dos_load_file
+ .text          0x00000000800199a4      0x30c CMakeFiles/roberts7531.img.dir/util/optimize.c.o
+                0x00000000800199a4                _fmt_str
+                0x0000000080019a36                _unfmt_str
+                0x0000000080019a86                _inf_sset
+                0x0000000080019ab2                _inf_sget
+                0x0000000080019ad4                _inf_gindex
+                0x0000000080019b1e                _inf_what
+                0x0000000080019b78                _scan_2
+                0x0000000080019bfc                _filename_start
+                0x0000000080019c14                _wildcmp
+ .text          0x0000000080019cb0       0x30 CMakeFiles/roberts7531.img.dir/util/optimopt.S.o
+                0x0000000080019cb0                _scasb
+                0x0000000080019cc6                _expand_string
+ .text          0x0000000080019ce0      0x190 CMakeFiles/roberts7531.img.dir/util/rectfunc.c.o
+                0x0000000080019ce0                _inside
+                0x0000000080019d1a                _rc_constrain
+                0x0000000080019d76                _rc_equal
+                0x0000000080019d98                _rc_intersect
+                0x0000000080019e10                _rc_union
+ .text          0x0000000080019e70       0x30 CMakeFiles/roberts7531.img.dir/util/stringasm.S.o
+                0x0000000080019e70                _strlencpy
+                0x0000000080019e84                _strchr
+ .text          0x0000000080019ea0       0xc4 CMakeFiles/roberts7531.img.dir/aes/gemasm.S.o
+                0x0000000080019ea0                _psetup
+                0x0000000080019ec8                _gotopgm
+                0x0000000080019eec                _dsptch
+                0x0000000080019f36                _switchto
+ .text          0x0000000080019f64      0x168 CMakeFiles/roberts7531.img.dir/aes/gemstart.S.o
+                0x0000000080019f64                _ui_start
+                0x000000008001a01e                _accdesk_start
+                0x000000008001a062                _dos_exec
+ .text          0x000000008001a0cc      0x270 CMakeFiles/roberts7531.img.dir/aes/gemdosif.S.o
+                0x000000008001a0cc                _disable_interrupts
+                0x000000008001a0d8                _enable_interrupts
+                0x000000008001a0e0                _retake
+                0x000000008001a0fe                _giveerr
+                0x000000008001a106                _takeerr
+                0x000000008001a220                _unset_aestrap
+                0x000000008001a22a                _set_aestrap
+                0x000000008001a23c                _far_bcha
+                0x000000008001a262                _far_mcha
+                0x000000008001a290                _aes_wheel
+                0x000000008001a2be                _drawrat
+                0x000000008001a2ce                _tikcod
+ .text          0x000000008001a33c      0x388 CMakeFiles/roberts7531.img.dir/aes/gemaplib.c.o
+                0x000000008001a33c                _ap_init
+                0x000000008001a34e                _ap_rdwr
+                0x000000008001a3c6                _ap_find
+                0x000000008001a3ec                _ap_tplay
+                0x000000008001a574                _ap_trecd
+                0x000000008001a648                _ap_exit
+ .text          0x000000008001a6c4      0x37c CMakeFiles/roberts7531.img.dir/aes/gemasync.c.o
+                0x000000008001a6c4                _azombie
+                0x000000008001a772                _evinsert
+                0x000000008001a79a                _mwait
+                0x000000008001a7e2                _iasync
+                0x000000008001a91a                _apret
+                0x000000008001a99c                _acancel
+ .text          0x000000008001aa40      0x88c CMakeFiles/roberts7531.img.dir/aes/gemctrl.c.o
+                0x000000008001ab1e                _ct_chgown
+                0x000000008001ab48                _ct_mouse
+                0x000000008001abbe                _ctlmgr
+ .text          0x000000008001b2cc      0x2fc CMakeFiles/roberts7531.img.dir/aes/gemdisp.c.o
+                0x000000008001b2cc                _forkq
+                0x000000008001b332                _forker
+                0x000000008001b44c                _chkkbd
+                0x000000008001b4d4                _disp
+ .text          0x000000008001b5c8      0x550 CMakeFiles/roberts7531.img.dir/aes/gemevlib.c.o
+                0x000000008001b622                _ev_block
+                0x000000008001b64a                _ev_button
+                0x000000008001b684                _ev_mesag
+                0x000000008001b6e0                _ev_mouse
+                0x000000008001b708                _ev_timer
+                0x000000008001b72a                _ev_multi
+                0x000000008001bad2                _ev_dclick
+ .text          0x000000008001bb18      0x140 CMakeFiles/roberts7531.img.dir/aes/gemflag.c.o
+                0x000000008001bb18                _tchange
+                0x000000008001bba8                _tak_flag
+                0x000000008001bbd4                _amutex
+                0x000000008001bc12                _unsync
+ .text          0x000000008001bc58      0x4c4 CMakeFiles/roberts7531.img.dir/aes/gemfmalt.c.o
+                0x000000008001bd66                _fm_alert
+ .text          0x000000008001c11c      0x728 CMakeFiles/roberts7531.img.dir/aes/gemfmlib.c.o
+                0x000000008001c1b0                _fm_own
+                0x000000008001c264                _fm_keybd
+                0x000000008001c31e                _fm_button
+                0x000000008001c4b0                _fm_do
+                0x000000008001c65a                _fm_dial
+                0x000000008001c6dc                _fm_show
+                0x000000008001c726                _eralert
+                0x000000008001c79e                _fm_error
+ .text          0x000000008001c844     0x10b8 CMakeFiles/roberts7531.img.dir/aes/gemfslib.c.o
+                0x000000008001cb32                _fs_start
+                0x000000008001cb80                _fs_input
+ .text          0x000000008001d8fc     0x107c CMakeFiles/roberts7531.img.dir/aes/gemgraf.c.o
+                0x000000008001da40                _gsx_sclip
+                0x000000008001dab8                _gsx_gclip
+                0x000000008001dad0                _gsx_chkclip
+                0x000000008001db34                _gsx_pline
+                0x000000008001db88                _gsx_cline
+                0x000000008001dbc4                _gsx_attr
+                0x000000008001dc6e                _gsx_xbox
+                0x000000008001dc82                _gsx_xcbox
+                0x000000008001ddaa                _gsx_blt
+                0x000000008001df2e                _bb_screen
+                0x000000008001df5e                _gsx_trans
+                0x000000008001dfde                _gsx_start
+                0x000000008001e200                _bb_fill
+                0x000000008001e29a                _gsx_tblt
+                0x000000008001e3a6                _gr_inside
+                0x000000008001e3c2                _gr_rect
+                0x000000008001e440                _gr_just
+                0x000000008001e516                _gr_gtext
+                0x000000008001e56c                _gr_crack
+                0x000000008001e5ba                _gr_gicon
+                0x000000008001e8d0                _gr_box
+ .text          0x000000008001e978      0x904 CMakeFiles/roberts7531.img.dir/aes/gemgrlib.c.o
+                0x000000008001eafc                _gr_stepcalc
+                0x000000008001ebd2                _gr_rubwind
+                0x000000008001ec6a                _gr_rubbox
+                0x000000008001ec92                _gr_dragbox
+                0x000000008001ed66                _gr_2box
+                0x000000008001ee18                _gr_movebox
+                0x000000008001ef16                _gr_growbox
+                0x000000008001ef92                _gr_shrinkbox
+                0x000000008001f014                _gr_watchbox
+                0x000000008001f0c6                _gr_slidebox
+                0x000000008001f172                _gr_mouse
+                0x000000008001f252                _gr_mkstate
+ .text          0x000000008001f27c      0xa60 CMakeFiles/roberts7531.img.dir/aes/gemgsxif.c.o
+                0x000000008001f2a4                _gsx_malloc
+                0x000000008001f3a2                _gsx_mfree
+                0x000000008001f3b2                _gsx_mret
+                0x000000008001f3c8                _gsx_0code
+                0x000000008001f41a                _gsx_1code
+                0x000000008001f434                _gsx_wsclose
+                0x000000008001f440                _gsx_wsclear
+                0x000000008001f44c                _ratinit
+                0x000000008001f460                _gsx_graphic
+                0x000000008001f4cc                _gsx_tick
+                0x000000008001f4f0                _gsx_mxmy
+                0x000000008001f506                _gsx_kstate
+                0x000000008001f518                _gsx_moff
+                0x000000008001f544                _ratexit
+                0x000000008001f546                _gsx_mon
+                0x000000008001f568                _gsx_mfset
+                0x000000008001f5ce                _gsx_char
+                0x000000008001f626                _gsx_setmousexy
+                0x000000008001f66c                _gsx_nplanes
+                0x000000008001f682                _gsx_textsize
+                0x000000008001f6b6                _gsx_fix_screen
+                0x000000008001f704                _gsx_fix
+                0x000000008001f78e                _v_pline
+                0x000000008001f7b4                _vs_clip
+                0x000000008001f7e4                _vst_height
+                0x000000008001f82c                _vr_recfl
+                0x000000008001f852                _vro_cpyfm
+                0x000000008001fb02                _bb_restore
+                0x000000008001fb10                _bb_save
+                0x000000008001fb20                _vrt_cpyfm
+                0x000000008001fb70                _vrn_trnfm
+                0x000000008001fb8a                _vsl_width
+                0x000000008001fbaa                _vex_wheelv
+                0x000000008001fbc8                _gsx_init
+ .text          0x000000008001fcdc      0xbd0 CMakeFiles/roberts7531.img.dir/aes/geminit.c.o
+                0x000000008001fd26                _size_theglo
+                0x000000008001fd2e                _init_p0_stkptr
+                0x000000008001fd40                _default_mform
+                0x000000008001fd48                _set_mouse_to_arrow
+                0x000000008001fd58                _set_mouse_to_hourglass
+                0x000000008001fd68                _all_run
+                0x000000008001fda0                _wait_for_accs
+                0x000000008001fdee                _set_aes_background
+                0x000000008001fe22                _run_accs_and_desktop
+                0x00000000800202ea                _gem_main
+ .text          0x00000000800208ac      0x8d4 CMakeFiles/roberts7531.img.dir/aes/geminput.c.o
+                0x00000000800208ac                _in_mrect
+                0x00000000800208d6                _b_click
+                0x0000000080020958                _b_delay
+                0x00000000800209e0                _set_ctrl
+                0x00000000800209f8                _get_ctrl
+                0x0000000080020a10                _get_mown
+                0x0000000080020a1c                _dq
+                0x0000000080020a4e                _fq
+                0x0000000080020a80                _evremove
+                0x0000000080020bc0                _bchange
+                0x0000000080020cfe                _set_mown
+                0x0000000080020d44                _post_keybd
+                0x0000000080020d98                _kchange
+                0x0000000080020dc2                _downorup
+                0x0000000080020df8                _mchange
+                0x0000000080020eec                _wheel_change
+                0x0000000080020eee                _akbin
+                0x0000000080020f56                _adelay
+                0x0000000080021030                _abutton
+                0x00000000800210ac                _amouse
+ .text          0x0000000080021180      0xc6c CMakeFiles/roberts7531.img.dir/aes/gemmnext.c.o
+                0x0000000080021734                _mnext_init
+                0x0000000080021776                _mn_popup
+                0x0000000080021aec                _mn_attach
+                0x0000000080021b66                _mn_istart
+                0x0000000080021bea                _mn_settings
+                0x0000000080021c80                _display_submenu
+                0x0000000080021daa                _undisplay_submenu
+ .text          0x0000000080021dec      0x9d0 CMakeFiles/roberts7531.img.dir/aes/gemmnlib.c.o
+                0x0000000080021f36                _do_chg
+                0x0000000080021ff6                _mn_do
+                0x0000000080022568                _mn_bar
+                0x0000000080022658                _mn_cleanup
+                0x00000000800226b6                _mn_register
+                0x0000000080022764                _mn_init
+                0x0000000080022784                _mn_getownid
+ .text          0x00000000800227bc      0x8f4 CMakeFiles/roberts7531.img.dir/aes/gemobed.c.o
+                0x0000000080022928                _ob_center
+                0x0000000080022a0c                _ins_char
+                0x0000000080022ad8                _ob_edit
+ .text          0x00000000800230b0      0x29c CMakeFiles/roberts7531.img.dir/aes/gemobjop.c.o
+                0x00000000800230b0                _ob_sst
+                0x00000000800231b8                _everyobj
+                0x00000000800232f6                _get_par
+ .text          0x000000008002334c     0x111c CMakeFiles/roberts7531.img.dir/aes/gemoblib.c.o
+                0x000000008002334c                _ob_offset
+                0x00000000800233c4                _ob_relxywh
+                0x00000000800233fc                _ob_actxywh
+                0x000000008002343e                _ob_setxywh
+                0x0000000080023476                _ob_format
+                0x0000000080023e8e                _ob_draw
+                0x0000000080023f5c                _ob_find
+                0x00000000800240cc                _ob_add
+                0x000000008002415c                _ob_delete
+                0x0000000080024218                _ob_order
+                0x00000000800242de                _ob_change
+                0x0000000080024446                _ob_fs
+ .text          0x0000000080024468      0x250 CMakeFiles/roberts7531.img.dir/aes/gempd.c.o
+                0x0000000080024468                _pd_index
+                0x000000008002449c                _fpdnm
+                0x000000008002452e                _p_nameit
+                0x0000000080024570                _p_setappdir
+                0x00000000800245b2                _pstart
+                0x0000000080024688                _insert_process
+ .text          0x00000000800246b8      0x1e4 CMakeFiles/roberts7531.img.dir/aes/gemqueue.c.o
+                0x00000000800247cc                _aqueue
+ .text          0x000000008002489c      0xb3c CMakeFiles/roberts7531.img.dir/aes/gemrslib.c.o
+                0x0000000080024c54                _rs_obfix
+                0x0000000080024cc0                _rs_free
+                0x0000000080024d90                _rs_gaddr
+                0x0000000080024dc2                _rs_saddr
+                0x0000000080024df6                _rs_fixit
+                0x0000000080024ec0                _rs_load
+                0x00000000800253be                _rs_str
+                0x00000000800253d6                _xlate_obj_array
+ .text          0x00000000800253d8       0xe0 CMakeFiles/roberts7531.img.dir/aes/gemsclib.c.o
+                0x00000000800253d8                _sc_read
+                0x00000000800253ec                _sc_write
+                0x0000000080025408                _sc_clear
+ .text          0x00000000800254b8      0xa00 CMakeFiles/roberts7531.img.dir/aes/gemshlib.c.o
+                0x00000000800255b6                _sh_read
+                0x00000000800255e8                _sh_write
+                0x0000000080025718                _sh_get
+                0x0000000080025734                _sh_put
+                0x0000000080025750                _sh_tographic
+                0x000000008002578c                _sh_name
+                0x00000000800257ae                _sh_envrn
+                0x000000008002580a                _sh_find
+                0x0000000080025a0a                _sh_rdef
+                0x0000000080025a2c                _sh_wdef
+                0x0000000080025a50                _aes_run_rom_program
+                0x0000000080025a82                _sh_main
+ .text          0x0000000080025eb8      0xf24 CMakeFiles/roberts7531.img.dir/aes/gemsuper.c.o
+                0x0000000080025eb8                _super
+ .text          0x0000000080026ddc     0x21d8 CMakeFiles/roberts7531.img.dir/aes/gemwmlib.c.o
+                0x0000000080026fba                _w_getsize
+                0x000000008002700a                _w_setactive
+                0x000000008002705c                _w_drawdesk
+                0x00000000800270a4                _w_bldactive
+                0x0000000080027b0e                _ap_sendmsg
+                0x0000000080027b62                _w_update
+                0x0000000080027cda                _wm_init
+                0x0000000080027f68                _wm_start
+                0x0000000080027fa0                _wm_create
+                0x000000008002806c                _wm_get
+                0x0000000080028280                _wm_find
+                0x00000000800282a0                _wm_update
+                0x00000000800282f2                _wm_calc
+                0x00000000800288c6                _wm_set
+                0x0000000080028c42                _wm_close
+                0x0000000080028cca                _wm_delete
+                0x0000000080028dbc                _wm_open
+                0x0000000080028eb2                _wm_new
+ .text          0x0000000080028fb4      0x300 CMakeFiles/roberts7531.img.dir/aes/gemwrect.c.o
+                0x00000000800291ae                _or_start
+                0x00000000800291e0                _get_orect
+                0x00000000800291f2                _newrect
+ .text          0x00000000800292b4       0x20 CMakeFiles/roberts7531.img.dir/aes/gsx2.c.o
+                0x00000000800292b4                _gsx2
+ .text          0x00000000800292d4       0x3c CMakeFiles/roberts7531.img.dir/desk/deskstart.S.o
+                0x00000000800292d4                _deskstart
+ .text          0x0000000080029310     0x1f30 CMakeFiles/roberts7531.img.dir/desk/deskmain.c.o
+                0x0000000080029df8                _hndl_msg
+                0x000000008002a106                _align_title
+                0x000000008002a15a                _install_shortcuts
+                0x000000008002a1ea                _deskmain
+                0x000000008002b1d6                _shortcut_mapping
+ .text          0x000000008002b240      0x8cc CMakeFiles/roberts7531.img.dir/desk/gembind.c.o
+                0x000000008002b296                _appl_init
+                0x000000008002b2de                _appl_exit
+                0x000000008002b2ea                _evnt_button
+                0x000000008002b33c                _evnt_timer
+                0x000000008002b356                _evnt_multi
+                0x000000008002b456                _evnt_dclick
+                0x000000008002b470                _menu_bar
+                0x000000008002b48a                _menu_icheck
+                0x000000008002b4ac                _menu_ienable
+                0x000000008002b4ce                _menu_tnormal
+                0x000000008002b4f0                _objc_add
+                0x000000008002b512                _objc_draw
+                0x000000008002b554                _objc_find
+                0x000000008002b586                _objc_offset
+                0x000000008002b5bc                _objc_order
+                0x000000008002b5de                _form_do
+                0x000000008002b5f8                _form_dial
+                0x000000008002b64a                _form_alert
+                0x000000008002b664                _form_error
+                0x000000008002b676                _form_center
+                0x000000008002b6b8                _graf_rubbox
+                0x000000008002b6fe                _graf_growbox_grect
+                0x000000008002b74c                _graf_shrinkbox_grect
+                0x000000008002b79a                _graf_handle
+                0x000000008002b7d4                _graf_mouse
+                0x000000008002b7ee                _graf_mkstate
+                0x000000008002b822                _fsel_exinput
+                0x000000008002b856                _wind_create_grect
+                0x000000008002b88a                _wind_open_grect
+                0x000000008002b8be                _wind_close
+                0x000000008002b8d0                _wind_delete
+                0x000000008002b8e2                _wind_get
+                0x000000008002b92c                _wind_get_grect
+                0x000000008002b950                _wind_set
+                0x000000008002b98c                _wind_set_grect
+                0x000000008002b9b0                _wind_find
+                0x000000008002b9ca                _wind_update
+                0x000000008002b9dc                _wind_calc_grect
+                0x000000008002ba46                _wind_new
+                0x000000008002ba52                _rsrc_load
+                0x000000008002ba64                _rsrc_free
+                0x000000008002ba70                _rsrc_obfix
+                0x000000008002ba8a                _shel_write
+                0x000000008002babc                _shel_get
+                0x000000008002bad6                _shel_put
+                0x000000008002baf0                _shel_wdef
+ .text          0x000000008002bb0c      0xee4 CMakeFiles/roberts7531.img.dir/desk/deskact.c.o
+                0x000000008002bd7a                _act_chg
+                0x000000008002be50                _act_allchg
+                0x000000008002c02c                _act_bsclick
+                0x000000008002c160                _act_bdown
+ .text          0x000000008002c9f0     0x1de8 CMakeFiles/roberts7531.img.dir/desk/deskapp.c.o
+                0x000000008002cb60                _nomem_alert
+                0x000000008002cb82                _app_alloc
+                0x000000008002cbbe                _app_free
+                0x000000008002cc28                _scan_str
+                0x000000008002ccb6                _app_tran
+                0x000000008002cd60                _app_start
+                0x000000008002d9aa                _app_save
+                0x000000008002e160                _app_blddesk
+                0x000000008002e410                _app_afind_by_id
+                0x000000008002e43e                _app_afind_by_name
+                0x000000008002e518                _app_afind_viewer
+                0x000000008002e542                _app_read_inf
+ .text          0x000000008002e7d8     0x1374 CMakeFiles/roberts7531.img.dir/desk/deskdir.c.o
+                0x000000008002e95c                _draw_dial
+                0x000000008002eaf2                _draw_fld
+                0x000000008002eb56                _add_path
+                0x000000008002eb94                _add_fname
+                0x000000008002ebae                _del_fname
+                0x000000008002efea                _illegal_op_msg
+                0x000000008002f05c                _d_doop
+                0x000000008002f4dc                _dir_op
+ .text          0x000000008002fb4c      0x544 CMakeFiles/roberts7531.img.dir/desk/deskfpd.c.o
+                0x000000008002fb76                _pn_close
+                0x000000008002fb78                _pn_open
+                0x000000008002fbd8                _pn_sort
+                0x000000008002fe3c                _pn_active
+                0x000000008003001c                _pn_clear
+                0x0000000080030038                _pn_selected
+                0x0000000080030058                _pn_count
+ .text          0x0000000080030090     0x1878 CMakeFiles/roberts7531.img.dir/desk/deskfun.c.o
+                0x00000000800301c8                _fun_alert
+                0x00000000800301e2                _fun_alert_merge
+                0x000000008003021a                _fun_msg
+                0x00000000800302ca                _fun_mark_for_rebld
+                0x000000008003030c                _fun_rebld_marked
+                0x000000008003035a                _fun_rebld
+                0x00000000800303b4                _add_one_level
+                0x0000000080030646                _fun_search
+                0x000000008003093c                _fun_selectall
+                0x00000000800309ca                _fun_mask
+                0x0000000080030a76                _fun_mkdir
+                0x0000000080030bd6                _fun_op
+                0x0000000080030c58                _fun_close
+                0x0000000080030e18                _wants_to_delete_files
+                0x0000000080030e58                _fun_del
+                0x0000000080031498                _fun_drag
+ .text          0x0000000080031908        0x0 CMakeFiles/roberts7531.img.dir/desk/deskglob.c.o
+ .text          0x0000000080031908     0x1994 CMakeFiles/roberts7531.img.dir/desk/deskinf.c.o
+                0x0000000080031d9c                _dr_code
+                0x0000000080032130                _start_dialog
+                0x00000000800321b6                _end_dialog
+                0x00000000800322a6                _inf_show
+                0x00000000800322d4                _inf_numset
+                0x0000000080032386                _set_tedinfo_name
+                0x00000000800323c4                _inf_file_folder
+                0x000000008003275a                _inf_disk
+                0x0000000080032872                _inf_pref
+                0x0000000080032abe                _inf_backgrounds
+                0x0000000080032d42                _inf_conf
+                0x0000000080033230                _opn_appl
+ .text          0x000000008003329c     0x1848 CMakeFiles/roberts7531.img.dir/desk/deskins.c.o
+                0x00000000800333d8                _is_installed
+                0x0000000080033408                _is_viewer
+                0x0000000080033af2                _snap_icon
+                0x00000000800340e6                _ins_devices
+                0x00000000800342a6                _ins_app
+                0x0000000080034338                _is_executable
+                0x0000000080034774                _ins_icon
+                0x0000000080034898                _rmv_icon
+                0x0000000080034906                _ins_shortcut
+ .text          0x0000000080034ae4      0x308 CMakeFiles/roberts7531.img.dir/desk/deskobj.c.o
+                0x0000000080034ae4                _obj_init
+                0x0000000080034c70                _obj_walloc
+                0x0000000080034cb2                _obj_wfree
+                0x0000000080034d24                _obj_ialloc
+                0x0000000080034d98                _obj_get_obid
+ .text          0x0000000080034dec       0x88 CMakeFiles/roberts7531.img.dir/desk/deskpro.c.o
+                0x0000000080034dec                _pro_run
+ .text          0x0000000080034e74       0x40 CMakeFiles/roberts7531.img.dir/desk/deskrez.c.o
+                0x0000000080034e74                _change_resolution
+ .text          0x0000000080034eb4       0x14 CMakeFiles/roberts7531.img.dir/desk/deskrsrc.c.o
+                0x0000000080034eb4                _desktop_str_addr
+ .text          0x0000000080034ec8     0x199c CMakeFiles/roberts7531.img.dir/desk/desksupp.c.o
+                0x0000000080034f78                _deselect_all
+                0x0000000080034f94                _desk_clear
+                0x0000000080035030                _desk_clear_all
+                0x000000008003506e                _desk_verify
+                0x00000000800350f2                _do_wredraw
+                0x00000000800351e6                _do_xyfix
+                0x0000000080035206                _do_wopen
+                0x0000000080035306                _do_wfull
+                0x00000000800353a0                _remove_locate_shortcut
+                0x000000008003549a                _i_find
+                0x0000000080035574                _valid_drive
+                0x00000000800355e2                _malloc_fail_alert
+                0x00000000800355f4                _desk_busy_on
+                0x0000000080035604                _desk_busy_off
+                0x0000000080035612                _set_default_path
+                0x00000000800356e0                _do_info
+                0x000000008003587e                _print_file
+                0x0000000080035a1e                _do_aopen
+                0x0000000080036152                _do_diropen
+                0x0000000080036260                _do_fopen
+                0x0000000080036418                _refresh_window
+                0x0000000080036492                _refresh_drive
+                0x00000000800364ea                _do_dopen
+                0x00000000800365fe                _do_open
+ .text          0x0000000080036864      0xf84 CMakeFiles/roberts7531.img.dir/desk/deskwin.c.o
+                0x0000000080036864                _win_view
+                0x00000000800369e6                _win_start
+                0x0000000080036a52                _win_free
+                0x0000000080036aa4                _win_alloc
+                0x0000000080036b8c                _win_find
+                0x0000000080036bb6                _win_top
+                0x0000000080036bfe                _win_onbottom
+                0x0000000080036c20                _win_ontop
+                0x0000000080036c5c                _win_count
+                0x0000000080036c64                _win_bldview
+                0x000000008003736a                _win_dispfile
+                0x0000000080037402                _win_slide
+                0x00000000800374a8                _win_arrow
+                0x00000000800375a6                _win_srtall
+                0x00000000800375ea                _win_bdall
+                0x000000008003763e                _win_shwall
+                0x00000000800376a4                _win_isel
+                0x00000000800376f8                _win_sname
+                0x0000000080037728                _win_sinfo
+ .text          0x00000000800377e8       0xd0 CMakeFiles/roberts7531.img.dir/cli/cmdasm.S.o
+                0x00000000800377e8                _coma_start
+                0x0000000080037826                _getwh
+                0x0000000080037832                _getht
+                0x0000000080037840                _jmp_gemdos
+                0x0000000080037868                _jmp_bios
+                0x0000000080037890                _jmp_xbios
+ .text          0x00000000800378b8      0x4b8 CMakeFiles/roberts7531.img.dir/cli/cmdmain.c.o
+                0x0000000080037a6e                _cmdmain
+                0x0000000080037d32                _valid_res
+ .text          0x0000000080037d70      0x898 CMakeFiles/roberts7531.img.dir/cli/cmdedit.c.o
+                0x0000000080037eca                _insert_char
+                0x0000000080037f50                _read_line
+                0x00000000800384f2                _init_screen
+                0x000000008003852a                _init_cmdedit
+                0x0000000080038572                _save_history
+ .text          0x0000000080038608      0x388 CMakeFiles/roberts7531.img.dir/cli/cmdexec.c.o
+                0x00000000800386de                _exec_program
+ .text          0x0000000080038990     0x2630 CMakeFiles/roberts7531.img.dir/cli/cmdint.c.o
+                0x000000008003a3b6                _lookup_builtin
+                0x000000008003a4a4                _get_path
+ .text          0x000000008003afc0      0x18c CMakeFiles/roberts7531.img.dir/cli/cmdparse.c.o
+                0x000000008003b00c                _parse_line
+ .text          0x000000008003b14c      0x7e0 CMakeFiles/roberts7531.img.dir/cli/cmdutil.c.o
+                0x000000008003b152                _escape
+                0x000000008003b186                _message
+                0x000000008003b1ba                _messagenl
+                0x000000008003b2e8                _errmsg
+                0x000000008003b50c                _strlower
+                0x000000008003b536                _strupper
+                0x000000008003b560                _getword
+                0x000000008003b5f2                _decode_date_time
+                0x000000008003b74e                _get_path_component
+                0x000000008003b7c6                _has_wildcard
+                0x000000008003b7f8                _strequal
+                0x000000008003b852                _program_extension
+                0x000000008003b8ce                _getcookie
+ .text          0x000000008003b92c      0x140 CMakeFiles/roberts7531.img.dir/bios/spi_duart.S.o
+                0x000000008003b92c                _spi_initialise
+                0x000000008003b930                _spi_clock_ident
+                0x000000008003b932                _spi_clock_sd
+                0x000000008003b934                _spi_clock_mmc
+                0x000000008003b936                _spi_cs_assert
+                0x000000008003b942                _spi_cs_unassert
+                0x000000008003b952                _spi_send_byte
+                0x000000008003b9f0                _spi_recv_byte
+ .text          0x000000008003ba6c        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/util/langs.c.o
+ .text          0x000000008003ba6c      0xeb0 CMakeFiles/roberts7531.img.dir/roberts7531/aes/gem_rsc.c.o
+                0x000000008003ba6c                _gem_rsc_init
+                0x000000008003babe                _gem_rsc_fixit
+                0x000000008003bf18                _rs_fstr
+                0x000000008003bf54                _rs_trees
+                0x000000008003bf60                _rs_bitblk
+ .text          0x000000008003c91c     0x32f4 CMakeFiles/roberts7531.img.dir/roberts7531/desk/desk_rsc.c.o
+                0x000000008003c91c                _desk_rs_init
+                0x000000008003d2d2                _desk_rs_fstr
+                0x000000008003d3b2                _desk_rs_bitblk
+ .text          0x000000008003fc10      0x894 CMakeFiles/roberts7531.img.dir/roberts7531/desk/icons.c.o
+                0x000000008003fc12                _icon_rs_iconblk
+ .text          0x00000000800404a4      0x270 CMakeFiles/roberts7531.img.dir/roberts7531/aes/mforms.c.o
+                0x00000000800404a4                _mform_rs_data
+ .text          0x0000000080040714      0x4dc libfont.a(fnt_st_6x6.c.o)
+                0x0000000080040714                _fnt_st_6x6
+ .text          0x0000000080040bf0      0x85c libfont.a(fnt_st_8x8.c.o)
+                0x0000000080040bf0                _fnt_st_8x8
+ .text          0x000000008004144c     0x105c libfont.a(fnt_st_8x16.c.o)
+                0x000000008004144c                _fnt_st_8x16
+ .text          0x00000000800424a8       0x24 /usr/lib/gcc/m68k-atari-mint/4.6.4/mshort/libgcc.a(_mulsi3.o)
+                0x00000000800424a8                ___mulsi3
+ .text          0x00000000800424cc       0x5c /usr/lib/gcc/m68k-atari-mint/4.6.4/mshort/libgcc.a(_udivsi3.o)
+                0x00000000800424cc                ___udivsi3
+ .text          0x0000000080042528        0xc libroberts7531_endrom.a(endrom.c.o)
+                0x0000000080042528                _ui_mupb
  *(.rodata .rodata.*)
-                0x0000000080042794                __etext = .
+                0x0000000080042534                __etext = .
 
-.data           0x0000000080042794        0xc
-                0x0000000080042794                __data = .
+.data           0x0000000080042534        0xc
+                0x0000000080042534                __data = .
  *(.data)
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/lowstram.c.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/lineavars.S.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/startup.S.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/memory.S.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/processor.S.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/vectors.S.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/aciavecs.S.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/bios.c.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/xbios.c.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/acsi.c.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/biosmem.c.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/blkdev.c.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/chardev.c.o
- .data          0x0000000080042794        0x0 CMakeFiles/roberts7531.img.dir/bios/clock.c.o
- .data          0x0000000080042794        0x4 CMakeFiles/roberts7531.img.dir/bios/conout.c.o
-                0x0000000080042794                _vramBase
- .data          0x0000000080042798        0x0 CMakeFiles/roberts7531.img.dir/bios/country.c.o
- .data          0x0000000080042798        0x0 CMakeFiles/roberts7531.img.dir/bios/disk.c.o
- .data          0x0000000080042798        0x0 CMakeFiles/roberts7531.img.dir/bios/dma.c.o
- .data          0x0000000080042798        0x0 CMakeFiles/roberts7531.img.dir/bios/dmasound.c.o
- .data          0x0000000080042798        0x0 CMakeFiles/roberts7531.img.dir/bios/floppy.c.o
- .data          0x0000000080042798        0x0 CMakeFiles/roberts7531.img.dir/bios/font.c.o
- .data          0x0000000080042798        0x0 CMakeFiles/roberts7531.img.dir/bios/ide.c.o
- .data          0x0000000080042798        0x0 CMakeFiles/roberts7531.img.dir/bios/ikbd.c.o
- .data          0x0000000080042798        0x0 CMakeFiles/roberts7531.img.dir/bios/initinfo.c.o
- .data          0x0000000080042798        0x8 CMakeFiles/roberts7531.img.dir/bios/kprint.c.o
-                0x0000000080042798                _sra2
-                0x000000008004279c                _tba2
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/kprintasm.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/linea.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/lineainit.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/machine.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/mfp.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/midi.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/mouse.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/natfeat.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/natfeats.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/nvram.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/panicasm.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/parport.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/screen.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/serport.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/sound.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/videl.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/vt52.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/xhdi.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/pmmu030.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/68040_pmmu.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/amiga.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/amiga2.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/spi_vamp.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/lisa.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/lisa2.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/delay.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/delayasm.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/sd.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/memory2.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/bootparams.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/scsi.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/nova.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/dsp.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/dsp2.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/scsidriv.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/machine_r7531.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/bdosmain.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/console.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsbuf.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsdir.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsdrive.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsfat.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsglob.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/fshand.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsio.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsmain.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsopnclo.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/iumem.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/kpgmld.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/osmem.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/proc.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/rwa.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/time.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bdos/umem.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/cookie.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/doprintf.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/intmath.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/memmove.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/memset.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/miscasm.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/nls.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/nlsasm.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/setjmp.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/string.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/lisautil.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/miscutil.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/fnt_off_6x6.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/fnt_off_8x8.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_asm.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_bezier.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_col.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_control.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_esc.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_fill.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_gdp.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_input.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_line.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_main.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_marker.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_misc.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_mouse.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_raster.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_text.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_textblit.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_blit.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_tblit.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/vdi/endvdi.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/version.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/gemdos.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/optimize.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/optimopt.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/rectfunc.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/util/stringasm.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemasm.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemstart.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemdosif.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemaplib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemasync.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemctrl.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemdisp.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemevlib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemflag.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemfmalt.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemfmlib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemfslib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemgraf.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemgrlib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemgsxif.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/geminit.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/geminput.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemmnext.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemmnlib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemobed.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemobjop.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemoblib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gempd.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemqueue.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemrslib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemsclib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemshlib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemsuper.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemwmlib.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gemwrect.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/aes/gsx2.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskstart.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskmain.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/gembind.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskact.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskapp.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskdir.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskfpd.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskfun.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskglob.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskinf.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskins.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskobj.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskpro.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskrez.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskrsrc.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/desksupp.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/desk/deskwin.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdasm.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdmain.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdedit.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdexec.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdint.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdparse.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdutil.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/bios/spi_duart.S.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/util/langs.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/aes/gem_rsc.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/desk/desk_rsc.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/desk/icons.c.o
- .data          0x00000000800427a0        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/aes/mforms.c.o
- .data          0x00000000800427a0        0x0 libfont.a(fnt_st_6x6.c.o)
- .data          0x00000000800427a0        0x0 libfont.a(fnt_st_8x8.c.o)
- .data          0x00000000800427a0        0x0 libfont.a(fnt_st_8x16.c.o)
- .data          0x00000000800427a0        0x0 /usr/lib/gcc/m68k-atari-mint/4.6.4/mshort/libgcc.a(_mulsi3.o)
- .data          0x00000000800427a0        0x0 /usr/lib/gcc/m68k-atari-mint/4.6.4/mshort/libgcc.a(_udivsi3.o)
- .data          0x00000000800427a0        0x0 libroberts7531_endrom.a(endrom.c.o)
-                0x00000000800427a0                __edata = .
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/lowstram.c.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/lineavars.S.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/startup.S.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/memory.S.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/processor.S.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/vectors.S.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/aciavecs.S.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/bios.c.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/xbios.c.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/acsi.c.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/biosmem.c.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/blkdev.c.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/chardev.c.o
+ .data          0x0000000080042534        0x0 CMakeFiles/roberts7531.img.dir/bios/clock.c.o
+ .data          0x0000000080042534        0x4 CMakeFiles/roberts7531.img.dir/bios/conout.c.o
+                0x0000000080042534                _vramBase
+ .data          0x0000000080042538        0x0 CMakeFiles/roberts7531.img.dir/bios/country.c.o
+ .data          0x0000000080042538        0x0 CMakeFiles/roberts7531.img.dir/bios/disk.c.o
+ .data          0x0000000080042538        0x0 CMakeFiles/roberts7531.img.dir/bios/dma.c.o
+ .data          0x0000000080042538        0x0 CMakeFiles/roberts7531.img.dir/bios/dmasound.c.o
+ .data          0x0000000080042538        0x0 CMakeFiles/roberts7531.img.dir/bios/floppy.c.o
+ .data          0x0000000080042538        0x0 CMakeFiles/roberts7531.img.dir/bios/font.c.o
+ .data          0x0000000080042538        0x0 CMakeFiles/roberts7531.img.dir/bios/ide.c.o
+ .data          0x0000000080042538        0x0 CMakeFiles/roberts7531.img.dir/bios/ikbd.c.o
+ .data          0x0000000080042538        0x0 CMakeFiles/roberts7531.img.dir/bios/initinfo.c.o
+ .data          0x0000000080042538        0x8 CMakeFiles/roberts7531.img.dir/bios/kprint.c.o
+                0x0000000080042538                _sra2
+                0x000000008004253c                _tba2
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/kprintasm.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/linea.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/lineainit.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/machine.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/mfp.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/midi.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/mouse.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/natfeat.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/natfeats.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/nvram.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/panicasm.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/parport.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/screen.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/serport.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/sound.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/videl.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/vt52.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/xhdi.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/pmmu030.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/68040_pmmu.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/amiga.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/amiga2.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/spi_vamp.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/lisa.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/lisa2.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/delay.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/delayasm.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/sd.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/memory2.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/bootparams.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/scsi.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/nova.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/dsp.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/dsp2.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/scsidriv.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/machine_r7531.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/bdosmain.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/console.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsbuf.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsdir.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsdrive.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsfat.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsglob.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/fshand.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsio.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsmain.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/fsopnclo.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/iumem.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/kpgmld.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/osmem.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/proc.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/rwa.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/time.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bdos/umem.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/cookie.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/doprintf.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/intmath.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/memmove.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/memset.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/miscasm.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/nls.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/nlsasm.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/setjmp.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/string.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/lisautil.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/miscutil.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/fnt_off_6x6.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/fnt_off_8x8.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_asm.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_bezier.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_col.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_control.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_esc.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_fill.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_gdp.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_input.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_line.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_main.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_marker.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_misc.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_mouse.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_raster.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_text.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_textblit.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_blit.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/vdi_tblit.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/vdi/endvdi.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/version.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/gemdos.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/optimize.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/optimopt.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/rectfunc.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/util/stringasm.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemasm.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemstart.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemdosif.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemaplib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemasync.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemctrl.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemdisp.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemevlib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemflag.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemfmalt.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemfmlib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemfslib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemgraf.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemgrlib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemgsxif.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/geminit.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/geminput.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemmnext.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemmnlib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemobed.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemobjop.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemoblib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gempd.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemqueue.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemrslib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemsclib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemshlib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemsuper.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemwmlib.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gemwrect.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/aes/gsx2.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskstart.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskmain.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/gembind.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskact.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskapp.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskdir.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskfpd.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskfun.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskglob.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskinf.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskins.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskobj.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskpro.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskrez.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskrsrc.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/desksupp.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/desk/deskwin.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdasm.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdmain.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdedit.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdexec.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdint.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdparse.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/cli/cmdutil.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/bios/spi_duart.S.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/util/langs.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/aes/gem_rsc.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/desk/desk_rsc.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/desk/icons.c.o
+ .data          0x0000000080042540        0x0 CMakeFiles/roberts7531.img.dir/roberts7531/aes/mforms.c.o
+ .data          0x0000000080042540        0x0 libfont.a(fnt_st_6x6.c.o)
+ .data          0x0000000080042540        0x0 libfont.a(fnt_st_8x8.c.o)
+ .data          0x0000000080042540        0x0 libfont.a(fnt_st_8x16.c.o)
+ .data          0x0000000080042540        0x0 /usr/lib/gcc/m68k-atari-mint/4.6.4/mshort/libgcc.a(_mulsi3.o)
+ .data          0x0000000080042540        0x0 /usr/lib/gcc/m68k-atari-mint/4.6.4/mshort/libgcc.a(_udivsi3.o)
+ .data          0x0000000080042540        0x0 libroberts7531_endrom.a(endrom.c.o)
+                0x0000000080042540                __edata = .
 
 .bss            0x0000000000002140     0xf1e8
                 0x0000000000002140                __bss = .

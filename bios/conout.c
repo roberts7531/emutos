@@ -30,8 +30,78 @@
 
 
 volatile UBYTE* vramBase = (volatile UBYTE*)0xc0800000;
+/*
+TOS COLORS
+0  = Black
+1  = Red
+2  = Green
+3  = Yellow
+4  = Blue
+5  = Magenta
+6  = Cyan
+7  = White
+MINE:
+0 black
+1 red
+2 orange
+3 yellow
+4 green
+5 blue
+6 indigo
+7 white
+*/
+static const UBYTE tos_to_hw[16] = {
+    0, // black
+    1, // red
+    4, // orange
+    3, // yellow
+    5, // green
+    6, // blue
+    2, // indigo
+    7, // white
+
+     0, // black
+    1, // red
+    4, // orange
+    3, // yellow
+    5, // green
+    6, // blue
+    2, // indigo
+    7, // white
+};
+static inline UBYTE *attr_ptr(int x, int y)
+{
+    return vramBase + 4800 + y*80 + x;
+}
+void setBlink(int x, int y, BOOL blink ){
+   // UBYTE oldAttr = *(vramBase+4800 + (y*80)+x);
+    //if (blink) oldAttr |= 0x80;
+    //else oldAttr &= 0x7f;
+    //*(vramBase+4800 + (y*80)+x) = oldAttr;
+}
+void setInvert(int x, int y, BOOL invert ){
+    //UBYTE oldAttr = *(vramBase+4800 + (y*80)+x);
+    //if (invert) oldAttr |= 0x40;
+    //else oldAttr &= 0xBF;
+    //*(vramBase+4800 + (y*80)+x) = oldAttr;
+}
+void setFg(int x, int y, UBYTE fg)
+{
+    //UBYTE *a = attr_ptr(x, y);
+   // *a = (*a & 0xC7) | ((tos_to_hw[fg]&7) << 3);
+}
+
+void setBg(int x, int y, UBYTE bg)
+{
+    //UBYTE *a = attr_ptr(x, y);
+    //*a = (*a & 0xF8) | (~(tos_to_hw[(bg)]))&7;
+}
+
+
 
 void invert_cell(int x, int y){
+    //UBYTE *attr = vramBase + 4800 + y*80 + x;
+    //*attr ^= 0x40;   // toggle invert bit
 
 }
 /*
@@ -126,7 +196,10 @@ void ascii_out(int ch)
         v_cur_cy++;
     } else {
         // Print the character at the current cursor position
-        *(vramBase + (v_cur_cy * 80) + v_cur_cx) = ch;
+        //*(vramBase + (v_cur_cy * 80) + v_cur_cx) = ch;
+        setBg(v_cur_cx,v_cur_cy,v_col_bg);
+        setFg(v_cur_cx,v_cur_cy,v_col_fg);
+
         v_cur_cx++;
     }
     
@@ -169,7 +242,9 @@ void blank_out(int topx, int topy, int botx, int boty)
     int x,y;
     for(y=topy;y<=boty;y++){
         for(x=topx;x<=botx;x++){
-            *(vramBase + (y*80)+x) = 0;
+           // *(vramBase + (y*80)+x) = 0;
+            //*(vramBase + 4800+(y*80)+x) = 0;
+            setBg(x,y,v_col_bg);
         }
     }
 }
@@ -199,7 +274,9 @@ void scroll_up(UWORD top_line)
     int y,x;
     for(y=top_line;y<v_cel_my;y++){
         for(x=0;x<80;x++){
-            *(vramBase + (y*80)+x) = *(vramBase + ((y+1)*80)+x);
+            //*(vramBase + (y*80)+x) = *(vramBase + ((y+1)*80)+x);
+           // *(vramBase + 4800+(y*80)+x) = *(vramBase + 4800+ ((y+1)*80)+x);
+
         }
     }
     /* exit thru blank out, bottom line cell address y to top/left cell */
@@ -217,7 +294,7 @@ void scroll_down(UWORD start_line)
     int y,x;
     for(y=v_cel_my;y>start_line;y--){
         for(x=0;x<80;x++){
-            *(vramBase + (y*80)+x) = *(vramBase + ((y-1)*80)+x);
+            //*(vramBase + (y*80)+x) = *(vramBase + ((y-1)*80)+x);
         }
     }
     

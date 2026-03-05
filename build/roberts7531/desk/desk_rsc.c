@@ -3,7 +3,7 @@
  *
  * Generated from draft.tmp.rsc and draft.tmp.def by erd v5.2
  *
- * Copyright 2013-2024 The EmuTOS development team
+ * Copyright 2013-2025 The EmuTOS development team
  *
  * This software is licenced under the GNU General Public License.
  * Please see LICENSE.TXT for further information.

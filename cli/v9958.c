@@ -27,7 +27,7 @@ void putChar(char c) {
         printY++;
     } else {
         // Print the character at the current cursor position
-        *(vramBase + (printY * screenWidth) + printX) = c;
+        //*(vramBase + (printY * screenWidth) + printX) = c;
         printX++;
     }
     
@@ -41,12 +41,12 @@ void putChar(char c) {
         uint32_t y, x;
         for (y = 0; y < screenHeight - 1; y++) {
             for (x = 0; x < screenWidth; x++) {
-                *(vramBase + (y * screenWidth) + x) = *(vramBase + ((y + 1) * screenWidth) + x);
+                //*(vramBase + (y * screenWidth) + x) = *(vramBase + ((y + 1) * screenWidth) + x);
             }
         }
         // Clear the last line
         for (x = 0; x < screenWidth; x++) {
-            *(vramBase + ((screenHeight - 1) * screenWidth) + x) = 0;
+            //*(vramBase + ((screenHeight - 1) * screenWidth) + x) = 0;
         }
     }
 }

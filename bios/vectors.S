@@ -7,7 +7,7 @@
  * option any later version.  See doc/license.txt for details.
  */
 
-#define DBG_CHECK_READ_BYTE 0   // to trace check_read_byte() calls
+#define DBG_CHECK_READ_BYTE 1   // to trace check_read_byte() calls
 
 #include "asmdefs.h"
 

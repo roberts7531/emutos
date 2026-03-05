@@ -47,7 +47,10 @@ extern WORD sav_cur_x;          /* saved cursor cell x */
 extern WORD sav_cur_y;          /* saved cursor cell y */
 
 /* Prototypes */
-
+void setBlink(int , int , BOOL );
+void setInvert(int , int , BOOL );
+void setFg(int , int , UBYTE );
+void setBg(int , int , UBYTE);
 void ascii_out(int);
 void move_cursor(int, int);
 void blank_out (int, int, int, int);

@@ -82,7 +82,7 @@ void font_set_default(void)
     v_cel_ht = font->form_height;
     v_cel_wr = v_lin_wr * font->form_height;
     v_cel_mx = (V_REZ_HZ / font->max_cell_width) - 1;
-    v_cel_my = (V_REZ_VT / font->form_height) - 1 +8;
+    v_cel_my = (V_REZ_VT / font->form_height) - 1 +10;
 
     v_fnt_wr = font->form_width;
     v_fnt_st = font->first_ade;

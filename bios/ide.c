@@ -40,7 +40,7 @@
 #if CONF_WITH_IDE
 
 #ifdef MACHINE_M548X
-
+#define ENABLE_KDEBUG 
 #include "coldpriv.h"
 
 struct IDE
@@ -112,11 +112,11 @@ struct IDE
 /* On standard hardware, the IDE registers can be accessed as single bytes. */
 
 #define IDE_WRITE_SECTOR_NUMBER_SECTOR_COUNT(i,a,b) \
-    { i->sector_number = a; i->sector_count = b; }
+    { i->sector_number = (a); i->sector_count = (b); }
 #define IDE_WRITE_CYLINDER_HIGH_CYLINDER_LOW(i,a) \
-    { i->cylinder_high = HIBYTE(a); i->cylinder_low = LOBYTE(a); }
+    { i->cylinder_high = (HIBYTE(a)); i->cylinder_low = (LOBYTE(a)); }
 #define IDE_WRITE_COMMAND_HEAD(i,a,b) \
-    { i->head = b; i->command = a; }
+    { i->head = (b); i->command = (a); }
 
 #if defined(MACHINE_TINY68K) || defined(MACHINE_ROBERTS7531)
 # define IDE_WRITE_CONTROL(i,a)
@@ -132,9 +132,9 @@ struct IDE
 #define IDE_READ_STATUS(i)        i->command
 #define IDE_READ_ERROR(i)         i->features
 #define IDE_READ_SECTOR_NUMBER_SECTOR_COUNT(i) \
-    MAKE_UWORD(i->sector_number, i->sector_count)
+    MAKE_UWORD((i->sector_number), (i->sector_count))
 #define IDE_READ_CYLINDER_HIGH_CYLINDER_LOW(i) \
-    MAKE_UWORD(i->cylinder_high, i->cylinder_low)
+    MAKE_UWORD((i->cylinder_high), (i->cylinder_low))
 
 #endif /* MACHINE_M548X */
 
@@ -153,7 +153,7 @@ struct IDE
 #endif
 
 #ifdef MACHINE_ROBERTS7531
-#define IDE_8BIT_XFER TRUE
+#define IDE_8BIT_XFER FALSE
 #else
 #define IDE_8BIT_XFER FALSE
 #endif
@@ -187,27 +187,16 @@ struct IDE
 
 struct IDE
 {
+    UWORD data;
+    UWORD features;
+    UWORD sector_count;
+    UWORD sector_number;
+    UWORD cylinder_low;
+    UWORD cylinder_high;
+    UWORD head;
+    UWORD command;
     
-    UBYTE data;
-
-    UBYTE features; /* Read: error */
-
-    UBYTE sector_count;
-
-    UBYTE sector_number;
-
-    UBYTE cylinder_low;
-
-    UBYTE cylinder_high;
-
-    UBYTE head;
-
-    UBYTE command; /* Read: status */
-    /*
-     * Tinky68K does not provide access to the alternate status and
-     * control registers. Since we don't use interrupts for IDE access,
-     * this is okay.
-     */
+    
 };
 
 #ifdef MACHINE_TINY68K
@@ -589,6 +578,8 @@ BOOL detect_ide(void)
         ifinfo[i].twisted_cable = FALSE;
     }
 
+
+
 #ifdef MACHINE_AMIGA
     has_ide = has_gayle ? 0x01 : 0x00;
 #elif defined(MACHINE_M548X)
@@ -616,9 +607,13 @@ BOOL detect_ide(void)
 #else
     has_ide = 0x00;
 #endif
+#ifdef MACHINE_ROBERTS7531
+    has_ide = 0x01;
+#endif
 
     KDEBUG(("detect_ide(): has_ide = 0x%02x\n",has_ide));
-
+    KDEBUG(("ide status reg = 0x%04x\n",*(volatile UWORD*)0xc020000e));
+    KDEBUG(("ide status reg using emutos stuff = 0x%04x\n",ifinfo[i].base_address->command));
     return has_ide ? TRUE : FALSE;
 }
 
@@ -869,7 +864,9 @@ static int wait_for_not_BSY_not_DRQ(volatile struct IDE *interface,LONG timeout)
 
     DELAY_400NS;
     while(hz_200 < next) {
-        if ((IDE_READ_ALT_STATUS(interface) & (IDE_STATUS_BSY|IDE_STATUS_DRQ)) == 0)
+    	UBYTE status = IDE_READ_ALT_STATUS(interface);
+    	KDEBUG(("Status %02x\n",status));
+        if ((status & (IDE_STATUS_BSY|IDE_STATUS_DRQ)) == 0)
             return 0;
     }
 

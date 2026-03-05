@@ -190,7 +190,7 @@ _detect_fpu:
         moveq   #0,d0           // assume no FPU
         move.l  (0x2c).w,a1     // save the Line-F vector
         move.l  (0x08).w,a2
-        move.l  #fexit,d1
+	move.l  #fexit,d1
         move.l  d1,(0x2c).w     // install temporary Line-F
         move.l  d1,(0x08).w
         nop                     // flush pipelines
